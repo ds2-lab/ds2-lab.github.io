@@ -1,0 +1,323 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+
+<head>
+<link rel="shortcut icon" type ="image/x-icon" href="images/ds2lab_favicon_dark_bg.png">
+</head>
+
+<style>
+  :root {
+    --wtf-primary-color: #232D4B;
+  }
+
+  .md-header {
+    position: initial
+  }
+
+  .md-main__inner {
+    margin: 0
+  }
+
+  .md-content {
+    display: none
+  }
+
+  .tx-container {
+    padding-top: px2rem(20px);
+    background:
+      var(--md-url) no-repeat bottom,
+      linear-gradient(to bottom,
+        #232D4B,
+        hsla(302, 59%, 65%, 1) 99%,
+        var(--md-default-bg-color) 99%);
+  }
+
+  .tx-hero {
+    margin: 0 .8rem;
+    color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero h1 {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-weight: 500
+  }
+
+  .lowerc {
+    font-size: 0.8em !important;
+  }
+
+
+  .tx-hero__content {
+    padding-bottom: 6rem
+  }
+
+  .tx-hero .md-button--primary {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-fg-color) !important;
+    background-color: #232D4B !important;
+    border-color: #ffffff !important
+  }
+
+  .tx-hero .md-button {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    color: var(--md-primary-bg-color)
+  }
+
+  .tx-hero .md-button:focus,
+  .tx-hero .md-button:hover {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-default-bg-color);
+    border-color: var(--md-default-bg-color)
+  }
+
+  .tx-hero a{
+    color: #76d7c4;
+  }
+
+  .tx-hero a:hover{
+    color:#FFFFFF !important;
+  }
+
+  @media screen and (max-width:70em) {
+    .tx-hero h1 {
+      font-size: 1.4rem
+    }
+
+    .tx-hero__image {
+      text-align: center;
+    }
+
+    .tx-hero__image img {
+      max-width: 20rem;
+    }
+  }
+
+  @media screen and (min-width:70em) {
+    .md-sidebar--secondary {
+      display: none
+    }
+
+    .tx-hero {
+      display: flex;
+      align-items: stretch
+    }
+
+    .tx-hero__content {
+      max-width: 80%;
+      margin-top: 3.5rem;
+      padding-bottom: 14vw
+    }
+
+    .tx-hero__image {
+      order: 1;
+      margin-left: auto;
+      margin-top: 3.0rem;
+    }
+
+    .tx-hero__image img {
+      max-width: 25rem;
+    }
+  }
+
+  @media screen and (min-width:76.25em) {
+    .md-sidebar--primary {
+      display: none
+    }
+
+    .tx-hero__image {
+      margin-left: auto;
+    }
+
+    .tx-hero__image img {
+      max-width: 25rem;
+    }
+  }
+
+  news-textarea {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none;
+    /* Remove this if you want the user to resize the textarea */
+  }
+
+  .wrapperhome { 
+  overflow:hidden;
+}
+
+.wrapperhome div {
+   padding: 10px;
+}
+#one {
+  float:left; 
+  margin-right:20px;
+  width:50%;
+}
+
+#two { 
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+}
+
+@media screen and (max-width: 36rem) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:100%;
+    border:0;
+  }
+}
+
+.newsfeed {
+  height: 700px;
+  overflow-y: auto;
+}
+
+</style>
+
+<script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+<section class="tx-container">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__content">
+
+        <h1>Welcome to the D<span class='lowerc'>S</span><sup>2</sup> Research Lab</h1>
+        <p>
+		  We are a research team of <a target="_blank" 
+href="https://datascience.virginia.edu/">Data Science</a> and <a target="_blank" 
+href="https://engineering.virginia.edu/departments/computer-science">Computer
+Science</a> at <a target="_blank" href="https://www.virginia.edu/">the University of
+Virginia</a>. 
+		</p>
+
+		<p>
+		  We research <strong>Data Systems for Data Science</strong>
+(<strong>D<span class='lowerc'>S</span><sup>2</sup></strong>). Our aim is to explore
+and build better systems software to sustain the requirements of
+next-generation data-intensive applications.
+        </p>
+
+		<p>
+			We are interested in addressing challenges existing in
+real-world distributed and storage systems.  Our research is driven
+by the complexities of modern data-intensive computer systems, and
+the need for more efficient and flexible approaches to manage such
+complexities. We aim for innovation in systems technologies that
+range from large-scale distributed systems to cross-layer
+software-hardware co-design.
+		</p>
+
+		<p>
+Our current efforts are focused on: (1) <strong>improving serverless
+computing</strong> using a full-stack approach spanning applications,
+middleware, and lower-level OS/hardware (watch <a target="_blank" 
+href="https://youtu.be/RT81ia23vH8">this Youtube video</a>
+summarizing our recent focus on serverless computing); and (2)
+<strong>building better (computing and storage) systems for distributed
+machine learning</strong>.
+		</p>
+
+		<p>
+<strong>We are committed to training the next-gen of data systems researchers
+and developers.</strong> We are seeking Ph.D. students who are passionate
+about solving practical challenging problems in modern datacenter
+applications & systems. We are also open to working with Masters and
+undergrad students. 
+        </p>
+        <a href="/team" class="md-button">
+          Lab Members
+        </a>
+        <a href="/research" class="md-button md-button">
+          Our Research
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="md-grid md-typeset">
+    <div class="component-wrapper" style="display: block;">
+      <div class="wrapperhome">
+      <div id="one">
+        <h2>Lab News</h2>
+        <div class="newsfeed">
+           <div class="admonition info"> <p class="admonition-title">July 2022</p> 
+          <ul>
+            <li> 🏆 SFS is nominated as a Best Student Paper Finalist at <a target="_blank" href="https://sc22.supercomputing.org/">SC'22</a>!! Congrats to <a target="_blank" href="https://mason.gmu.edu/~yfu5/">Yuqi</a>! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">June 2022</p> 
+          <ul>
+            <li>  Congrats to Yuqi on his paper on serverless function scheduling accepted to <a target="_blank" href="https://sc22.supercomputing.org/">SC'22</a>! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">May 2022</p> 
+          <ul>
+            <li> This summer my students will intern at MSR (<a target="_blank" href="https://scusemua.github.io/">Ben Carver</a>), ByteDance (<a target="_blank" href="https://mason.gmu.edu/~yfu5/">Yuqi Fu</a>, <a target="_blank" href="https://zhangjyr.github.io/">Jingyuan Zhang</a>), and Argonne National Lab (Zhaoyuan Su)! Congrats!</li>
+			<li> Yue received an Outstanding Teacher Award from CS @ Mason!</li>
+			<li> <a target="_blank" href="https://mason.gmu.edu/~ryang22/">Rui</a> received an Outstanding GTA Award from CS @ Mason! Congratulations!</li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">August 2021</p> 
+          <ul>
+            <li> Congrats to Li and Haoliang on rKube accepted to <a target="_blank" href="https://acmsocc.org/2021/index.html">SoCC'21</a>! </li>
+			<li> A <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134689&HistoricalAwards=false">collaborative FMSG grant</a> funded by NSF (with <a target="_blank" href="https://auaims.net/">Jia Liu @ Auburn</a>). Thanks, NSF!</li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">August 2021</p> 
+          <ul>
+            <li> Congrats to Li and Haoliang on rKube accepted to <a target="_blank" href="https://acmsocc.org/2021/index.html">SoCC'21</a>! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">June 2021</p> 
+          <ul>
+            <li> Congrats to Zheng on FedAT accepted to <a target="_blank" href="https://sc21.supercomputing.org/">SC'21</a>! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">April 2021</p> 
+          <ul>
+            <li> Congrats to Ao on FaaSNet accepted to <a target="_blank" href="https://www.usenix.org/conference/atc21">ATC'21</a>! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">March 2021</p> 
+          <ul>
+            <li>  Yue received a gift from Adobe Research for our work on serverless computing! Thanks, Adobe! </li>
+          </ul> 
+        </div>
+
+        <div class="admonition info"> <p class="admonition-title">Feburary 2021</p> 
+          <ul>
+            <li>  Yue received an <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2045680&HistoricalAwards=false">NSF CAREER Award</a> for our work on building serverless cloud storage infrastructure. Thanks, NSF! </li>
+          </ul> 
+        </div>
+      </div>
+      </div>
+      <div id="two">
+        <h2>Research Talk</h2>
+        <figure class="video_container">
+          <iframe width="250" height="174" src="https://www.youtube.com/embed/gLzzup9TK5s" frameborder="20" allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="250" height="174" src="https://www.youtube.com/embed/3_NmYAh5zek" frameborder="20" allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="250" height="174" src="https://www.youtube.com/embed/W0tENnx_58I" frameborder="20" allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="250" height="174" src="https://www.youtube.com/embed/y8GZKn2zyNk" frameborder="20" allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="250" height="174" src="https://www.youtube.com/embed/RT81ia23vH8" frameborder="20" allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
+        </figure>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section>
+{% endblock %}
+{% block content %}{% endblock %}
