@@ -87,6 +87,10 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/mason-leap-lab
+      link: https://github.com/ds2-lab
     - icon: fontawesome/brands/twitter
       link: https://twitter.com
+  analytics:
+    provider: google
+    property: G-2DBJK7K6E7
+

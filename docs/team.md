@@ -148,7 +148,10 @@ hide:
 		<td width="600px">
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/YueCheng.png" width="100px">
 			<ul>
-				<li><b>Bio:</b> Yue Cheng is an Assistant Professor of Data Science and Computer Science at the University of Virginia. </li>
+				<li><b>Bio:</b> Yue Cheng is an Assistant Professor of Data Science and Computer Science at the University of Virginia. He graduated with a Ph.D. degree in Computer Science from Virginia Tech in 2017. </li>
+				<li><a target="_blank" href="https://tddg.github.io"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="bx:bxs-home" data-inline="false"></span></a>&nbsp;&nbsp;
+				<a target="_blank" href="https://scholar.google.com/citations?user=TMGwBH0AAAAJ&hl=en"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="simple-icons:googlescholar" data-inline="false"></span></a>&nbsp;&nbsp;
+				<a target="_blank" href="https://github.com/tddg"><span class="iconify" data-align="bottom" data-width="24" data-height="24" data-icon="ant-design:github-filled" data-inline="false"></span></a></li>
   			<ul>
 		</td>
 	</tr>

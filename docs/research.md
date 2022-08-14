@@ -165,7 +165,7 @@ artifacts, accessible to support use and development both in academia
 and industry. 
 
 The research artifacts are publicly available at 
-[github.com/mason-leap-lab](https://github.com/mason-leap-lab){:target="\_blank"}.
+[github.com/ds2-lab](https://github.com/ds2-lab){:target="\_blank"}.
 
 
 
