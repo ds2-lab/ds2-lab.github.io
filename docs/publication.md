@@ -28,7 +28,7 @@ quote = book chapter
 
 
 
-???+ tip "Smart OS Scheduling for Serverless Functions "
+???+ tip "SFS: Smart OS Scheduling for Serverless Functions "
 
     === "Paper Info"
 
