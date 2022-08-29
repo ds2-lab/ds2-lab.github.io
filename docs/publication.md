@@ -35,7 +35,7 @@ quote = book chapter
         * :material-account-supervisor-outline: Yuqi Fu, Li Liu, Haoliang Wang, Yue Cheng, Songqing Chen 
 	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’22](https://sc22.supercomputing.org/)), 2022* (to appear)
 		* :trophy: **Best Student Paper Finalist**
-	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code]()
+	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code](https://github.com/ds2-lab/SFS){:target="\_blank"}
 
     === "Abstract"
 
