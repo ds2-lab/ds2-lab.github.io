@@ -20,7 +20,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Jingyuan Zhang, Ao Wang, Xiaolong Ma, Benjamin Carver, Nicholas John Newman, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Vasily Tarasov, Feng Yan, Yue Cheng
-	    * :material-map-marker: *preprint*
+	    * :material-map-marker: *arXiv preprint*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01496){target="\_blank"} | [:material-file-code: code](https://github.com/sionreview/sion){:target="\_blank"}
 
     === "Abstract"
