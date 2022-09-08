@@ -14,6 +14,21 @@ quote = book chapter
 
 ## 2022
 
+
+???+ tip "SION: Elastic Serverless Cloud Storage"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Jingyuan Zhang, Ao Wang, Xiaolong Ma, Benjamin Carver, Nicholas John Newman, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Vasily Tarasov, Feng Yan, Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01496){target="\_blank"} | [:material-file-code: code](https://github.com/sionreview/sion){:target="\_blank"}
+
+    === "Abstract"
+
+		Cloud object storage such as AWS S3 is cost-effective and highly elastic but relatively slow, while high-performance cloud storage such as AWS ElastiCache is expensive and provides limited elasticity. We present a new cloud storage service called ServerlessMemory, which stores data using the memory of serverless functions. ServerlessMemory employs a time-window-based data placement strategy to effectively segregate old and new data and provides high elasticity, performance, and a pay-per-access cost model with extremely low cost for a new memory-based storage.
+		
+		We then design and implement SION (Serverless I/O Nirvana), a persistent and elastic cloud storage system, which seamlessly couples the function-based ServerlessMemory layer with a persistent, inexpensive cloud object store layer. SION enables durability despite function failures using a fast parallel recovery scheme built on the auto-scaling functionality of a FaaS (Function-as-a-Service) platform. We evaluate SION extensively using three real-world applications and results show that SION achieves 27.77% and 97.30% tenant-side cost reduction compared to InfiniCache (a serverless-function-based object cache) and AWS ElastiCache respectively, while offering pay-per-access with competitive performance. 
+
 ???+ tip "Distributed Graph Neural Network Training with Periodic Historical Embedding Synchronization"
 
     === "Paper Info"
@@ -34,10 +49,14 @@ quote = book chapter
 
         * :material-account-supervisor-outline: Yuqi Fu, Li Liu, Haoliang Wang, Yue Cheng, Songqing Chen 
 	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’22](https://sc22.supercomputing.org/)), 2022* (to appear)
-		* :trophy: **Best Student Paper Finalist**
-	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code](https://github.com/ds2-lab/SFS){:target="\_blank"}
+		* :trophy: **Best Student Paper Award Finalist**
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01709){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/SFS){:target="\_blank"}
 
     === "Abstract"
+
+	    Serverless computing enables a new way of building and scaling cloud applications by allowing developers to write fine-grained serverless or cloud functions. The execution duration of a cloud function is typically short-ranging from a few milliseconds to hundreds of seconds. However, due to resource contentions caused by public clouds' deep consolidation, the function execution duration may get significantly prolonged and fail to accurately account for the function's true resource usage. We observe that the function duration can be highly unpredictable with huge amplification of more than 50x for an open-source FaaS platform (OpenLambda). Our experiments show that the OS scheduling policy of cloud functions' host server can have a crucial impact on performance. The default Linux scheduler, CFS (Completely Fair Scheduler), being oblivious to workloads, frequently context-switches short functions, causing a turnaround time that is much longer than their service time.
+    
+		We propose SFS (Smart Function Scheduler), which works entirely in the user space and carefully orchestrates existing Linux FIFO and CFS schedulers to approximate Shortest Remaining Time First (SRTF). SFS uses two-level scheduling that seamlessly combines a new FILTER policy with Linux CFS, to trade off increased duration of long functions for significant performance improvement for short functions. We implement {\proj} in the Linux user space and port it to OpenLambda. Evaluation results show that SFS significantly improves short functions' duration with a small impact on relatively longer functions, compared to CFS. 
 
 
 ## 2021
