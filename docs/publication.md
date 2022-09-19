@@ -15,6 +15,17 @@ quote = book chapter
 ## 2022
 
 
+???+ tip "Understanding Impact of Lossy Compression on Derivative-related Metrics in Scientific Datasets"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Zhaoyuan Su, Sheng Di, Ali Murat Gok, Yue Cheng, Franck Cappello
+	    * :material-map-marker: *The 8th International Workshop on Data Analysis and Reduction for Big Scientific Data*
+	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code]()
+
+    === "Abstract"
+
+
 ???+ tip "SION: Elastic Serverless Cloud Storage"
 
     === "Paper Info"
