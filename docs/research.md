@@ -394,7 +394,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 
 <div class="card">
   <div class="logo">
-    <img src="../images/Logo_Meta.png" alt="Meta Logo">
+    <img src="../images/Logo_Meta.webp" alt="Meta Logo">
   </div>
   <div class="card-content">
   <h4>Serverless and Scalable GNN Training with Disaggregated Compute and Storage</h4>
