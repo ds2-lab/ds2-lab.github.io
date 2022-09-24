@@ -302,6 +302,7 @@ We are grateful for the generous support from our sponsors including
 [Adobe Research](https://research.adobe.com/){:target="\_blank"},
 [CloudBank](https://www.cloudbank.org/){:target="\_blank"},
 [Amazon Web Services](https://aws.amazon.com/){:target="\_blank"},
+[Meta Research](https://research.facebook.com/){:target="\_blank"},
 [Google Cloud](https://cloud.google.com/){:target="\_blank"},
 and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 
