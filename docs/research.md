@@ -382,13 +382,33 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
   <div class="logo">
     <img src="../images/Logo_Adobe.png" alt="Adobe Logo">
   </div>
-<div class="card-content">
+  <div class="card-content">
   <h4>Serverless Storage Management for Large-scale Analytics Workloads</h4>
     <ul>
     <li><b>Award Info: </b> Adobe Research Gift</li>
     <li><b>PI: </b> Yue Cheng</li>
     <li><b>Funding Amount: </b> $40,000</li>
     </ul>
+  </div>
 </div>
+
+<div class="card">
+  <div class="logo">
+    <img src="../images/Logo_Meta.png" alt="Meta Logo">
+  </div>
+  <div class="card-content">
+  <h4>Serverless and Scalable GNN Training with Disaggregated Compute and Storage</h4>
+    <ul>
+    <li><b>Award Info: </b> Meta Research Award</li>
+    <li><b>PIs: </b> Yue Cheng, Liang Zhao (Emory)</li>
+    <li><b>Funding Amount: </b> $50,000</li>
+    </ul>
+  </div>
 </div>
+
+
 </div>
+
+
+
+
