@@ -400,7 +400,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
   <div class="card-content">
   <h4>Serverless and Scalable GNN Training with Disaggregated Compute and Storage</h4>
     <ul>
-    <li><b>Award Info: </b> Meta Research Award</li>
+    <li><b>Award Info: </b> <a target="_blank" href="https://research.facebook.com/research-awards/2022-request-for-research-proposals-for-ai-system-hardware-software-codesign/">Meta Research Award</a></li>
     <li><b>PIs: </b> Yue Cheng, Liang Zhao (Emory)</li>
     <li><b>Funding Amount: </b> $50,000</li>
     </ul>
