@@ -46,7 +46,7 @@ quote = book chapter
 
         * :material-account-supervisor-outline:  Zheng Chai, Guangji Bai, Liang Zhao, Yue Cheng 
 	    * :material-map-marker:  *arXiv preprint*
-	    *  [:material-file-pdf-box: pdf](https://arxiv.org/abs/2206.00057){target="\_blank"} | [:material-file-code: code]()
+	    *  [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2206.00057){target="\_blank"} | [:material-file-code: code]()
 
     === "Abstract"
 
