@@ -12,6 +12,17 @@ abstract = dataset
 quote = book chapter
 -->
 
+## 2023
+
+???+ tip "SHADE: Enable Fundamental Cacheability for Distributed Deep Learning Training"
+
+	=== "Paper Info"
+
+		* :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Ahmad Hossein Yazdani, Yuqi Fu, Arnab K. Paul, Bo Ji, Xun Jian,  Yue Cheng,  Ali R. Butt 
+		* :material-map-marker: *21th USENIX Conference on File and Storage Technologies ([FAST’23](https://www.usenix.org/conference/fast23)), 2023*
+	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code]()
+
+
 ## 2022
 
 
