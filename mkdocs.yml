@@ -2,7 +2,7 @@ site_name: The DS2 Lab
 #site_name: <html>D<font size=3em>S</font><sup>2</sup> Lab</html>
 site_url: https://ds2-lab.github.io
 site_author: Yue Cheng
-copyright: Copyright &copy; 2022 D<font size=1>S</font><sup>2</sup> Lab
+copyright: Copyright &copy; 2023 D<font size=1>S</font><sup>2</sup> Lab
 
 nav:
   - Home: index.md
