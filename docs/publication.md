@@ -19,7 +19,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Jingyuan Zhang, Ao Wang, Xiaolong Ma, Benjamin Carver, Nicholas John Newman, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Vasily Tarasov, Feng Yan, Yue Cheng
-	    * :material-map-marker: *49th International Conference on Very Large Data Bases ([VLDB'23](https://vldb.org/2023/)), 2023*
+	    * :material-map-marker: *49th International Conference on Very Large Data Bases ([VLDB'23](https://vldb.org/2023/){:target="\_blank"}), 2023*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01496){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/infinistore){:target="\_blank"}
 
     === "Abstract"
@@ -34,7 +34,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Ahmad Hossein Yazdani, Yuqi Fu, Arnab K. Paul, Bo Ji, Xun Jian,  Yue Cheng,  Ali R. Butt 
-		* :material-map-marker: *21th USENIX Conference on File and Storage Technologies ([FAST’23](https://www.usenix.org/conference/fast23)), 2023*
+		* :material-map-marker: *21th USENIX Conference on File and Storage Technologies ([FAST’23](https://www.usenix.org/conference/fast23){:target="\_blank"}), 2023*
 	    * [:material-file-pdf-box: pdf](pdfs/fast23-shade.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/R-I-S-Khan/SHADE){:target="\_blank"}
 
 	=== "Abstract"
@@ -90,7 +90,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Yuqi Fu, Li Liu, Haoliang Wang, Yue Cheng, Songqing Chen 
-	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’22](https://sc22.supercomputing.org/)), 2022* (to appear)
+	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’22](https://sc22.supercomputing.org/){:target="\_blank"}), 2022* (to appear)
 		* :trophy: **Best Student Paper Award Finalist**
 	    * [:material-file-pdf-box: pdf](pdfs/sc22-sfs-ae.pdf){:target="\_blank"} | [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01709){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/SFS){:target="\_blank"}
 
@@ -109,7 +109,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Li Liu, Haoliang Wang, An Wang, Mengbai Xiao, Yue Cheng, Songqing Chen 
-	    * :material-map-marker: *ACM Symposium on Cloud Computing 2021 ([SoCC’21](https://acmsocc.org/2021/index.html)), 2021*
+	    * :material-map-marker: *ACM Symposium on Cloud Computing 2021 ([SoCC’21](https://acmsocc.org/2021/index.html){:target="\_blank"}), 2021*
 	    * [:material-file-pdf-box: pdf](pdfs/socc21-rkube.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/njuliuli/kubernetes/tree/policy){:target="\_blank"}
 
     === "Abstract"
@@ -122,7 +122,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Zheng Chai, Yujing Chen, Ali Anwar, Liang Zhao, Yue Cheng, Huzefa Rangwala 
-	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’21](https://sc21.supercomputing.org/)), 2021*
+	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’21]({:target="\_blank"}https://sc21.supercomputing.org/)), 2021*
 	    * [:material-file-pdf-box: pdf](pdfs/sc21-fedat.pdf){:target="\_blank"}
 
     === "Abstract"
@@ -138,7 +138,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Ao Wang, Shuai Chang, Huangshi Tian, Hongqi Wang, Haoran Yang, Huiba Li, Rui Du, Yue Cheng  
-	    * :material-map-marker: *2021 USENIX Annual Technical Conference ([ATC’21](https://www.usenix.org/conference/atc21)), 2021*
+	    * :material-map-marker: *2021 USENIX Annual Technical Conference ([ATC’21](https://www.usenix.org/conference/atc21){:target="\_blank"}), 2021*
 	    * [:material-file-pdf-box: pdf](pdfs/atc21-faasnet.pdf){:target="\_blank"} | [:material-presentation-play: talk](https://www.usenix.org/conference/atc21/presentation/wang-ao){:target="\_blank"} | [:material-file-code: code & dataset](https://github.com/mason-leap-lab/FaaSNet){:target="\_blank"}
 
     === "Abstract"
@@ -197,7 +197,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Benjamin Carver, Jingyuan Zhang, Ao Wang, Ali Anwar, Panruo Wu, Yue Cheng 
-		* :material-map-marker: *ACM Symposium on Cloud Computing ([SoCC’20](http://acmsocc.org/2020/)), 2020*
+		* :material-map-marker: *ACM Symposium on Cloud Computing ([SoCC’20](http://acmsocc.org/2020/){:target="\_blank"}), 2020*
 		* [:material-file-pdf-box: pdf](pdfs/socc20-wukong.pdf){:target="\_blank"} | [:material-presentation-play: talk](https://www.youtube.com/watch?v=W0tENnx_58I){:target="\_blank"} | [:material-file-code: project](https://mason-leap-lab.github.io/Wukong/){:target="\_blank"}
 
 	=== "Abstract"
@@ -224,7 +224,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Zheng Chai, Ahsan Ali, Syed Zawad, Stacey Truex, Ali Anwar, Nathalie Baracaldo, Yi Zhou, Heiko Ludwig, Feng Yan, Yue Cheng 
-		* :material-map-marker: *The ACM Symposium on High-Performance Parallel and Distributed Computing ([HPDC’20](http://hpdc.org/2020/)), 2020*
+		* :material-map-marker: *The ACM Symposium on High-Performance Parallel and Distributed Computing ([HPDC’20](http://hpdc.org/2020/){:target="\_blank"}), 2020*
 		* [:material-file-pdf-box: pdf](pdfs/hpdc20-tifl.pdf){:target="\_blank"}
 
 	=== "Abstract"
@@ -238,7 +238,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Ao Wang, Jingyuan Zhang, Xiaolong Ma, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Vasily Tarasov, Feng Yan, Yue Cheng 
-		* :material-map-marker: *18th USENIX Conference on File and Storage Technologies ([FAST’20](https://www.usenix.org/conference/fast20)), 2020*
+		* :material-map-marker: *18th USENIX Conference on File and Storage Technologies ([FAST’20](https://www.usenix.org/conference/fast20){:target="\_blank"}), 2020*
 		* [:material-file-pdf-box: pdf](pdfs/fast20-infinicache.pdf){:target="\_blank"} | [:material-presentation-play: talk](https://www.usenix.org/conference/fast20/presentation/wang-ao){:target="\_blank"} | [:material-file-code: project](https://mason-leap-lab.github.io/infinicache/){:target="\_blank"} | [:material-rss-box: press:IEEE Spectrum](https://spectrum.ieee.org/pay-cloud-services-data-tool-news){:target="\_blank"} | [:material-rss-box: press:Blog article](https://mikhail.io/2020/03/infinicache-distributed-cache-on-aws-lambda/){:target="\_blank"}
 
 	=== "Abstract"
