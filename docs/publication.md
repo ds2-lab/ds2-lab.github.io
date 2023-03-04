@@ -20,7 +20,7 @@ quote = book chapter
 
         * :material-account-supervisor-outline:  Jingyuan Zhang, Ao Wang, Xiaolong Ma, Benjamin Carver, Nicholas John Newman, Ali Anwar, Lukas Rupprecht, Dimitrios Skourtis, Vasily Tarasov, Feng Yan, Yue Cheng
 	    * :material-map-marker: *49th International Conference on Very Large Data Bases ([VLDB'23](https://vldb.org/2023/)), 2023*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01496){target="\_blank"} | [:material-file-code: code](https://github.com/sionreview/sion){:target="\_blank"}
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2209.01496){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/infinistore){:target="\_blank"}
 
     === "Abstract"
 
