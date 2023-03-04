@@ -35,7 +35,13 @@ quote = book chapter
 
 		* :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Ahmad Hossein Yazdani, Yuqi Fu, Arnab K. Paul, Bo Ji, Xun Jian,  Yue Cheng,  Ali R. Butt 
 		* :material-map-marker: *21th USENIX Conference on File and Storage Technologies ([FAST’23](https://www.usenix.org/conference/fast23)), 2023*
-	    * [:material-file-pdf-box: pdf]() | [:material-file-code: code]()
+	    * [:material-file-pdf-box: pdf](pdfs/fast23-shade.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/R-I-S-Khan/SHADE){:target="\_blank"}
+
+	=== "Abstract"
+
+		Deep learning training (DLT) applications exhibit unique I/O workload behaviors that pose new challenges for storage system design. DLT is I/O intensive since data samples need to be fetched continuously from a remote storage. Accelerators such as GPUs have been extensively used to support these applications. As accelerators become more powerful and more data-hungry, the I/O performance lags behind. This creates a crucial performance bottleneck, especially in distributed DLT. At the same time, the exponentially growing dataset sizes make it impossible to store these datasets entirely in memory. While today's DLT frameworks typically use a random sampling policy that treat all samples uniformly equally, recent findings indicate that not all samples are equally important and different data samples contribute differently towards improving the accuracy of a model. This observation creates an opportunity for DLT I/O optimizations by exploiting the data locality enabled by importance sampling.
+
+		To this end, we design and implement SHADE, a new DLT-aware caching system that detects fine-grained importance variations at per-sample level and leverages the variance to make informed caching decisions for a distributed DLT job. SHADE adopts a novel, rank-based approach, which captures the relative importance of data samples across different minibatches. SHADE then dynamically updates the importance scores of all samples during training. With these techniques, SHADE manages to significantly improve the cache hit ratio of the DLT job, and thus, improves the job's training performance. Evaluation with representative computer vision (CV) models shows that SHADE, with a small cache, improves the cache hit ratio by up to 4.5 times compared to the LRU caching policy.
 
 
 ## 2022
