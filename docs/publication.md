@@ -122,7 +122,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Zheng Chai, Yujing Chen, Ali Anwar, Liang Zhao, Yue Cheng, Huzefa Rangwala 
-	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’21]({:target="\_blank"}https://sc21.supercomputing.org/)), 2021*
+	    * :material-map-marker: *The International Conference for High Performance Computing, Networking, Storage, and Analysis ([SC’21](https://sc21.supercomputing.org/){:target="\_blank"}), 2021*
 	    * [:material-file-pdf-box: pdf](pdfs/sc21-fedat.pdf){:target="\_blank"}
 
     === "Abstract"
@@ -153,7 +153,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Hongyi Li, Junxiang Wang, Yongchao Wang, Yue Cheng, Liang Zhao 
-		* :material-map-marker: *The 13th International OPT Workshop on Optimization for Machine Learning ([OPT’21](https://opt-ml.org/oldopt/opt21/)), 2021*
+		* :material-map-marker: *The 13th International OPT Workshop on Optimization for Machine Learning ([OPT’21](https://opt-ml.org/oldopt/opt21/){:target="\_blank"}), 2021*
 		* [:material-file-pdf-box: pdf](https://arxiv.org/abs/2112.09335){:target="\_blank"} 
 
 	=== "Abstract"
@@ -183,7 +183,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Junxiang Wang, Zheng Chai, Yue Cheng, Liang Zhao 
-		* :material-map-marker: *The IEEE International Conference on Data Mining ([ICDM’20](https://icdm.zhonghuapu.com/)), 2020*
+		* :material-map-marker: *The IEEE International Conference on Data Mining ([ICDM’20](https://icdm.zhonghuapu.com/){:target="\_blank"}), 2020*
 		* [:material-file-pdf-box: pdf](){:target="\_blank"} | [:material-file-code: code](https://github.com/xianggebenben/pdADMM){:target="\_blank"}
 
 	=== "Abstract"
@@ -211,7 +211,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Junxiang Wang, Zheng Chai, Yue Cheng, Liang Zhao 
-		* :material-map-marker: *Beyond First order methods in ML Systems ([OPTML-ICML’20](https://sites.google.com/view/optml-icml2020/home?authuser=0)), 2020*
+		* :material-map-marker: *Beyond First order methods in ML Systems ([OPTML-ICML’20](https://sites.google.com/view/optml-icml2020/home?authuser=0){:target="\_blank"}), 2020*
 		* [:material-file-pdf-box: pdf](https://arxiv.org/abs/2009.04053){:target="\_blank"} | [:material-file-code: code](https://github.com/xianggebenben/TSSM){:target="\_blank"}
 
 	=== "Abstract"
