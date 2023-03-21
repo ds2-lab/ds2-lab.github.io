@@ -58,7 +58,7 @@ quote = book chapter
     === "Abstract"
 
 
-???+ tip "SION: Elastic Serverless Cloud Storage"
+???+ tip "InfiniStore: Elastic Serverless Cloud Storage"
 
     === "Paper Info"
 
@@ -78,7 +78,7 @@ quote = book chapter
 
         * :material-account-supervisor-outline:  Zheng Chai, Guangji Bai, Liang Zhao, Yue Cheng 
 	    * :material-map-marker:  *arXiv preprint*
-	    *  [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2206.00057){target="\_blank"} | [:material-file-code: code]()
+	    *  [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2206.00057){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/infinistore){target="\_blank"}
 
     === "Abstract"
 
