@@ -150,7 +150,7 @@ often involve complex cross-component interactions in order to
 support cross-cutting tasks such as scheduling. This leads us to
 gravitate towards simple and general solutions that solve not a
 specific problem, but which satisfy a general set of applications.
-For instance, we design [a new function scheduler](), which
+For instance, we design [a new function scheduler](pdfs/sc22-sfs-ae.pdf), which
 bridges the divide between user-space scheduling and kernel
 scheduling while being transparent to any serverless platforms.
 
