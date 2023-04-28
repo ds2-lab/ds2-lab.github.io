@@ -14,7 +14,7 @@ quote = book chapter
 
 ## 2024
 
-???+ tip "Scaling Distributed File System Metadata Service using Serverless Functions"
+???+ tip "λFS: Elastically Scaling Distributed File System Metadata Service using Serverless Functions"
 
     === "Paper Info"
 
