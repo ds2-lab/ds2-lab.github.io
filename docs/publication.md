@@ -12,6 +12,19 @@ abstract = dataset
 quote = book chapter
 -->
 
+## 2024
+
+???+ tip "Scaling Distributed File System Metadata Service using Serverless Functions"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Benjamin Carver, Runzhou Han, Jingyuan Zhang, Mai Zheng, Yue Cheng
+	    * :material-map-marker: *The 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'24](https://www.asplos-conference.org/2024-1/){:target="\_blank"}), 2024*
+
+    === "Abstract"
+
+
+
 ## 2023
 
 ???+ tip "InfiniStore: Elastic Serverless Cloud Storage"
