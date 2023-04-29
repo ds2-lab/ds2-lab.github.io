@@ -173,41 +173,25 @@ The research artifacts are publicly available at
 <div class="responsive-grid">
   <div class="card">
 	<div class="logo">
-	  <img src="../images/platform.png" alt="FaaSNet.">
-    </div>
-    <div class="card-content">
-	  <h5>Redesigning FaaS Platforms</h5>
-		<p>
-Custom FaaS container support is gaining traction as it
-enables better control over OSes, versioning, and tooling for
-modernizing FaaS applications. Our research looks to build scalable
-FaaS container platform that offers fast container provisioning for
-dependency-heavy FaaS applications.
-        </p>
-		<ul>
-  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/atc21-faasnet.pdf">pdf</a>&nbsp;&nbsp;
-			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/FaaSNet">code</a>&nbsp;&nbsp;
-          </li>
-        </ul>
-    </div>
-  </div>
-
-  <div class="card">
-	<div class="logo">
 	  <img src="../images/elastic_storage.png" alt="InfiniCache.">
     </div>
     <div class="card-content">
 	  <h5>Serverless Storage</h5>
 		<p>
 We argue that the emerging serverless computing paradigm provides a
-well-suited, cost-effective platform for object caching. We build 
-InfiniCache, the first in-memory object caching system that is built
-and deployed atop ephemeral serverless functions. Stay tuned for more
-results.
+well-suited, cost-effective platform to fundamentally achieve elastic
+data caching and data storage. 
+Check out our serverless storage project series:
         </p>
 		<ul>
-  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/fast20-infinicache.pdf">pdf</a>&nbsp;&nbsp;
+  		  <li>InfiniCache: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/fast20-infinicache.pdf">pdf</a>&nbsp;&nbsp;
 			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://ds2-lab.github.io/infinicache/">project</a>&nbsp;&nbsp;
+          </li>
+  		  <li>InfiniStore: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/vldb23-infinistore.pdf">pdf</a>&nbsp;&nbsp;
+			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/infinistore">project</a>&nbsp;&nbsp;
+          </li>
+  		  <li>λFS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="#">pdf</a>&nbsp;&nbsp;
+			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="#">project</a> (preprint forthcoming)&nbsp;&nbsp;
           </li>
         </ul>
     </div>
@@ -229,6 +213,27 @@ scientists.
 		<ul>
   		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/socc20-wukong.pdf">pdf</a>&nbsp;&nbsp;
 			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://ds2-lab.github.io/Wukong/">project</a>&nbsp;&nbsp;
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="card">
+	<div class="logo">
+	  <img src="../images/platform.png" alt="FaaSNet.">
+    </div>
+    <div class="card-content">
+	  <h5>Redesigning FaaS Platforms</h5>
+		<p>
+Custom FaaS container support is gaining traction as it
+enables better control over OSes, versioning, and tooling for
+modernizing FaaS applications. Our research looks to build scalable
+FaaS container platform that offers fast container provisioning for
+dependency-heavy FaaS applications.
+        </p>
+		<ul>
+  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/atc21-faasnet.pdf">pdf</a>&nbsp;&nbsp;
+			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/FaaSNet">code</a>&nbsp;&nbsp;
           </li>
         </ul>
     </div>
