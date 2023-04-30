@@ -14,7 +14,7 @@ nav:
 theme:
   name: 'material'
   custom_dir: 'docs/overrides'
-  logo: 'images/ds2lab_logo_blue_bg_white_fg.png'
+  logo: 'images/ds2lab_logo_blue_bg_white_fg_v2.png'
   favicon: 'images/ds2lab_favicon_dark_bg.png'
   font: false
 
