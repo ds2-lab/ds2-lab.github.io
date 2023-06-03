@@ -415,7 +415,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 
 <div class="card">
   <div class="logo">
-    <img src="../images/Logo_4VA.pngp" alt="4VA Logo">
+    <img src="../images/Logo_4VA.png" alt="4VA Logo">
   </div>
   <div class="card-content">
   <h4>ML Workload Acceleration</h4>
