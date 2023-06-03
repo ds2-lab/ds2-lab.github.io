@@ -306,6 +306,7 @@ We are grateful for the generous support from our sponsors including
 [National Science Foundation](https://www.nsf.gov){:target="\_blank"},
 [Adobe Research](https://research.adobe.com/){:target="\_blank"},
 [CloudBank](https://www.cloudbank.org/){:target="\_blank"},
+[4-VA 4 Initiatives](https://4-va.org/){:target="\_blank"},
 [Amazon Web Services](https://aws.amazon.com/){:target="\_blank"},
 [Meta Research](https://research.facebook.com/){:target="\_blank"},
 [Google Cloud](https://cloud.google.com/){:target="\_blank"},
