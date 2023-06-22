@@ -20,9 +20,13 @@ quote = book chapter
 
         * :material-account-supervisor-outline:  Benjamin Carver, Runzhou Han, Jingyuan Zhang, Mai Zheng, Yue Cheng
 	    * :material-map-marker: *The 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'24](https://www.asplos-conference.org/2024-1/){:target="\_blank"}), 2024*
-	    * [:material-file-code: code](https://github.com/ds2-lab/LambdaFS){:target="\_blank"}
+	    * [:material-file-code: code](https://github.com/ds2-lab/LambdaFS){:target="\_blank"} | [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2306.11877){target="\_blank"} 
 
     === "Abstract"
+
+	    The metadata service (MDS) sits on the critical path for distributed file system (DFS) operations, and therefore it is key to the overall performance of a large-scale DFS. Common "serverful" MDS architectures, such as a single server or cluster of servers, have a significant shortcoming: either they are not scalable, or they make it difficult to achieve an optimal balance of performance, resource utilization, and cost. A modern MDS requires a novel architecture that addresses this shortcoming.
+    
+		To this end, we design and implement λFS, an elastic, high-performance metadata service for large-scale DFSes. λFS scales a DFS metadata cache elastically on a FaaS (Function-as-a-Service) platform and synthesizes a series of techniques to overcome the obstacles that are encountered when building large, stateful, and performance-sensitive applications on FaaS platforms. λFS takes full advantage of the unique benefits offered by FaaS – elastic scaling and massive parallelism – to realize a highly-optimized metadata service capable of sustaining up to 4.13× higher throughput, 90.40% lower latency, 85.99% lower cost, 3.33× better performance-per-cost, and better resource utilization and efficiency than a state-of-the-art DFS for an industrial workload. 
 
 
 
