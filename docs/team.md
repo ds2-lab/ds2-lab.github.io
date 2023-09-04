@@ -311,7 +311,7 @@ hide:
 	  <div class="card-content">
        	<h3>Jingyuan Zhang</h3>
        	  <ul>
-  			<li><b>Ph.D. Student in Computer Science</b></li>
+  			<li><b>Ph.D. (Fall 2018 - Summer 2023)</b></li>
   			<li><b>Research Interests:</b> Cloud storage; serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zhangjyr.github.io/">zhangjyr.github.io/</a></li>
 			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance
