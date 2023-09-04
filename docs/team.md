@@ -170,7 +170,7 @@ hide:
        	<h3>Zheng Chai</h3>
        	  <ul>
   			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Machine learning systems; federated learning</li>
+  			<li><b>Research Interests:</b> Machine learning systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zheng-chai.github.io/">zheng-chai.github.io/</a></li>
 		  </ul>
 	  </div>
