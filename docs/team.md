@@ -303,6 +303,7 @@ hide:
 
 ## Alumni
 
+<div class="responsive-grid">
   <div class="card">
     <div class="logo">
 	  <img src="../images/JingyuanZhang.jpg" alt="Headshot of Jingyuan Zhang.">
@@ -317,4 +318,5 @@ hide:
 		  </ul>
 	  </div>
   </div>
+</div>
 
