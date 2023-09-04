@@ -197,7 +197,7 @@ hide:
 	  <div class="card-content">
        	<h3>Yuqi Fu</h3>
        	  <ul>
-  			<li><b>2nd Year Ph.D. Student in Computer Science</b></li>
+  			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Operating systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://fishercht1995.github.io/">fishercht1995.github.io</a></li>
 		  </ul>
@@ -211,7 +211,7 @@ hide:
 	  <div class="card-content">
        	<h3>Ben Carver</h3>
        	  <ul>
-  			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
+  			<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Serverless parallel computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://scusemua.github.io/">scusemua.github.io/</a></li>
 		  </ul>
@@ -225,8 +225,8 @@ hide:
 	  <div class="card-content">
        	<h3>Zhaoyuan (Alex) Su</h3>
        	  <ul>
-  			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Federated learning; high-performance computing</li>
+  			<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
+  			<li><b>Research Interests:</b> Data reduction, Sys4ML, serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://alexsssu.github.io/">alexsssu.github.io/</a></li>
 		  </ul>
 	  </div>
@@ -239,7 +239,7 @@ hide:
 	  <div class="card-content">
        	<h3>Rui Yang</h3>
        	  <ul>
-  			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
+  			<li><b>3rd Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Storage systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://mason.gmu.edu/~ryang22/">mason.gmu.edu/~ryang22/</a></li>
 		  </ul>
