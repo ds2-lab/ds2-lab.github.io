@@ -148,7 +148,7 @@ hide:
 		<td width="600px">
 			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/YueCheng.png" width="100px">
 			<ul>
-				<li><b>Bio:</b> Yue Cheng is an Assistant Professor of Data Science and Computer Science at the University of Virginia. He graduated with a Ph.D. degree in Computer Science from Virginia Tech in 2017. </li>
+				<li><b>Bio:</b> Yue Cheng is an Associate Professor of Data Science and Computer Science at the University of Virginia. He graduated with a Ph.D. degree in Computer Science from Virginia Tech in 2017. </li>
 				<li><a target="_blank" href="https://tddg.github.io"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="bx:bxs-home" data-inline="false"></span></a>&nbsp;&nbsp;
 				<a target="_blank" href="https://scholar.google.com/citations?user=TMGwBH0AAAAJ&hl=en"><span class="iconify" data-align="bottom" data-width="26" data-height="26" data-icon="simple-icons:googlescholar" data-inline="false"></span></a>&nbsp;&nbsp;
 				<a target="_blank" href="https://github.com/tddg"><span class="iconify" data-align="bottom" data-width="24" data-height="24" data-icon="ant-design:github-filled" data-inline="false"></span></a></li>
@@ -169,7 +169,7 @@ hide:
 	  <div class="card-content">
        	<h3>Zheng Chai</h3>
        	  <ul>
-  			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
+  			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Machine learning systems; federated learning</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zheng-chai.github.io/">zheng-chai.github.io/</a></li>
 		  </ul>
@@ -186,20 +186,6 @@ hide:
   			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://wangaoone.github.io/">wangaoone.github.io/</a></li>
-		  </ul>
-	  </div>
-  </div>
-
-  <div class="card">
-    <div class="logo">
-	  <img src="../images/JingyuanZhang.jpg" alt="Headshot of Jingyuan Zhang.">
-	</div>
-	  <div class="card-content">
-       	<h3>Jingyuan Zhang</h3>
-       	  <ul>
-  			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Cloud storage; serverless computing</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zhangjyr.github.io/">zhangjyr.github.io/</a></li>
 		  </ul>
 	  </div>
   </div>
@@ -317,4 +303,18 @@ hide:
 
 ## Alumni
 
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/JingyuanZhang.jpg" alt="Headshot of Jingyuan Zhang.">
+	</div>
+	  <div class="card-content">
+       	<h3>Jingyuan Zhang</h3>
+       	  <ul>
+  			<li><b>Ph.D. Student in Computer Science</b></li>
+  			<li><b>Research Interests:</b> Cloud storage; serverless computing</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zhangjyr.github.io/">zhangjyr.github.io/</a></li>
+			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance
+		  </ul>
+	  </div>
+  </div>
 
