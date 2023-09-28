@@ -19,7 +19,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Benjamin Carver, Runzhou Han, Jingyuan Zhang, Mai Zheng, Yue Cheng
-	    * :material-map-marker: *The 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'24](https://www.asplos-conference.org/2024-1/){:target="\_blank"}), 2024*
+	    * :material-map-marker: *The 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'24](https://www.asplos-conference.org/asplos2023/){:target="\_blank"}), 2023*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2306.11877){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/LambdaFS){:target="\_blank"} 
 
     === "Abstract"
