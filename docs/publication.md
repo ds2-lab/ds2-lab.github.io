@@ -15,6 +15,19 @@ quote = book chapter
 
 ## 2024
 
+???+ tip "Algorithmic Complexity Attacks on Dynamic Learned Indexes"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Rui Yang, Evgenios M Kornaropoulos,  Yue Cheng
+	    * :material-map-marker: *50th International Conference on Very Large Data Bases ([VLDB'24](https://vldb.org/2024/){:target="\_blank"}), 2024*
+	    * [:material-file-pdf-box: pdf](https://www.vldb.org/pvldb/vol17/p780-yang.pdf){:target="\_blank"} | [:material-file-pdf-box: arXiv](#){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/aca-dlis){:target="\_blank"}
+
+    === "Abstract"
+
+		Learned Index Structures (LIS) view a sorted index as a model that learns the data distribution, takes a data element key as input, and outputs the predicted position of the key. The original LIS can only handle lookup operations with no support for updates, rendering it impractical to use for typical workloads. To address this limitation, recent studies have focused on designing efficient dynamic learned indexes. ALEX, as the first and one of the representative dynamic learned index structures, enables dynamism by incorporating a series of design choices, including adaptive key space partitioning, dynamic model retraining, and sophisticated engineering and policies that prioritize read/write performance. While these design choices offer improved average-case performance, the emphasis on flexibility and performance increases the attack surface by allowing adversarial behaviors that maximize ALEX's memory space and time complexity in worst-case scenarios. In this work, we present the first systematic investigation of algorithmic complexity attacks (ACAs) targeting the worst-case scenarios of ALEX. We introduce new ACAs that fall into two categories, space ACAs and time ACAs, which target the memory space and time complexity, respectively. First, our space ACA on data nodes exploits ALEX's gapped array layout and uses MultipleChoice Knapsack (MCK) to generate an optimal adversarial insertion plan for maximizing the memory consumption at the data node level. Second, our space ACA on internal nodes exploits ALEX's catastrophic cost mitigation mechanism, causing an out-of-memory (OOM) error with only a few hundred adversarial insertions. Third, our time ACA generates pathological insertions to increase the disparity between the actual key distribution and the linear models of data nodes, deteriorating the runtime performance by up to 1,641x compared to ALEX operating under legitimate workloads.
+
+
 ???+ tip "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models"
 
     === "Paper Info"
