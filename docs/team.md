@@ -259,12 +259,64 @@ hide:
 	  <div class="card-content">
        	<h3>Rafael Alejandro Madrid Rivera</h3>
        	  <ul>
-  			<li><b>Master's Student in Computer Science</b></li>
+  			<li><b>Master's Student in Computer Science @ GMU</b></li>
   			<li><b>Research Interests:</b> Storage systems</li>
 		  </ul>
 	  </div>
   </div>
 </div>
+
+
+-------------------
+
+## Undergraduate Students
+
+<div class="responsive-grid">
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ttt.jpg" alt="Headshot of Junho Lee.">
+	</div>
+	  <div class="card-content">
+       	<h3>Junho Lee</h3>
+       	  <ul>
+  			<li><b>Undergraduate Student in Computer Science @ UVA</b></li>
+  			<li><b>Project:</b> Model compression</li>
+		  </ul>
+	  </div>
+  </div>
+</div>
+
+<div class="responsive-grid">
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ttt.jpg" alt="Headshot of Ziqian Zhao.">
+	</div>
+	  <div class="card-content">
+       	<h3>Ziqian Zhao</h3>
+       	  <ul>
+  			<li><b>Undergraduate Student in Computer Science @ UVA</b></li>
+  			<li><b>Project:</b> Model quantization</li>
+		  </ul>
+	  </div>
+  </div>
+</div>
+
+<div class="responsive-grid">
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ttt.jpg" alt="Headshot of Huarui Liu.">
+	</div>
+	  <div class="card-content">
+       	<h3>Huarui Liu</h3>
+       	  <ul>
+  			<li><b>Undergraduate Student in Computer Science @ UVA</b></li>
+  			<li><b>Project:</b> Model quantization</li>
+		  </ul>
+	  </div>
+  </div>
+</div>
+
+
 
 -------------------
 
