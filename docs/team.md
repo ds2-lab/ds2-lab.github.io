@@ -284,9 +284,7 @@ hide:
 		  </ul>
 	  </div>
   </div>
-</div>
 
-<div class="responsive-grid">
   <div class="card">
     <div class="logo">
 	  <img src="../images/ttt.jpg" alt="Headshot of Ziqian Zhao.">
@@ -299,9 +297,7 @@ hide:
 		  </ul>
 	  </div>
   </div>
-</div>
-
-<div class="responsive-grid">
+  
   <div class="card">
     <div class="logo">
 	  <img src="../images/ttt.jpg" alt="Headshot of Huarui Liu.">
