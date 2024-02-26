@@ -15,6 +15,24 @@ quote = book chapter
 
 ## 2024
 
+???+ tip "Everything You Always Wanted to Know About Storage Compressibility of Pre-Trained ML Models but Were Afraid to Ask"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline:  Zhaoyuan Su, Ammar Ahmed, Zirui Wang, Ali Anwar, Yue Cheng
+	    * :material-map-marker: *The 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'23](https://www.asplos-conference.org/asplos2023/){:target="\_blank"}), 2023*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2402.13429){target="\_blank"} | [:material-file-code: GitHub (coming soon)](#){:target="\_blank"} 
+
+    === "Abstract"
+
+		As the number of pre-trained machine learning (ML) models is growing exponentially, data reduction tools are not catching up. Existing data reduction techniques are not specifically designed for pre-trained model (PTM) dataset files. This is largely due to a lack of understanding of the patterns and characteristics of these datasets, especially those relevant to data reduction and compressibility.
+
+		This paper presents the first, exhaustive analysis to date of PTM datasets on storage compressibility. Our analysis spans different types of data reduction and compression techniques, from hash-based data deduplication, data similarity detection, to dictionary-coding compression. Our analysis explores these techniques at three data granularity levels, from model layers, model chunks, to model parameters. We draw new observations that indicate that modern data reduction tools are not effective when handling PTM datasets. There is a pressing need for new compression methods that take into account PTMs' data characteristics for effective storage reduction.
+
+		Motivated by our findings, we design ELF, a simple yet effective, error-bounded, lossy floating-point compression method. ELF transforms floating-point parameters in such a way that the common exponent field of the transformed parameters can be completely eliminated to save storage space. We develop Elves, a compression framework that integrates ELF along with several other data reduction methods. Elves uses the most effective method to compress PTMs that exhibit different patterns. Evaluation shows that Elves achieves an overall compression ratio of 1.52×, which is 1.31×, 1.32× and 1.29× higher than a general-purpose compressor (zstd), an error-bounded lossy compressor (SZ3), and the uniform model quantization, respectively, with negligible model accuracy loss. 
+
+
+
 ???+ tip "Algorithmic Complexity Attacks on Dynamic Learned Indexes"
 
     === "Paper Info"
