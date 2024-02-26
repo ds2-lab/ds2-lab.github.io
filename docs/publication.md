@@ -51,6 +51,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Guangji Bai, Zheng Chai, Chen Ling, Shiyu Wang, Jiaying Lu, Nan Zhang, Tingwei Shi, Ziyang Yu, Mengdan Zhu, Yifei Zhang, Carl Yang, Yue Cheng, Liang Zhao 
+	    * :material-map-marker: *preprint*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2401.00625){target="\_blank"} | [:material-file-code: GitHub](https://github.com/tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers){:target="\_blank"} 
 
     === "Abstract"
