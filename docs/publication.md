@@ -20,7 +20,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Zhaoyuan Su, Ammar Ahmed, Zirui Wang, Ali Anwar, Yue Cheng
-	    * :material-map-marker: *The 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'23](https://www.asplos-conference.org/asplos2023/){:target="\_blank"}), 2023*
+	    * :material-map-marker: *preprint*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2402.13429){target="\_blank"} | [:material-file-code: GitHub (coming soon)](#){:target="\_blank"} 
 
     === "Abstract"
