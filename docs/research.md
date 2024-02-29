@@ -395,7 +395,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
     <ul>
     <li><b>Award Info: </b> Adobe Research Gift</li>
     <li><b>PI: </b> Yue Cheng</li>
-    <li><b>Funding Amount: </b> $70,000</li>
+    <li><b>Funding Amount: </b> $95,000</li>
     </ul>
   </div>
 </div>
