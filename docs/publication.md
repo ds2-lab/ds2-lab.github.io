@@ -39,7 +39,7 @@ quote = book chapter
 
         * :material-account-supervisor-outline:  Rui Yang, Evgenios M Kornaropoulos,  Yue Cheng
 	    * :material-map-marker: *50th International Conference on Very Large Data Bases ([VLDB'24](https://vldb.org/2024/){:target="\_blank"}), 2024*
-	    * [:material-file-pdf-box: pdf](https://www.vldb.org/pvldb/vol17/p780-yang.pdf){:target="\_blank"} | [:material-file-pdf-box: arXiv](#){target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/aca-dlis){:target="\_blank"}
+	    * [:material-file-pdf-box: pdf](https://www.vldb.org/pvldb/vol17/p780-yang.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/ds2-lab/aca-dlis){:target="\_blank"}
 
     === "Abstract"
 
