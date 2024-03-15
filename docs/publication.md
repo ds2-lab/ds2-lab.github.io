@@ -20,7 +20,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline:  Zhaoyuan Su, Ammar Ahmed, Zirui Wang, Ali Anwar, Yue Cheng
-	    * :material-map-marker: *preprint*
+	    * :material-map-marker: *50th International Conference on Very Large Data Bases ([VLDB'24](https://vldb.org/2024/){:target="\_blank"}), 2024*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2402.13429){target="\_blank"} | [:material-file-code: GitHub (coming soon)](#){:target="\_blank"} 
 
     === "Abstract"
