@@ -62,6 +62,19 @@ quote = book chapter
 
 ## 2023
 
+???+ tip "Towards cost-effective and resource-aware aggregation at Edge for Federated Learning"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Ahmad Khan, Yuze Li, Xinran Wang, Sabaat Haroon, Haider Ali,  Yue Cheng, Ali R. Butt,  Ali Anwar
+	    * :material-map-marker: *2023 IEEE International Conference on Big Data 2023 ([BigData'23](https://bigdataieee.org/BigData2023/){:target="\_blank"}), 2023*
+	    * [:material-file-pdf-box: pdf](https://ieeexplore.ieee.org/abstract/document/10386691){:target="\_blank"} | [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2204.07767){target="\_blank"} 
+
+    === "Abstract"
+
+		Federated Learning (FL) is a machine learning approach that addresses privacy and data transfer costs by computing data at the source. It’s particularly popular for Edge and IoT applications where the aggregator server of FL is in resource-capped edge data centers for reducing communication costs. Existing cloud-based aggregator solutions are resource-inefficient and expensive at the Edge, leading to low scalability and high latency. To address these challenges, this study compares prior and new aggregation methodologies under the changing demands of IoT and Edge applications. This work is the first to propose an adaptive FL aggregator at the Edge, enabling users to manage the cost and efficiency trade-off. An extensive comparative analysis demonstrates that the design improves scalability by up to 4×, time efficiency by 8×, and reduces costs by more than 2× compared to extant cloud-based static methodologies.
+
+
 ???+ tip "λFS: Elastically Scaling Distributed File System Metadata Service using Serverless Functions"
 
     === "Paper Info"
