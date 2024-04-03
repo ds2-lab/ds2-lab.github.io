@@ -74,6 +74,16 @@ quote = book chapter
 
 ## 2023
 
+???+ tip "Towards Elastic and Cost-effective Stateful Serverless Systems"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Jingyuan Zhang
+	    * :material-map-marker: *PhD dissertation, 2023*
+	    * [:material-file-pdf-box: link](https://www.proquest.com/docview/2898808128){:target="\_blank"}  
+
+
+
 ???+ tip "Towards cost-effective and resource-aware aggregation at Edge for Federated Learning"
 
     === "Paper Info"
@@ -256,7 +266,7 @@ quote = book chapter
 
 		* :material-account-supervisor-outline: Benjamin Carver 
 		* :material-map-marker: *Ben's Master's Thesis, 2021*
-		* [:material-file-pdf-box: pdf](https://mars.gmu.edu/xmlui/handle/1920/12093){:target="\_blank"} 
+		* [:material-file-pdf-box: pdf](https://mars.gmu.edu/items/4e134a63-a151-4ceb-a823-2efbdafb7f03){:target="\_blank"} 
 
 	=== "Abstract"
 		
