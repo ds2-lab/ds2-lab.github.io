@@ -260,7 +260,7 @@ hide:
 <div class="responsive-grid">
   <div class="card">
     <div class="logo">
-	  <img src="../images/ttt.jpg" alt="Headshot of Junho Lee.">
+	  <img src="../images/JunhoLee.jpg" alt="Headshot of Junho Lee.">
 	</div>
 	  <div class="card-content">
        	<h3>Junho Lee</h3>
@@ -286,7 +286,7 @@ hide:
   
   <div class="card">
     <div class="logo">
-	  <img src="../images/ttt.jpg" alt="Headshot of Huarui Liu.">
+	  <img src="../images/HuaruiLiu.jpg" alt="Headshot of Huarui Liu.">
 	</div>
 	  <div class="card-content">
        	<h3>Huarui Liu</h3>
