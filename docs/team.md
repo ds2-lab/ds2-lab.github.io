@@ -276,7 +276,7 @@ hide:
 	  <img src="../images/SherryZhao.png" alt="Headshot of Ziqian (Sherry) Zhao.">
 	</div>
 	  <div class="card-content">
-       	<h3>Ziqian Zhao</h3>
+       	<h3>Sherry Zhao</h3>
        	  <ul>
   			<li><b>Undergraduate Student in Computer Science @ UVA</b></li>
   			<li><b>Project:</b> Model quantization</li>
