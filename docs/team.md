@@ -273,7 +273,7 @@ hide:
 
   <div class="card">
     <div class="logo">
-	  <img src="../images/ttt.jpg" alt="Headshot of Ziqian Zhao.">
+	  <img src="../images/SherryZhao.png" alt="Headshot of Ziqian (Sherry) Zhao.">
 	</div>
 	  <div class="card-content">
        	<h3>Ziqian Zhao</h3>
