@@ -388,6 +388,20 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 
 <div class="card">
   <div class="logo">
+	<img src="../images/Logo_NSF.png" alt="NSF Logo">
+  </div>
+  <div class="card-content">
+    <h4>Collaborative Research: OAC Core: Distributed Graph Learning Cyberinfrastructure for Large-scale Spatiotemporal Prediction</h4>
+    <ul>
+    <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403313&HistoricalAwards=false">OAC-2403313</a></li>
+    <li><b>PI: </b> Yue Cheng</li>
+    <li><b>Funding Amount: </b> $299,973</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="logo">
     <img src="../images/Logo_Adobe.png" alt="Adobe Logo">
   </div>
   <div class="card-content">
