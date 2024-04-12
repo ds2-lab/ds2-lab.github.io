@@ -240,7 +240,7 @@ hide:
 <div class="responsive-grid">
   <div class="card">
     <div class="logo">
-	  <img src="../images/ttt.jpg" alt="Headshot of Rafael Alejandro Madrid Rivera.">
+	  <img src="../images/RafaelMadrid.jpg" alt="Headshot of Rafael Alejandro Madrid Rivera.">
 	</div>
 	  <div class="card-content">
        	<h3>Rafael Alejandro Madrid Rivera</h3>
