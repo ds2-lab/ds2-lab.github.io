@@ -20,7 +20,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Ruizhe Shi, Ruizhi Cheng, Bo Han, Yue Cheng, Songqing Chen
-		* :material-map-marker: ACM SIGMETRICS / IFIP Performance ([SIGMETRICS'24](https://www.sigmetrics.org/sigmetrics2024/index.html){:target="\_blank"}), 2024*
+		* :material-map-marker: *ACM SIGMETRICS / IFIP Performance ([SIGMETRICS'24](https://www.sigmetrics.org/sigmetrics2024/index.html){:target="\_blank"}), 2024*
 	    * [:material-file-pdf-box: pdf](https://dl.acm.org/doi/10.1145/3656015){:target="\_blank"} 
 
     === "Abstract"
