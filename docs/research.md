@@ -402,6 +402,20 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 
 <div class="card">
   <div class="logo">
+	<img src="../images/Logo_NSF.png" alt="NSF Logo">
+  </div>
+  <div class="card-content">
+    <h4>REU Site: THE DATA JUSTICE ACADEMY</h4>
+    <ul>
+    <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2349503&HistoricalAwards=false">SBE-2349503</a></li>
+    <li><b>PIs: </b>Claudia Scholz, Yue Cheng</li>
+    <li><b>Funding Amount: </b> $541,362</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="logo">
     <img src="../images/Logo_Adobe.png" alt="Adobe Logo">
   </div>
   <div class="card-content">
