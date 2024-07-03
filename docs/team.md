@@ -231,6 +231,34 @@ hide:
 		  </ul>
 	  </div>
   </div>
+
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ZiruiWang.jpg" alt="Headshot of Zirui Wang.">
+	</div>
+	  <div class="card-content">
+       	<h3>Zirui Wang</h3>
+       	  <ul>
+  			<li><b>1st Year Ph.D. Student in Computer Science</b> (joining Fall 2024)</li>
+  			<li><b>Research Interests:</b> ML systems</li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/TingfengLan.jpg" alt="Headshot of Tingfeng Lan.">
+	</div>
+	  <div class="card-content">
+       	<h3>Tingfeng Lan</h3>
+       	  <ul>
+  			<li><b>1st Year Ph.D. Student in Computer Science</b> (joining Fall 2024)</li>
+  			<li><b>Research Interests:</b> ML systems</li>
+		  </ul>
+	  </div>
+  </div>
+
+
 </div>
 
 -------------------
