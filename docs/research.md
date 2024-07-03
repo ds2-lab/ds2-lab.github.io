@@ -409,7 +409,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
     <ul>
     <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2349503&HistoricalAwards=false">SBE-2349503</a></li>
     <li><b>PIs: </b>Claudia Scholz, Yue Cheng</li>
-    <li><b>Funding Amount: </b> $541,362</li>
+    <li><b>Funding Amount: </b> $481,232</li>
     </ul>
   </div>
 </div>
