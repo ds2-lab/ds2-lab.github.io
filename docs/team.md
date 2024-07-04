@@ -294,7 +294,7 @@ hide:
        	<h3>Junho Lee</h3>
        	  <ul>
   			<li><b>Undergraduate Student in Computer Science @ UVA</b></li>
-  			<li><b>Project:</b> Model compression</li>
+  			<li><b>Project:</b> LLM scheduling</li>
 		  </ul>
 	  </div>
   </div>
