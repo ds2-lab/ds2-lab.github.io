@@ -234,7 +234,7 @@ hide:
 
   <div class="card">
     <div class="logo">
-	  <img src="../images/ZiruiWang.jpg" alt="Headshot of Zirui Wang.">
+	  <img src="../images/ZiruiWang.png" alt="Headshot of Zirui Wang.">
 	</div>
 	  <div class="card-content">
        	<h3>Zirui Wang</h3>
