@@ -391,7 +391,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 	<img src="../images/Logo_NSF.png" alt="NSF Logo">
   </div>
   <div class="card-content">
-    <h4>Collaborative Research: OAC Core: Distributed Graph Learning Cyberinfrastructure for Large-scale Spatiotemporal Prediction</h4>
+    <h4>Collaborative Research: OAC Core: Distributed Graph Learning Cyberinfrastructure for Large-scale Spatiotemporal Prediction 🆕</h4>
     <ul>
     <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403313&HistoricalAwards=false">OAC-2403313</a></li>
     <li><b>PI: </b> Yue Cheng</li>
@@ -405,7 +405,21 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
 	<img src="../images/Logo_NSF.png" alt="NSF Logo">
   </div>
   <div class="card-content">
-    <h4>REU Site: THE DATA JUSTICE ACADEMY</h4>
+    <h4>Elements: A Sustainable, Resource-Efficient Cyberinfrastructure for Notebook Interactive ML Training Workloads 🆕</h4>
+    <ul>
+    <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2411009&HistoricalAwards=false">OAC-2411009</a></li>
+    <li><b>PIs: </b>Yue Cheng, Geoffrey Fox</li>
+    <li><b>Funding Amount: </b> $600,000</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="logo">
+	<img src="../images/Logo_NSF.png" alt="NSF Logo">
+  </div>
+  <div class="card-content">
+    <h4>REU Site: THE DATA JUSTICE ACADEMY 🆕</h4>
     <ul>
     <li><b>Award Info: </b> National Science Foundation Award <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2349503&HistoricalAwards=false">SMA-2349503</a></li>
     <li><b>PIs: </b>Claudia Scholz, Yue Cheng</li>
@@ -461,7 +475,7 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
     <img src="../images/Logo_Samsung.png" alt="Samsung Logo">
   </div>
   <div class="card-content">
-  <h4>Highly Efficient Pre-Trained LLM Storage with Near-Storage Compression and CXL Memory Integration</h4>
+  <h4>Highly Efficient Pre-Trained LLM Storage with Near-Storage Compression and CXL Memory Integration 🆕</h4>
     <ul>
     <li><b>Award Info: </b> <a target="_blank" href="https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do">Samsung GRO 2023 Award</a></li>
     <li><b>PIs: </b> Yue Cheng, Ali Anwar (UMN)</li>
