@@ -241,7 +241,7 @@ hide:
        	  <ul>
   			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> ML systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://mason.gmu.edu/~ryang22/">https://jerryw35.github.io/</a></li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://jerryw35.github.io/">https://jerryw35.github.io/</a></li>
 		  </ul>
 	  </div>
   </div>
@@ -255,7 +255,7 @@ hide:
        	  <ul>
   			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> ML systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://mason.gmu.edu/~ryang22/">https://antlera.github.io/</a></li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://antlera.github.io/">https://antlera.github.io/</a></li>
 		  </ul>
 	  </div>
   </div>
