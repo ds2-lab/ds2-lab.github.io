@@ -361,7 +361,7 @@ hide:
 	  <div class="card-content">
        	<h3>Ao Wang</h3>
        	  <ul>
-  			<li><b>Ph.D. Student in Computer Science</b> (currently on leave and is with Alibaba Cloud)</li>
+  			<li><b>Ph.D. Student in Computer Science</b> (currently is on leave and is with Alibaba Cloud)</li>
   			<li><b>Research Interests:</b> Serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://wangaoone.github.io/">wangaoone.github.io/</a></li>
 		  </ul>
