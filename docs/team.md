@@ -164,20 +164,6 @@ hide:
 <div class="responsive-grid">
   <div class="card">
     <div class="logo">
-	  <img src="../images/ZhengChai.jpg" alt="Headshot of Zheng Chai.">
-	</div>
-	  <div class="card-content">
-       	<h3>Zheng Chai</h3>
-       	  <ul>
-  			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Machine learning systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zheng-chai.github.io/">zheng-chai.github.io/</a></li>
-		  </ul>
-	  </div>
-  </div>
-
-  <div class="card">
-    <div class="logo">
 	  <img src="../images/YuqiFu.jpg" alt="Headshot of Yuqi Fu.">
 	</div>
 	  <div class="card-content">
@@ -396,5 +382,20 @@ hide:
 		  </ul>
 	  </div>
   </div>
+  
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ZhengChai.jpg" alt="Headshot of Zheng Chai.">
+	</div>
+	  <div class="card-content">
+       	<h3>Zheng Chai</h3>
+       	  <ul>
+  			<li><b>Ph.D. (Fall 2018 - Summer 2024)</b></li>
+  			<li><b>Research Interests:</b> Machine learning systems</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zheng-chai.github.io/">zheng-chai.github.io/</a></li>
+		  </ul>
+	  </div>
+  </div>
+
 </div>
 
