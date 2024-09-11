@@ -302,7 +302,8 @@ distributed GNN training methods that are scalable and efficient.
   
 ## Research Sponsors
 
-We are grateful for the generous support from our sponsors including
+We are grateful for the generous support from our sponsors, 
+including
 [National Science Foundation](https://www.nsf.gov){:target="\_blank"},
 [Adobe Research](https://research.adobe.com/){:target="\_blank"},
 [CloudBank](https://www.cloudbank.org/){:target="\_blank"},
