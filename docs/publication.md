@@ -21,7 +21,7 @@ quote = book chapter
 
 		* :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Arnab K. Paul, Xun Jian,  Yue Cheng,  Ali R. Butt 
 		* :material-map-marker: *15th ACM Symposium on Cloud Computing ([SoCC’24](https://acmsocc.org/2024/){:target="\_blank"}), 2023*
-	    * [:material-file-pdf-box: pdf](pdfs/socc24-fedcase.pdf){:target="\_blank"} | [:material-file-code: code](#){:target="\_blank"}
+	    * [:material-file-pdf-box: pdf](pdfs/socc24-fedcase.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/rkhan055/FedCaSe){:target="\_blank"}
 
 	=== "Abstract"
 
