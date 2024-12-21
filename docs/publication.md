@@ -15,7 +15,7 @@ quote = book chapter
 
 ## 2025
 
-???+ tip ""Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction
+???+ tip "Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction"
 
 	=== "Paper Info"
 
