@@ -13,6 +13,20 @@ quote = book chapter
 -->
 
 
+## 2025
+
+???+ tip ""Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction
+
+	=== "Paper Info"
+
+		* :material-account-supervisor-outline: Guangji Bai, Ziyang Yu, Zheng Chai, Yue Cheng,  Liang Zhao
+		* :material-map-marker: *SIAM International Conference on Data Mining ([SDM’25](https://www.siam.org/conferences-events/siam-conferences/sdm25/){:target="\_blank"}), 2025*
+	    * [:material-file-pdf-box: pdf](#){:target="\_blank"} 
+
+	=== "Abstract"
+
+
+
 ## 2024
 
 ???+ tip "FedCaSe: Enhancing Federated Learning with Heterogeneity-aware Caching and Scheduling"
@@ -20,7 +34,7 @@ quote = book chapter
 	=== "Paper Info"
 
 		* :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Arnab K. Paul, Xun Jian,  Yue Cheng,  Ali R. Butt 
-		* :material-map-marker: *15th ACM Symposium on Cloud Computing ([SoCC’24](https://acmsocc.org/2024/){:target="\_blank"}), 2023*
+		* :material-map-marker: *15th ACM Symposium on Cloud Computing ([SoCC’24](https://acmsocc.org/2024/){:target="\_blank"}), 2024*
 	    * [:material-file-pdf-box: pdf](pdfs/socc24-fedcase.pdf){:target="\_blank"} | [:material-file-code: code](https://github.com/rkhan055/FedCaSe){:target="\_blank"}
 
 	=== "Abstract"
