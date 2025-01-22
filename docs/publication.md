@@ -15,6 +15,17 @@ quote = book chapter
 
 ## 2025
 
+???+ tip "Centralization in Decentralized Web: Challenges and Opportunities in IPFS’ Data Management"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Ruizhe Shi, Ruizhi Cheng, Yuqi Fu, Bo Han, Yue Cheng, Songqing Chen
+		* :material-map-marker: *The 2025 ACM Web Conference ([TheWebConf'25](https://www2025.thewebconf.org/){:target="\_blank"}), 2025*
+	    * [:material-file-pdf-box: pdf](#){:target="\_blank"} 
+
+    === "Abstract"
+
+
 ???+ tip "Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction"
 
 	=== "Paper Info"
