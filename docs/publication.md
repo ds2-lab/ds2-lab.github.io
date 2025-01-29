@@ -33,7 +33,7 @@ quote = book chapter
     === "Paper Info"
 
         * :material-account-supervisor-outline: Ruizhe Shi, Ruizhi Cheng, Yuqi Fu, Bo Han, Yue Cheng, Songqing Chen
-		* :material-map-marker: *The 2025 ACM Web Conference ([TheWebConf'25](https://www2025.thewebconf.org/){:target="\_blank"}), 2025*
+		* :material-map-marker: *The 2025 ACM Web Conference ([WWW'25](https://www2025.thewebconf.org/){:target="\_blank"}), 2025*
 	    * [:material-file-pdf-box: pdf](#){:target="\_blank"} 
 
     === "Abstract"
