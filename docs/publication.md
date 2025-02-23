@@ -21,7 +21,7 @@ quote = book chapter
 
         * :material-account-supervisor-outline: Qichang Liu, Yue Cheng, Haiying Shen, Ao Wang, Bharathan Balaji
 	    * :material-map-marker: *The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'25](https://www.asplos-conference.org/asplos2025/){:target="\_blank"}), 2025*
-	    * [:material-file-pdf-box: pdf](#) | [:material-file-pdf-box: arXiv](#) | [:material-file-code: code](#) 
+	    * [:material-file-pdf-box: pdf](pdfs/asplos25-cidre.pdf) | [:material-file-pdf-box: arXiv](#) | [:material-file-code: code](#) 
 
     === "Abstract"
 
