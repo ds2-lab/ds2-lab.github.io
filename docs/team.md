@@ -170,7 +170,7 @@ hide:
        	<h3>Yuqi Fu</h3>
        	  <ul>
   			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Operating systems</li>
+  			<li><b>Research Interests:</b> ML for systems, systems for ML</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://fishercht1995.github.io/">fishercht1995.github.io</a></li>
 		  </ul>
 	  </div>
@@ -184,7 +184,7 @@ hide:
        	<h3>Ben Carver</h3>
        	  <ul>
   			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Serverless parallel computing</li>
+  			<li><b>Research Interests:</b> Serverless computing, ML systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://scusemua.github.io/">scusemua.github.io/</a></li>
 		  </ul>
 	  </div>
@@ -198,7 +198,7 @@ hide:
        	<h3>Zhaoyuan (Alex) Su</h3>
        	  <ul>
   			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Data reduction, Sys4ML, serverless computing</li>
+  			<li><b>Research Interests:</b> ML systems, data reduction</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://alexsssu.github.io/">alexsssu.github.io/</a></li>
 		  </ul>
 	  </div>
@@ -212,7 +212,7 @@ hide:
        	<h3>Rui Yang</h3>
        	  <ul>
   			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Storage systems</li>
+  			<li><b>Research Interests:</b> ML systems, storage systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://ruiyang00.github.io/">ruiyang00.github.io/</a></li>
 		  </ul>
 	  </div>
@@ -226,7 +226,7 @@ hide:
        	<h3>Zirui Wang</h3>
        	  <ul>
   			<li><b>1st Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> ML systems</li>
+  			<li><b>Research Interests:</b> ML systems, storage systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://jerryw35.github.io/">https://jerryw35.github.io/</a></li>
 		  </ul>
 	  </div>
