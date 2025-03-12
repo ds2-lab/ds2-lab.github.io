@@ -213,7 +213,7 @@ hide:
        	  <ul>
   			<li><b>4th Year Ph.D. Student in Computer Science</b></li>
   			<li><b>Research Interests:</b> Storage systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://mason.gmu.edu/~ryang22/">mason.gmu.edu/~ryang22/</a></li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://ruiyang00.github.io/">ruiyang00.github.io/</a></li>
 		  </ul>
 	  </div>
   </div>
