@@ -21,10 +21,11 @@ quote = book chapter
 
         * :material-account-supervisor-outline: Qichang Liu, Yue Cheng, Haiying Shen, Ao Wang, Bharathan Balaji
 	    * :material-map-marker: *The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'25](https://www.asplos-conference.org/asplos2025/){:target="\_blank"}), 2025*
-	    * [:material-file-pdf-box: pdf](pdfs/asplos25-cidre.pdf) | [:material-file-pdf-box: arXiv](#) | [:material-file-code: code](#) 
+	    * [:material-file-pdf-box: pdf](pdfs/asplos25-cidre.pdf) | [:material-file-code: code](https://github.com/nzc5ve/cidre_asplos25) 
 
     === "Abstract"
 
+		Cold start delays are a main pain point for today's FaaS (Function-as-a-Service) platforms. A widely used mitigation strategy is keeping recently invoked function containers alive in memory to enable warm starts with minimal overhead. This paper identifies new challenges that state-of-the-art FaaS keep-alive policies neglect. These challenges are caused by concurrent function invocations, a common FaaS workload behavior. First, concurrent requests present a tradeoff between reusing busy containers (delayed warm starts) versus cold-starting containers. Second, concurrent requests cause imbalanced evictions of containers that will be reused shortly thereafter. To tackle the challenges, we propose a novel serverless function container orchestration algorithm called CIDRE. CIDRE makes informed decisions to speculatively choose between a delayed warm start and a cold start under concurrency-driven function scaling. CIDRE uses both fine-grained container-level and coarse-grained concurrency information to make balanced eviction decisions. We evaluate CIDRE extensively using two production FaaS workloads. Results show that CIDRE reduces the cold start ratio and the average invocation overhead by up to 75.1% and 39.3% compared to state-of-the-art function keep-alive policies.
 
 
 
