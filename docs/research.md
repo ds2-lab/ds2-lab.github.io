@@ -187,7 +187,31 @@ training workloads.
 		<ul>
   		  <li>λScale: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2502.09922">arXiv</a>&nbsp;&nbsp;
           </li>
-  		  <li>NotebookOS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2503.20591">pdf</a>&nbsp;&nbsp;
+  		  <li>NotebookOS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2503.20591">arXiv</a>&nbsp;&nbsp;
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="card">
+	<div class="logo">
+	  <img src="../images/platform.png" alt="FaaSNet.">
+    </div>
+    <div class="card-content">
+	  <h5>Redesigning FaaS Platforms</h5>
+		<p>
+Custom FaaS container support is gaining traction as it
+enables better control over OSes, versioning, and tooling for
+modernizing FaaS applications. Our research looks to build scalable
+FaaS container platform that 1) offers fast container provisioning
+and 2) minimizes cold starts under concurrent workloads.
+        </p>
+		<ul>
+  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/atc21-faasnet.pdf">pdf</a>&nbsp;&nbsp;
+			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/FaaSNet">code</a>&nbsp;&nbsp;
+          </li>
+  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/asplos25-cidre.pdf">pdf</a>&nbsp;&nbsp;
+			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/nzc5ve/cidre_asplos25">code</a>&nbsp;&nbsp;
           </li>
         </ul>
     </div>
@@ -235,30 +259,6 @@ scientists.
 		<ul>
   		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/socc20-wukong.pdf">pdf</a>&nbsp;&nbsp;
 			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://ds2-lab.github.io/Wukong/">project</a>&nbsp;&nbsp;
-          </li>
-        </ul>
-    </div>
-  </div>
-
-  <div class="card">
-	<div class="logo">
-	  <img src="../images/platform.png" alt="FaaSNet.">
-    </div>
-    <div class="card-content">
-	  <h5>Redesigning FaaS Platforms</h5>
-		<p>
-Custom FaaS container support is gaining traction as it
-enables better control over OSes, versioning, and tooling for
-modernizing FaaS applications. Our research looks to build scalable
-FaaS container platform that 1) offers fast container provisioning
-and 2) minimizes cold starts under concurrent workloads.
-        </p>
-		<ul>
-  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/atc21-faasnet.pdf">pdf</a>&nbsp;&nbsp;
-			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/FaaSNet">code</a>&nbsp;&nbsp;
-          </li>
-  		  <li><span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/asplos25-cidre.pdf">pdf</a>&nbsp;&nbsp;
-			<span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/nzc5ve/cidre_asplos25">code</a>&nbsp;&nbsp;
           </li>
         </ul>
     </div>
