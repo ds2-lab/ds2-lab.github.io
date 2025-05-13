@@ -209,7 +209,7 @@ cache most important training samples without losing training
 quality. 
         </p>
 		<ul>
-  		  <li>zLLM: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.06252">pdf</a>&nbsp;&nbsp;
+  		  <li>zLLM: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.06252">arXiv</a>&nbsp;&nbsp;
           </li>
   		  <li>ELF: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.vldb.org/pvldb/vol17/p2036-su.pdf">pdf</a>&nbsp;&nbsp;
 		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/ELF">project</a>&nbsp;&nbsp;
