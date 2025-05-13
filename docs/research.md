@@ -195,6 +195,39 @@ training workloads.
 
   <div class="card">
 	<div class="logo">
+	  <img src="../images/federated_learning.png" alt="Federated learning systems.">
+    </div>
+    <div class="card-content">
+	  <h5>Storage Systems for AI</h5>
+		<p>
+Emerging AI applications exhibit unique workload behaviors. This line
+of research rethinks storage system designs to sustain the
+exponential AI data explosion. zLLM and BitX are new lossless
+compressing algorithms that reduce massive LLM storage footprint by
+50%. ELF (and ELVES) near-losslessly compress ML models to achieve
+effective model storage reduction.  SHADE and FedCaSe automatically
+and intelligently cache the most important training samples without
+losing training quality. 
+        </p>
+		<ul>
+  		  <li>zLLM: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.06252">pdf</a>&nbsp;&nbsp;
+          </li>
+  		  <li>ELF: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.vldb.org/pvldb/vol17/p2036-su.pdf">pdf</a>&nbsp;&nbsp;
+		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/ELF">project</a>&nbsp;&nbsp;
+          </li>
+  		  <li>FedCaSe: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/socc24-fedcase.pdf">pdf</a>&nbsp;&nbsp;
+		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/rkhan055/FedCaSe">project</a>&nbsp;&nbsp;
+          </li>
+  		  <li>SHADE: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.usenix.org/conference/fast23/presentation/khan">pdf</a>&nbsp;&nbsp;
+		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/rkhan055/SHADE">project</a>&nbsp;&nbsp;
+          </li>
+  		  <!--li>TiFL <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/hpdc20-tifl.pdf">pdf</a></li-->
+        </ul>
+    </div>
+  </div>
+
+  <div class="card">
+	<div class="logo">
 	  <img src="../images/platform.png" alt="FaaSNet.">
     </div>
     <div class="card-content">
@@ -284,35 +317,6 @@ techniques to address this mismatch.
   		  <li>ALPS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.usenix.org/conference/atc24/presentation/fu">pdf</a>&nbsp;&nbsp;
 		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/ALPS">project</a>&nbsp;&nbsp;
           </li>
-        </ul>
-    </div>
-  </div>
-
-  <div class="card">
-	<div class="logo">
-	  <img src="../images/federated_learning.png" alt="Federated learning systems.">
-    </div>
-    <div class="card-content">
-	  <h5>Systems for ML</h5>
-		<p>
-Machine learning (ML) applications exhibit unique workload behaviors.
-This line of research rethinks systems designs to enable scalable,
-high-performance ML training. ELF (and ELVES) near-losslessly
-compress ML models to achieve effective model storage reduction.
-SHADE and FedCaSe automatically and intelligently cache the most
-important training samples without losing training quality. 
-        </p>
-		<ul>
-  		  <li>ELF: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.vldb.org/pvldb/vol17/p2036-su.pdf">pdf</a>&nbsp;&nbsp;
-		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/ds2-lab/ELF">project</a>&nbsp;&nbsp;
-          </li>
-  		  <li>SHADE: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://www.usenix.org/conference/fast23/presentation/khan">pdf</a>&nbsp;&nbsp;
-		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/rkhan055/SHADE">project</a>&nbsp;&nbsp;
-          </li>
-  		  <li>FedCaSe: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/socc24-fedcase.pdf">pdf</a>&nbsp;&nbsp;
-		  <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="bx:code-alt" data-inline="true"></span> <a target="_blank" href="https://github.com/rkhan055/FedCaSe">project</a>&nbsp;&nbsp;
-          </li>
-  		  <li>TiFL <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="/pdfs/hpdc20-tifl.pdf">pdf</a></li>
         </ul>
     </div>
   </div>

@@ -15,6 +15,54 @@ quote = book chapter
 
 ## 2025
 
+???+ tip "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zirui Wang, Tingfeng Lan, Zhaoyuan Su, Juncheng Yang,  and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.06252) 
+
+    === "Abstract"
+
+
+
+???+ tip "NotebookOS: A Notebook Operating System for Interactive Training with On-Demand GPUs"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Benjamin Carver, Jingyuan Zhang, Haoliang Wang, Kanak Mahadik,  and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2503.20591) 
+
+    === "Abstract"
+
+
+
+???+ tip "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Minchen Yu, Rui Yang, Chaobo Jia, Zhaoyuan Su, Sheng Yao, Tingfeng Lan, Yuchen Yang,  Yue Cheng, Wei Wang, Ao Wang,  and Ruichuan Chen 
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2502.09922) 
+
+    === "Abstract"
+
+
+
+???+ tip "Ensuring Fair LLM Serving Amid Diverse Applications"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Kunal Jain, Haiying Shen, Ankur Mallick, Anjaly Parayil, Anoop Kulkarni, Steve Kofsky, Pankhuri Choudhary, Renèe St. Amant, Rujia Wang,  Yue Cheng, Ali R. Butt, Victor Rühle, Chetan Bansal,  and Saravan Rajmohan
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2502.09922) 
+
+    === "Abstract"
+
+
+
 ???+ tip "Concurrency-Informed Orchestration for Serverless Functions"
 
     === "Paper Info"
@@ -29,15 +77,19 @@ quote = book chapter
 
 
 
-???+ tip "Centralization in Decentralized Web: Challenges and Opportunities in IPFS’ Data Management"
+???+ tip "Centralization in Decentralized Web: Challenges and Opportunities in IPFS Data Management"
 
     === "Paper Info"
 
         * :material-account-supervisor-outline: Ruizhe Shi, Ruizhi Cheng, Yuqi Fu, Bo Han, Yue Cheng, Songqing Chen
 		* :material-map-marker: *The 2025 ACM Web Conference ([WWW'25](https://www2025.thewebconf.org/){:target="\_blank"}), 2025*
-	    * [:material-file-pdf-box: pdf](#){:target="\_blank"} 
+	    * [:material-file-pdf-box: pdf](pdfs/www25-ipfs-dedup.pdf){:target="\_blank"} 
 
     === "Abstract"
+
+		The InterPlanetary File System (IPFS) is a pioneering effort for Web 3.0, well-known for its decentralized infrastructure. However, some recent studies have shown that IPFS exhibits a high degree of centralization and has integrated centralized components for improved performance. While this change contradicts the core decentralized ethos of IPFS and introduces risks of hurting the data replication level and thus availability, it also opens some opportunities for better data management and cost savings through deduplication.
+
+		To explore these challenges and opportunities, we start by collecting an extensive dataset of IPFS internal traffic spanning the last three years with 20+ billion messages. By analyzing this long-term trace, we obtain a more complete and accurate view of how the status of centralization evolves over an extended period. In particular, our study reveals that (1) IPFS shows a low replication level, with only 2.71% of data files replicated more than 5 times. While increasing replication enhances lookup performance and data availability, it adversely affects downloading throughput due to the overhead involved in managing peer connections, (2) there is a clear growing trend in centralization within IPFS in the last 3 years, with just 5% of peers now hosting over 80% of the content, significantly decreasing from 21.38% 3 years ago, which is largely driven by the increase of cloud nodes, (3) the default deduplication strategy of IPFS using Fixed-Size Chunking (FSC) is largely inefficient, especially with the default 256KB chunk size, showing near-zero duplication being detected. Although Content-Defined Chunking (CDC) with smaller chunks could save ~1.8 petabytes (PB) storage space, it could impact user performance negatively. We thus design and evaluate a new metadata format that optimizes deduplication without compromising performance.
 
 
 ???+ tip "Staleness-Alleviated Distributed GNN Training via Online Dynamic-Embedding Prediction"
