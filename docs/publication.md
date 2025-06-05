@@ -26,6 +26,17 @@ quote = book chapter
     === "Abstract"
 
 
+???+ tip "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Dong Li, and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
+
+    === "Abstract"
+
+
 ???+ tip "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression"
 
     === "Paper Info"
