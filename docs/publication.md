@@ -15,6 +15,17 @@ quote = book chapter
 
 ## 2025
 
+???+ tip "Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zhaoyuan Su, Tingfeng Lan, Zirui Wang, Juncheng Yang, and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2506.02006) 
+
+    === "Abstract"
+
+
 ???+ tip "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression"
 
     === "Paper Info"

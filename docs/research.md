@@ -182,12 +182,21 @@ Interactive ML/AI workloads require instant access to elastic GPU
 resources. λScale accelerates serverless LLM deployments and
 inference using RDMA and dynamic pipeline parallelism. NotebookOS
 implements on-demand GPUs for Jupyter Notebook-based interactive
-training workloads. 
+training workloads. ZenFlow accelerates LLM fine-tuning by
+prioritizing and decoupling parameter updates across fast GPU and
+slow CPU, minimizing GPU stalls while preserving accuracy. MorphServe
+enables flexible and elastic GPU memory scaling for bursty LLM
+inference workloads via dynamic model layer quantization and KVC
+resizing.  
         </p>
 		<ul>
   		  <li>λScale: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2502.09922">arXiv</a>&nbsp;&nbsp;
           </li>
   		  <li>NotebookOS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2503.20591">arXiv</a>&nbsp;&nbsp;
+          </li>
+  		  <li>ZenFlow: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.12242">arXiv</a>&nbsp;&nbsp;
+          </li>
+  		  <li>MorphServe: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2506.02006">arXiv</a>&nbsp;&nbsp;
           </li>
         </ul>
     </div>
