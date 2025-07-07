@@ -290,6 +290,19 @@ hide:
 <div class="responsive-grid">
   <div class="card">
     <div class="logo">
+	  <img src="../images/ChenyeWang.jpg" alt="Headshot of Chenye Wang.">
+	</div>
+	  <div class="card-content">
+       	<h3>Chenye Wang</h3>
+       	  <ul>
+  			<li><b>Undergraduate Visiting Scholar (University of Science and Technology of China)</b></li>
+  			<li><b>Project:</b> LLM inference scheduling</li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
 	  <img src="../images/JunhoLee.jpg" alt="Headshot of Junho Lee.">
 	</div>
 	  <div class="card-content">
