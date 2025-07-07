@@ -13,7 +13,7 @@ quote = book chapter
 -->
 
 
-## 2025
+## Preprints
 
 ???+ tip "Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
 
@@ -83,6 +83,22 @@ quote = book chapter
 
     === "Abstract"
 
+
+
+## 2026
+
+???+ tip "NotebookOS: A Distributed Notebook Operating System for Interactive Training with On-Demand GPUs"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Benjamin Carver, Jingyuan Zhang, Haoliang Wang, Kanak Mahadik,  and Yue Cheng
+	    * :material-map-marker: *The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems ([ASPLOS'26](https://www.asplos-conference.org/asplos2026/){:target="\_blank"}), 2026*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2503.20591) 
+
+    === "Abstract"
+
+
+## 2025
 
 
 ???+ tip "Concurrency-Informed Orchestration for Serverless Functions"
