@@ -37,17 +37,6 @@ quote = book chapter
     === "Abstract"
 
 
-???+ tip "Towards Efficient LLM Storage Reduction via Tensor Deduplication and Delta Compression"
-
-    === "Paper Info"
-
-        * :material-account-supervisor-outline: Zirui Wang, Tingfeng Lan, Zhaoyuan Su, Juncheng Yang,  and Yue Cheng
-	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.06252) 
-
-    === "Abstract"
-
-
 
 ???+ tip "NotebookOS: A Notebook Operating System for Interactive Training with On-Demand GPUs"
 
@@ -87,6 +76,19 @@ quote = book chapter
 
 ## 2026
 
+
+???+ tip "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zirui Wang, Tingfeng Lan, Zhaoyuan Su, Juncheng Yang,  and Yue Cheng
+	    * :material-map-marker: *The 23rd USENIX Symposium on Networked Systems Design and Implementation ([NSDI'26](https://www.usenix.org/conference/nsdi26){:target="\_blank"}), 2026*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.06252) 
+
+    === "Abstract"
+
+
+
 ???+ tip "NotebookOS: A Distributed Notebook Operating System for Interactive Training with On-Demand GPUs"
 
     === "Paper Info"
@@ -99,6 +101,7 @@ quote = book chapter
 
 
 ## 2025
+
 
 
 ???+ tip "Concurrency-Informed Orchestration for Serverless Functions"
