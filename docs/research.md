@@ -159,9 +159,8 @@ scheduling while being transparent to any serverless platforms.
 
 ## Research Projects
 
-We are committed to ***open science***. We make our research and its
-dissemination, including publications, datasets, and software
-artifacts, accessible to support use and development both in academia
+We make our research and its artifacts, including software and
+datasets, accessible to support use and development both in academia
 and industry. 
 
 The research artifacts are publicly available at 
