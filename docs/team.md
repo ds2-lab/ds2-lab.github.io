@@ -178,20 +178,6 @@ hide:
 
   <div class="card">
     <div class="logo">
-	  <img src="../images/BenCarver.png" alt="Headshot of Ben Carver.">
-	</div>
-	  <div class="card-content">
-       	<h3>Ben Carver</h3>
-       	  <ul>
-  			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> Serverless computing, ML systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://scusemua.github.io/">scusemua.github.io/</a></li>
-		  </ul>
-	  </div>
-  </div>
-
-  <div class="card">
-    <div class="logo">
 	  <img src="../images/ZhaoyuanSu.jpg" alt="Headshot of Zhaoyuan Su.">
 	</div>
 	  <div class="card-content">
@@ -405,7 +391,7 @@ hide:
   			<li><b>Ph.D. (Fall 2018 - Summer 2023)</b></li>
   			<li><b>Research Interests:</b> Cloud storage; serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zhangjyr.github.io/">zhangjyr.github.io/</a></li>
-			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance
+			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance</li>
 		  </ul>
 	  </div>
   </div>
@@ -420,6 +406,21 @@ hide:
   			<li><b>Ph.D. (Fall 2018 - Summer 2024)</b></li>
   			<li><b>Research Interests:</b> Machine learning systems</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zheng-chai.github.io/">zheng-chai.github.io/</a></li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/BenCarver.png" alt="Headshot of Ben Carver.">
+	</div>
+	  <div class="card-content">
+       	<h3>Ben Carver</h3>
+       	  <ul>
+  			<li><b>Ph.D. (Fall 2021 - Summer 2025)</b></li>
+  			<li><b>Research Interests:</b> Serverless computing, ML systems</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://scusemua.github.io/">scusemua.github.io/</a></li>
+			<li><b>First employment:</b> Research scientist, AI Networking team @ Meta</li>
 		  </ul>
 	  </div>
   </div>
