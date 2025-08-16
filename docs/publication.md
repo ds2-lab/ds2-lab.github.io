@@ -103,6 +103,17 @@ quote = book chapter
 ## 2025
 
 
+???+ tip "The Decentralization Dilemma: Performance Trade-Offs in IPFS and Breakpoints"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Ruizhe Shi, Yuqi Fu, Ruizhi Cheng, Bo Han, Yue Cheng, Songqing Chen
+		* :material-map-marker: *The ACM Internet Measurement Conference 2025 ([IMC'25](https://conferences.sigcomm.org/imc/2025/){:target="\_blank"}), 2025*
+	    * [:material-file-pdf-box: pdf](#) 
+
+    === "Abstract"
+
+
 
 ???+ tip "Concurrency-Informed Orchestration for Serverless Functions"
 
