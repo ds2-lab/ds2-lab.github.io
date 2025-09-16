@@ -190,15 +190,13 @@ resizing.
         </p-->
         <p>
 Interactive ML workloads need instant access to elastic GPU
-resources. λScale and MorphServe enable scalable and fast
-horizontal scaling and vertical scaling for bursty LLM inference
+resources. MorphServe enables scalable and fast
+vertical scaling for bursty LLM inference
 workloads. ZenFlow speeds up LLM fine-tuning by decoupling GPU-CPU
 updates to reduce stalls. NotebookOS enables on-demand GPUs for
 Jupyter-based interactive training.
         </p>
 		<ul>
-  		  <li>λScale: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2502.09922">arXiv</a>&nbsp;&nbsp;
-          </li>
   		  <li>NotebookOS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2503.20591">arXiv</a>&nbsp;&nbsp;
           </li>
   		  <li>ZenFlow: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.12242">arXiv</a>&nbsp;&nbsp;

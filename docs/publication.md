@@ -38,25 +38,13 @@ quote = book chapter
 
 
 
-???+ tip "NotebookOS: A Notebook Operating System for Interactive Training with On-Demand GPUs"
+???+ tip "NotebookOS: A Replicated Notebook Platform for Interactive Training with On-Demand GPUs"
 
     === "Paper Info"
 
         * :material-account-supervisor-outline: Benjamin Carver, Jingyuan Zhang, Haoliang Wang, Kanak Mahadik,  and Yue Cheng
 	    * :material-map-marker: *preprint*
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2503.20591) 
-
-    === "Abstract"
-
-
-
-???+ tip "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference"
-
-    === "Paper Info"
-
-        * :material-account-supervisor-outline: Minchen Yu, Rui Yang, Chaobo Jia, Zhaoyuan Su, Sheng Yao, Tingfeng Lan, Yuchen Yang,  Yue Cheng, Wei Wang, Ao Wang,  and Ruichuan Chen 
-	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2502.09922) 
 
     === "Abstract"
 
@@ -89,7 +77,7 @@ quote = book chapter
 
 
 
-???+ tip "NotebookOS: A Distributed Notebook Operating System for Interactive Training with On-Demand GPUs"
+???+ tip "NotebookOS: A Replicated Notebook Platform for Interactive Training with On-Demand GPUs"
 
     === "Paper Info"
 
