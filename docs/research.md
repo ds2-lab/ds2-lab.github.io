@@ -540,6 +540,20 @@ and [IBM Cloud](https://www.ibm.com/cloud){:target="\_blank"}.
   </div>
 </div>
 
+<div class="card">
+  <div class="logo">
+    <img src="../images/Logo_CCI.png" alt="CCI Logo">
+  </div>
+  <div class="card-content">
+  <h4>FORTAI: AI-Enabled Zero-Trust Security Framework for Agentic AI Serving Infrastructures 🆕</h4>
+    <ul>
+    <li><b>Award Info: </b> <a target="_blank" href="https://cyberinitiative.org/proposals/2025-calls/critical-infrastructure-cybersecurity.html">CCI Critical Infrastructure Cybersecurity Program</a></li>
+    <li><b>PIs: </b> Yue Cheng, Ali Anwar (GMU)</li>
+    <li><b>Funding Amount: </b> $100,000</li>
+    </ul>
+  </div>
+</div>
+
 
 </div>
 
