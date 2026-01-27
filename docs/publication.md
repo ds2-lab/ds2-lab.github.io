@@ -15,16 +15,6 @@ quote = book chapter
 
 ## Preprints
 
-???+ tip "Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
-
-    === "Paper Info"
-
-        * :material-account-supervisor-outline: Zhaoyuan Su, Tingfeng Lan, Zirui Wang, Juncheng Yang, and Yue Cheng
-	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2506.02006) 
-
-    === "Abstract"
-
 
 ???+ tip "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates"
 
@@ -56,13 +46,35 @@ quote = book chapter
 
         * :material-account-supervisor-outline: Redwan Ibne Seraj Khan, Kunal Jain, Haiying Shen, Ankur Mallick, Anjaly Parayil, Anoop Kulkarni, Steve Kofsky, Pankhuri Choudhary, Renèe St. Amant, Rujia Wang,  Yue Cheng, Ali R. Butt, Victor Rühle, Chetan Bansal,  and Saravan Rajmohan
 	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2502.09922) 
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2411.15997) 
 
     === "Abstract"
 
 
 
 ## 2026
+
+
+???+ tip "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zhaoyuan Su, Zeyu Zhang, Tingfeng Lan, Zirui Wang, Haiying Shen, Juncheng Yang, and Yue Cheng
+	    * :material-map-marker: *Ninth Annual Conference on Machine Learning and Systems ([MLSys'26](https://mlsys.org/Conferences/2026){:target="_blank"}), 2026*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2506.02006) 
+
+    === "Abstract"
+
+
+???+ tip "λScale: Enabling Fast Scaling for Serverless Large Language Model Inference"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Minchen Yu, Rui Yang, Chaobo Jia, Zhaoyuan Su, Sheng Yao, Tingfeng Lan, Yuchen Yang,  Yue Cheng, Wei Wang, Ao Wang,  and Ruichuan Chen
+	    * :material-map-marker: *Ninth Annual Conference on Machine Learning and Systems ([MLSys'26](https://mlsys.org/Conferences/2026){:target="_blank"}), 2026*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2502.09922) 
+
+    === "Abstract"
 
 
 ???+ tip "ZipLLM: Efficient LLM Storage via Model-Aware Synergistic Data Deduplication and Compression"
