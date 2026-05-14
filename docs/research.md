@@ -126,14 +126,14 @@ hide:
 ## Research Mission
 
 The main research approach that we have taken is to gain deep
-understanding of the target systems and applications’ needs and to
+understanding of domain applications’ needs and to
 rethink systems’ core abstractions based on the understanding; we
 iterate between these two activities. We have
-been motivated by real problems experienced by developers and
-operators in practice. With these first-hand experiences, we perform
-comprehensive measurements to pinpoint system bottlenecks,
-characterize application behaviors and their needs, and understand
-practitioners’ pain points.
+been motivated by real problems experienced by domain users,
+developers, and operators in practice. With these first-hand
+experiences, we perform comprehensive measurements to pinpoint system
+bottlenecks, characterize application behaviors and their needs, and
+understand practitioners’ pain points.
 
 A systems solution often requires designing a new abstraction or
 adapting an existing abstraction in a novel way (e.g., in a new
@@ -141,18 +141,19 @@ scenario, under new settings or assumptions). We take different routes
 when designing new systems solutions. On the one hand is *the freedom
 of doing blue sky research*, where we openly question the fundamentals
 underlying distributed systems in face of rapidly-emerging needs and
-challenges. For example, we rethink the design of modern cloud storage
-systems and build [the first, cost-effective cloud caching system that
-exploits serverless functions as a novel storage medium](pdfs/fast20-infinicache.pdf){target="\_blank"}. 
+challenges. For example, we rethink the design of modern cloud storage 
+systems and build [the first, tensor-centric AI storage system that
+exploits tensor-level relationships to reduce storage cost and achieve
+sustainability](https://arxiv.org/abs/2604.17104){target="\_blank"}.
 On the other hand, *we seek practical and easily-deployable solutions
 for otherwise sophisticated systems problems*. Distributed systems
 often involve complex cross-component interactions in order to
 support cross-cutting tasks such as scheduling. This leads us to
 gravitate towards simple and general solutions that solve not a
 specific problem, but which satisfy a general set of applications.
-For instance, we design [a new function scheduler](pdfs/sc22-sfs-ae.pdf){target="\_blank"}, which
-bridges the divide between user-space scheduling and kernel
-scheduling while being transparent to any serverless platforms.
+For instance, we design [a new function orchestrator](pdfs/asplos25-cidre.pdf){target="\_blank"}, 
+which reduces production FaaS cold start cost and is deployed in
+production cloud platforms. 
 
 
 ---
@@ -189,12 +190,12 @@ inference workloads via dynamic model layer quantization and KVC
 resizing.  
         </p-->
         <p>
-Interactive ML workloads need instant access to elastic GPU
+Interactive AI workloads need instant access to elastic GPU
 resources. MorphServe enables scalable and fast
 vertical scaling for bursty LLM inference
 workloads. ZenFlow speeds up LLM fine-tuning by decoupling GPU-CPU
-updates to reduce stalls. NotebookOS enables on-demand GPUs for
-Jupyter-based interactive training.
+updates to reduce stalls. NotebookOS enables sustainable GPU
+allocation for Jupyter-based interactive training.
         </p>
 		<ul>
   		  <li>NotebookOS: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2503.20591">arXiv</a>&nbsp;&nbsp;
@@ -214,13 +215,13 @@ Jupyter-based interactive training.
     <div class="card-content">
 	  <h5>Storage Systems for AI</h5>
 		<p>
-This line of research rethinks storage system designs to sustain the
-exponential AI data explosion. zLLM and BitX are new lossless
-compressing algorithms that reduce massive LLM storage footprint by
-50%. ELF and ELVES near-losslessly compress ML models to achieve
-effective model storage reduction. SHADE and FedCaSe intelligently
-cache most important training samples without losing training
-quality. 
+This line of research rethinks storage system designs to
+<strong>sustain</strong> the exponential AI data explosion. ZipLLM,
+BitX, and TStore are new lossless compressing algorithms that reduce
+massive LLM storage footprint by up to 71%. ELF and ELVES
+near-losslessly compress ML models to achieve effective model storage
+reduction. SHADE and FedCaSe intelligently cache most important
+training samples without losing training quality. 
         </p>
 		<ul>
   		  <li>zLLM: <span class="iconify" data-align="bottom" data-width="13" data-height="13" data-icon="akar-icons:paper" data-inline="true"></span> <a target="_blank" href="https://arxiv.org/abs/2505.06252">arXiv</a>&nbsp;&nbsp;
@@ -356,6 +357,8 @@ distributed GNN training methods that are scalable and efficient.
 ---
   
 ## Research Sponsors
+
+Most of our funded research projects are <strong>interdisciplinary</strong>.
 
 We are grateful for the generous support from our sponsors, 
 including
