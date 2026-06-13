@@ -394,7 +394,7 @@ hide:
   			<li><b>Ph.D. (Fall 2020 - Spring 2026)</b></li>
   			<li><b>Research Interests:</b> ML for systems, systems for ML</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://fishercht1995.github.io/">fishercht1995.github.io</a></li>
-			<li><b>First employment:</b> TBD</li>
+			<li><b>First employment:</b> Faculty position (TBD)</li>
 		  </ul>
 	  </div>
   </div>
