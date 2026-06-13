@@ -162,47 +162,6 @@ hide:
 ## Ph.D. Students
 
 <div class="responsive-grid">
-  <div class="card">
-    <div class="logo">
-	  <img src="../images/YuqiFu.jpg" alt="Headshot of Yuqi Fu.">
-	</div>
-	  <div class="card-content">
-       	<h3>Yuqi Fu</h3>
-       	  <ul>
-  			<li><b>6th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> ML for systems, systems for ML</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://fishercht1995.github.io/">fishercht1995.github.io</a></li>
-		  </ul>
-	  </div>
-  </div>
-
-  <div class="card">
-    <div class="logo">
-	  <img src="../images/ZhaoyuanSu.jpg" alt="Headshot of Zhaoyuan Su.">
-	</div>
-	  <div class="card-content">
-       	<h3>Zhaoyuan (Alex) Su</h3>
-       	  <ul>
-  			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> AI systems, data reduction</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://alexsssu.github.io/">alexsssu.github.io/</a></li>
-		  </ul>
-	  </div>
-  </div>
-
-  <div class="card">
-    <div class="logo">
-	  <img src="../images/RuiYang.jpeg" alt="Headshot of Rui Yang.">
-	</div>
-	  <div class="card-content">
-       	<h3>Rui Yang</h3>
-       	  <ul>
-  			<li><b>5th Year Ph.D. Student in Computer Science</b></li>
-  			<li><b>Research Interests:</b> ML systems, storage systems</li>
-  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://ruiyang00.github.io/">ruiyang00.github.io/</a></li>
-		  </ul>
-	  </div>
-  </div>
 
   <div class="card">
     <div class="logo">
@@ -391,7 +350,7 @@ hide:
   			<li><b>Ph.D. (Fall 2018 - Summer 2023)</b></li>
   			<li><b>Research Interests:</b> Cloud storage; serverless computing</li>
   			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://zhangjyr.github.io/">zhangjyr.github.io/</a></li>
-			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance</li>
+			<li><b>First employment:</b> Cloud native infrastructure team @ ByteDance (San Jose, CA)</li>
 		  </ul>
 	  </div>
   </div>
@@ -425,5 +384,49 @@ hide:
 	  </div>
   </div>
 
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/YuqiFu.jpg" alt="Headshot of Yuqi Fu.">
+	</div>
+	  <div class="card-content">
+       	<h3>Yuqi Fu</h3>
+       	  <ul>
+  			<li><b>Ph.D. (Fall 2020 - Spring 2026)</b></li>
+  			<li><b>Research Interests:</b> ML for systems, systems for ML</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://fishercht1995.github.io/">fishercht1995.github.io</a></li>
+			<li><b>First employment:</b> TBD</li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/ZhaoyuanSu.jpg" alt="Headshot of Zhaoyuan Su.">
+	</div>
+	  <div class="card-content">
+       	<h3>Zhaoyuan (Alex) Su</h3>
+       	  <ul>
+  			<li><b>Ph.D. (Fall 2021 - Spring 2026)</b></li>
+  			<li><b>Research Interests:</b> AI systems, data reduction</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://alexsssu.github.io/">alexsssu.github.io/</a></li>
+			<li><b>First employment:</b> Research Scientist, Snowflake AI Research</li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
+	  <img src="../images/RuiYang.jpeg" alt="Headshot of Rui Yang.">
+	</div>
+	  <div class="card-content">
+       	<h3>Rui Yang</h3>
+       	  <ul>
+  			<li><b>Ph.D. (Fall 2021 - Spring 2026)</b></li>
+  			<li><b>Research Interests:</b> ML systems, storage systems</li>
+  			<li><span class="iconify" data-align="bottom" data-width="11" data-height="11" data-icon="el:home-alt" data-inline="false"></span> <a target="_blank" href="https://ruiyang00.github.io/">ruiyang00.github.io/</a></li>
+			<li><b>First employment:</b> Software engineer, ByteDance Cloud Native Infrastructure (San Jose, CA)</li>
+		  </ul>
+	  </div>
+  </div>
 </div>
 
