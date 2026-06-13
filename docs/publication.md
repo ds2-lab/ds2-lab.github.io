@@ -16,28 +16,38 @@ quote = book chapter
 ## Preprints
 
 
-???+ tip "ZenFlow: Enabling Stall-Free Offloading Training via Asynchronous Updates"
+
+???+ tip "LatentBox: Storing AI-Generated Images at Scale via a Latent-First Design"
 
     === "Paper Info"
 
-        * :material-account-supervisor-outline: Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Dong Li, and Yue Cheng
+        * :material-account-supervisor-outline: Zirui Wang, Yunjia Zheng, Tingfeng Lan, Zhaoyuan Su, Haoran Ni, Juncheng Yang,  and Yue Cheng
 	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.19385v2) 
 
     === "Abstract"
 
 
-
-???+ tip "NotebookOS: A Replicated Notebook Platform for Interactive Training with On-Demand GPUs"
+???+ tip "MoE-Prefill: Zero Redundancy Overheads in MoE Prefill Serving"
 
     === "Paper Info"
 
-        * :material-account-supervisor-outline: Benjamin Carver, Jingyuan Zhang, Haoliang Wang, Kanak Mahadik,  and Yue Cheng
+        * :material-account-supervisor-outline: Zhaoyuan Su, Olatunji Ruwase, Karthik Ganesan, Aurick Qiao, Samyam Rajbhandari, Juncheng Yang,  Yue Cheng,  and Yuxiong He
 	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2503.20591) 
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.02960) 
 
     === "Abstract"
 
+
+???+ tip "TStore: Rethinking AI Model Hub with Tensor-Centric Compression"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Tingfeng Lan, Zirui Wang, Yunjia Zheng, Zhaoyuan Su, Juncheng Yang,  and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2604.17104) 
+
+    === "Abstract"
 
 
 ???+ tip "Ensuring Fair LLM Serving Amid Diverse Applications"
@@ -53,6 +63,17 @@ quote = book chapter
 
 
 ## 2026
+
+
+???+ tip "ZenFlow: Enabling Stall-Free Offloading for LLM Training via Asynchronous Updates"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Dong Li, and Yue Cheng
+	    * :material-map-marker: *ACM SIGMOD/PODS International Conference on Management of Data ([SIGMOD'27](https://2027.sigmod.org/index.shtml){:target="_blank"}), 2027*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
+
+    === "Abstract"
 
 
 ???+ tip "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
