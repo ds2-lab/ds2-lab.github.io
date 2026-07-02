@@ -65,6 +65,7 @@ quote = book chapter
 ## 2026
 
 
+
 ???+ tip "ZenFlow: Enabling Stall-Free Offloading for LLM Training via Asynchronous Updates"
 
     === "Paper Info"
@@ -74,6 +75,17 @@ quote = book chapter
 	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
 
     === "Abstract"
+
+
+???+ tip "BatchFlow: Shared Batch Reuse and Adaptive Scheduling for Multi-Job Training"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Patrick Watters, Xiaolong Ma, Syed Zawad, Jingyuan Zhang,  Yue Cheng, Lei Yang,  and Feng Yan
+	    * :material-map-marker: *International Conference for High Performance Computing, Networking ([SC'26](https://sc26.supercomputing.org){:target="_blank"}), 2026*
+
+    === "Abstract"
+
 
 
 ???+ tip "MorphServe: Efficient and Workload-Aware LLM Serving via Runtime Layer Swapping and KV Cache Resizing"
