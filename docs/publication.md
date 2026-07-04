@@ -65,6 +65,17 @@ quote = book chapter
 ## 2026
 
 
+???+ tip "TensorDex: A Compact, Tensor-Centric Storage System for Modern AI Models"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Tingfeng Lan, Zirui Wang, Yunjia Zheng, Zhaoyuan Su, Juncheng Yang, and Yue Cheng
+	    * :material-map-marker: *The 32nd ACM Symposium on Operating Systems Principles ([SOSP'26](https://sigops.org/s/conferences/sosp/2026/){:target="\_blank"}), 2026*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2604.17104) 
+
+    === "Abstract"
+
+
 
 ???+ tip "ZenFlow: Enabling Stall-Free Offloading for LLM Training via Asynchronous Updates"
 
