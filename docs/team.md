@@ -235,6 +235,19 @@ hide:
 <div class="responsive-grid">
   <div class="card">
     <div class="logo">
+	  <img src="../images/YajingGao.jpg" alt="Headshot of Yajing Gao.">
+	</div>
+	  <div class="card-content">
+       	<h3>Yajing Gao</h3>
+       	  <ul>
+  			<li><b>Undergraduate Visiting Scholar (Tsinghua University)</b></li>
+  			<li><b>Project:</b> LLM training checkpoint compression</li>
+		  </ul>
+	  </div>
+  </div>
+
+  <div class="card">
+    <div class="logo">
 	  <img src="../images/ChenyeWang.jpg" alt="Headshot of Chenye Wang.">
 	</div>
 	  <div class="card-content">
