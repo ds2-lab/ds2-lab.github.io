@@ -314,7 +314,7 @@ hide:
        	<h3>Emi Zhang</h3>
        	  <ul>
   			<li><b>Sophomore at Thomas Jefferson High School for Science and Technology</b></li>
-  			<li><b>Position after DataSys Lab:</b> TBD</li>
+  			<li><b>Position after DS2:</b> CS @ Georgia Tech</li>
 		  </ul>
 	  </div>
   </div>
@@ -327,7 +327,7 @@ hide:
        	<h3>Jawand Singh</h3>
        	  <ul>
   			<li><b>Sophomore at Thomas Jefferson High School for Science and Technology</b></li>
-  			<li><b>Position after DataSys Lab:</b> TBD</li>
+  			<li><b>Position after DS2:</b> CS @ William & Mary</li>
 		  </ul>
 	  </div>
   </div>
