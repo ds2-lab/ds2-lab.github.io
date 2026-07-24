@@ -17,27 +17,6 @@ quote = book chapter
 
 
 
-???+ tip "LatentBox: Storing AI-Generated Images at Scale via a Latent-First Design"
-
-    === "Paper Info"
-
-        * :material-account-supervisor-outline: Zirui Wang, Yunjia Zheng, Tingfeng Lan, Zhaoyuan Su, Haoran Ni, Juncheng Yang,  and Yue Cheng
-	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.19385v2) 
-
-    === "Abstract"
-
-
-???+ tip "MoE-Prefill: Zero Redundancy Overheads in MoE Prefill Serving"
-
-    === "Paper Info"
-
-        * :material-account-supervisor-outline: Zhaoyuan Su, Olatunji Ruwase, Karthik Ganesan, Aurick Qiao, Samyam Rajbhandari, Juncheng Yang,  Yue Cheng,  and Yuxiong He
-	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.02960) 
-
-    === "Abstract"
-
 
 ???+ tip "TStore: Rethinking AI Model Hub with Tensor-Centric Compression"
 
@@ -63,6 +42,28 @@ quote = book chapter
 
 
 ## 2026
+
+
+???+ tip "LatentStore: An Efficient Latent-First Storage System for AI-Generated Images"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zirui Wang, Yunjia Zheng, Tingfeng Lan, Zhaoyuan Su, Haoran Ni, Juncheng Yang,  and Yue Cheng
+	    * :material-map-marker: *24th USENIX Symposium on Networked Systems Design and Implementation ([NSDI'27](https://www.usenix.org/conference/nsdi27){:target="\_blank"}), 2027*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.19385v2) 
+
+    === "Abstract"
+
+
+???+ tip "Zero-Prefill: Zero Redundancy Overheads in MoE Prefill Serving"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Zhaoyuan Su, Olatunji Ruwase, Karthik Ganesan, Aurick Qiao, Samyam Rajbhandari, Juncheng Yang,  Yue Cheng,  and Yuxiong He
+	    * :material-map-marker: *24th USENIX Symposium on Networked Systems Design and Implementation ([NSDI'27](https://www.usenix.org/conference/nsdi27){:target="\_blank"}), 2027*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.02960) 
+
+    === "Abstract"
 
 
 ???+ tip "TensorDex: A Compact, Tensor-Centric Storage System for Modern AI Models"
