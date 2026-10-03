@@ -41,7 +41,7 @@ quote = book chapter
 
 
 
-## 2026
+## 2027
 
 
 ???+ tip "LatentStore: An Efficient Latent-First Storage System for AI-Generated Images"
@@ -66,6 +66,19 @@ quote = book chapter
     === "Abstract"
 
 
+???+ tip "ZenFlow: Enabling Stall-Free Offloading for LLM Training via Asynchronous Updates"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Dong Li, and Yue Cheng
+	    * :material-map-marker: *ACM SIGMOD/PODS International Conference on Management of Data ([SIGMOD'27](https://2027.sigmod.org/index.shtml){:target="_blank"}), 2027*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
+
+    === "Abstract"
+
+
+## 2026
+
 ???+ tip "TensorDex: A Compact, Tensor-Centric Storage System for Modern AI Models"
 
     === "Paper Info"
@@ -77,14 +90,12 @@ quote = book chapter
     === "Abstract"
 
 
-
-???+ tip "ZenFlow: Enabling Stall-Free Offloading for LLM Training via Asynchronous Updates"
+???+ tip "Allpass: Adaptive, Cost-Efficient, Serverless Scheduling for LLM Fine-Tuning across Heterogeneous GPU Clouds"
 
     === "Paper Info"
 
-        * :material-account-supervisor-outline: Tingfeng Lan, Yusen Wu, Bin Ma, Zhaoyuan Su, Rui Yang, Tekin Bicer, Dong Li, and Yue Cheng
-	    * :material-map-marker: *ACM SIGMOD/PODS International Conference on Management of Data ([SIGMOD'27](https://2027.sigmod.org/index.shtml){:target="_blank"}), 2027*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2505.12242) 
+        * :material-account-supervisor-outline: Yuqi Fu, Ruizhe Shi, Tingfeng Lan, Zhaoyuan Su, Rui Yang, Haoliang Wang, Songqing Chen, and Yue Cheng
+	    * :material-map-marker: *ACM Symposium on Cloud Computing ([SoCC'26](https://acmsocc.org/2026/){:target="\_blank"}), 2026*
 
     === "Abstract"
 
