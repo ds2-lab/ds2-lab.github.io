@@ -18,13 +18,35 @@ quote = book chapter
 
 
 
-???+ tip "TStore: Rethinking AI Model Hub with Tensor-Centric Compression"
+???+ tip "LooseLeaf: Enabling Serverless GPUs for Computational Notebooks"
 
     === "Paper Info"
 
-        * :material-account-supervisor-outline: Tingfeng Lan, Zirui Wang, Yunjia Zheng, Zhaoyuan Su, Juncheng Yang,  and Yue Cheng
+        * :material-account-supervisor-outline: Yusen Wu, Tingfeng Lan, Benjamin Carver, Haoliang Wang, Geoffrey Fox,  and Yue Cheng
 	    * :material-map-marker: *preprint*
-	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2604.17104) 
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2610.33275) 
+
+    === "Abstract"
+
+
+???+ tip "To Store or To Regenerate? A Cost Model for AI-Generated Content at Scale"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Yunjia Zheng, Zirui Wang, Haoran Ni, Tingfeng Lan, Zhaoyuan Su, Yue Cheng, and Juncheng Yang
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2609.30448) 
+
+    === "Abstract"
+
+
+???+ tip "C2CServe: Leveraging NVLink-C2C for Elastic Serverless LLM Serving on MIG"
+
+    === "Paper Info"
+
+        * :material-account-supervisor-outline: Shutian Luo, Ali Zafar Sadiq, Rui Yang, Mingye Zhang, Haiying Shen, Wei Wang, and Yue Cheng
+	    * :material-map-marker: *preprint*
+	    * [:material-file-pdf-box: arXiv](https://arxiv.org/abs/2605.19481) 
 
     === "Abstract"
 
