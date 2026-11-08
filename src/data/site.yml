@@ -19,27 +19,29 @@ welcome:
     to explore and build better systems software to sustain the
     requirements of next-generation data-intensive applications.
   body: >-
-    We are interested in addressing challenges in real-world distributed and storage
-    systems. Our research is driven by the complexities of modern data-intensive computer
-    systems, and the need for more efficient and flexible approaches to manage such
-    complexities. We aim for innovation in systems technologies that range from
-    large-scale distributed systems to cross-layer software-hardware co-design.
+    We are interested in addressing challenges in real-world AI
+    systems. Our research rethinks the abstractions underlying AI
+    storage, compute, and resource allocation, guided by deep workload
+    characterization . Our goal is to make AI infrastructure scalable, 
+    sustainable, and accessible to everyone who builds and uses AI.
   focus_intro: "Our current efforts are focused on:"
   focus:
-    - title: Storage Systems for AI
+    - title: Rethinking Storage Systems Abstractions for AI
       text: rethinking storage system designs to sustain the exponential AI data explosion.
-    - title: Serverless AI
-      text: enabling fundamentally accessible and affordable GPU resources for both training and inference.
-    - title: Serverless and FaaS
+    - title: Rethinking AI Compute and Resource Allocation
+      text: enabling elastic and affordable GPU resources for both training and inference.
+    - title: Advancing Serverless Computing Foundation
       text: >-
         improving serverless computing using an end-to-end approach that cuts across the
-        entire ecosystem stack, spanning applications, middleware, platforms, and
-        low-level operating systems.
+        entire system stack, spanning applications, middleware, platforms, and OS.
+        
   join: >-
-    **We are committed to training the next generation of data systems researchers and
-    developers.** We are seeking Ph.D. students who are passionate about solving practical,
-    challenging problems in modern datacenter applications and systems. We are also open
-    to working with Master's and undergraduate students.
+    **We are committed to training the next generation of AI and data systems 
+    researchers and developers.** 
+    Our lab has openings at all levels — PhD/MS/BS students, research
+    interns, and visiting students, with flexible start dates, to work on
+    exciting research on AI systems. Feel free to reach out via email.
+    Check our recent [publications](/#publications) for details.
 
 # Shown at the top of the Research page.
 mission:
