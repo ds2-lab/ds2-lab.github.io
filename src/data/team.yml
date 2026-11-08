@@ -1,0 +1,146 @@
+# Lab members. Images live in public/images/.
+# group: director | phd | masters | undergrad | highschool | alumni
+# Optional fields: url, image, role, interests, project, years, placement
+
+director:
+  name: Yue Cheng
+  title: Associate Professor of Data Science and Computer Science
+  image: /images/YueCheng_headshot_resized.png
+  image_position: 50% 25%   # crop anchor (x y); larger y moves the head up
+  bio: Yue Cheng is an Associate Professor of Data Science and Computer Science at the University of Virginia. His current research focuses on LLM systems, storage for AI, and serverless AI.
+  links:
+    homepage: https://tddg.github.io
+    scholar: https://scholar.google.com/citations?user=TMGwBH0AAAAJ&hl=en
+    github: https://github.com/tddg
+
+members:
+  - name: Zirui Wang
+    group: phd
+    role: 2nd-year Ph.D. student in Computer Science
+    interests: Storage systems, systems for AI
+    image: /images/ZiruiWang.png
+    url: https://jerryw35.github.io/
+
+  - name: Tingfeng Lan
+    group: phd
+    role: 2nd-year Ph.D. student in Computer Science
+    interests: AI systems
+    image: /images/TingfengLan.jpg
+    url: https://antlera.github.io/
+
+  - name: Yusen Wu
+    group: phd
+    role: 1st-year Ph.D. student in Computer Science
+    interests: AI systems
+    image: /images/YusenWu.jpg
+    url: https://joshwoo2003.github.io/
+
+  - name: Yajing Gao
+    group: undergrad
+    role: Undergraduate visiting scholar (Tsinghua University)
+    project: LLM training checkpoint compression
+    image: /images/YajingGao.jpg
+
+  - name: Chenye Wang
+    group: undergrad
+    role: Undergraduate visiting scholar (University of Science and Technology of China)
+    project: LLM inference scheduling
+    image: /images/ChenyeWang.jpg
+
+  - name: Junho Lee
+    group: undergrad
+    role: Undergraduate student in Computer Science @ UVA
+    project: LLM compression
+    image: /images/JunhoLee.jpg
+
+  - name: Huarui Liu
+    group: undergrad
+    role: Undergraduate student in Computer Science @ UVA
+    project: Model quantization
+    image: /images/HuaruiLiu.jpg
+
+  - name: Sherry Zhao
+    group: undergrad
+    role: Undergraduate student in Computer Science @ UVA
+    project: Model quantization
+    image: /images/SherryZhao.png
+
+  - name: Emi Zhang
+    group: highschool
+    role: Sophomore at Thomas Jefferson High School for Science and Technology
+    placement: CS @ Georgia Tech
+
+  - name: Jawand Singh
+    group: highschool
+    role: Sophomore at Thomas Jefferson High School for Science and Technology
+    placement: CS @ William & Mary
+
+  # Alumni, newest first
+  - name: Yuqi Fu
+    group: alumni
+    role: Ph.D.
+    years: Fall 2020 – Spring 2026
+    interests: ML for systems, systems for ML
+    placement: Faculty position (TBD)
+    image: /images/YuqiFu.jpg
+    url: https://fishercht1995.github.io/
+
+  - name: Zhaoyuan (Alex) Su
+    group: alumni
+    role: Ph.D.
+    years: Fall 2021 – Spring 2026
+    interests: AI systems, data reduction
+    placement: Research Scientist, Snowflake AI Research
+    image: /images/ZhaoyuanSu.jpg
+    url: https://alexsssu.github.io/
+
+  - name: Rui Yang
+    group: alumni
+    role: Ph.D.
+    years: Fall 2021 – Spring 2026
+    interests: ML systems, storage systems
+    placement: Software Engineer, ByteDance Cloud Native Infrastructure (Seattle, WA)
+    image: /images/RuiYang.jpeg
+    url: https://ruiyang00.github.io/
+
+  - name: Ben Carver
+    group: alumni
+    role: Ph.D.
+    years: Fall 2021 – Summer 2025
+    interests: Serverless computing, ML systems
+    placement: Research Scientist, AI Networking Infrastructure @ Meta
+    image: /images/BenCarver.png
+    url: https://scusemua.github.io/
+
+  - name: Rafael Alejandro Madrid Rivera
+    group: alumni
+    role: Master's
+    years: Spring 2020 – Fall 2024
+    interests: Storage systems
+    placement: Computer Systems Engineer, GMU
+    image: /images/RafaelMadrid.jpg
+
+  - name: Zheng Chai
+    group: alumni
+    role: Ph.D.
+    years: Fall 2018 – Summer 2024
+    interests: Machine learning systems
+    image: /images/ZhengChai.jpg
+    url: https://zheng-chai.github.io/
+
+  - name: Jingyuan Zhang
+    group: alumni
+    role: Ph.D.
+    years: Fall 2018 – Summer 2023
+    interests: Cloud storage, serverless computing
+    placement: Cloud Native Infrastructure @ ByteDance (San Jose, CA)
+    image: /images/JingyuanZhang.jpg
+    url: https://zhangjyr.github.io/
+
+  - name: Ao Wang
+    group: alumni
+    role: Ph.D. student (on leave, with Alibaba Cloud)
+    interests: Serverless computing
+    placement: Technical Expert @ Alibaba Cloud Function Computing 
+    image: /images/AoWang.jpeg
+    url: https://wangaoone.github.io/

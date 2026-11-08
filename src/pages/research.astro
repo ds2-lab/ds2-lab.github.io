@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import GrantItem from '@components/GrantItem.astro';
+import { getGrants, getSite, md } from '@lib/data';
+
+const site = getSite();
+
+const { sponsors, grants } = getGrants();
+const sponsorByName = new Map(sponsors.map(s => [s.name, s]));
+const bySponsor = (name: string) => grants.filter(g => g.sponsor === name).length;
+---
+
+<BaseLayout title="Funded Research" description="Funded research projects of the DS2 Lab and their sponsors.">
+  <h1 class="page-title">Research</h1>
+
+  <section class="mt-6">
+    <h2 class="text-2xl font-bold pb-2 border-b border-[var(--line)]">Research mission</h2>
+    <div class="rich mt-4 max-w-[75ch] space-y-4 leading-relaxed">
+      {site.mission.map(p => <p set:html={md(p)} />)}
+    </div>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="text-2xl font-bold pb-2 border-b border-[var(--line)]">Sponsors</h2>
+    <p class="mt-3 text-[var(--muted)] max-w-[75ch]">
+      Most of our funded research projects are interdisciplinary. We are grateful for the generous support from our sponsors.
+    </p>
+
+  <ul class="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3" aria-label="Sponsors">
+    {sponsors.map(s => (
+      <li>
+        <a href={s.url} target="_blank" rel="noopener noreferrer" class="surface h-full flex items-center gap-3 px-3 py-2.5 text-[var(--ink)] hover:no-underline hover:border-[var(--accent)]">
+          {s.logo
+            ? <img src={s.logo} alt="" class="w-9 h-9 object-contain rounded bg-white p-0.5 shrink-0" />
+            : <span class="w-9 h-9 shrink-0 rounded grid place-items-center text-xs font-semibold text-[var(--muted)] ring-1 ring-[var(--line)]">{s.name.split(' ').map(w => w[0]).join('').slice(0, 3)}</span>}
+          <span class="text-sm font-medium leading-tight">
+            {s.name}
+            {bySponsor(s.name) > 0 && <span class="block text-xs text-[var(--muted)] tnum">{bySponsor(s.name)} {bySponsor(s.name) === 1 ? 'project' : 'projects'}</span>}
+          </span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  </section>
+
+  <section class="mt-12">
+    <h2 class="text-2xl font-bold pb-2 border-b border-[var(--line)]">
+      Funded projects <span class="text-base font-medium text-[var(--muted)] tnum">({grants.length})</span>
+    </h2>
+    {grants.map(g => <GrantItem grant={g} sponsor={sponsorByName.get(g.sponsor)} />)}
+  </section>
+</BaseLayout>

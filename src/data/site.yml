@@ -1,0 +1,73 @@
+# Site-wide settings and homepage text. Text fields accept Markdown.
+
+title: AXIS Lab
+full_name: AI × Infrastructure & Systems Lab
+url: https://axis-lab.github.io
+description: >-
+  The AXIS Lab at the University of Virginia builds scalable, sustainable, and accessible AI systems and infrastructure for everyone who builds and uses AI.
+github: https://github.com/ds2-lab
+director_homepage: https://tddg.github.io
+google_analytics: G-2DBJK7K6E7
+
+welcome:
+  heading: Welcome to the AXIS Research Lab
+  intro: >-
+    We are a research team of [Data Science](https://datascience.virginia.edu/) and
+    [Computer Science](https://engineering.virginia.edu/departments/computer-science)
+    at the [University of Virginia](https://www.virginia.edu/).
+    We research **AI × Infrastructure & Systems** (AXIS). Our aim is
+    to explore and build better systems software to sustain the
+    requirements of next-generation data-intensive applications.
+  body: >-
+    We are interested in addressing challenges in real-world distributed and storage
+    systems. Our research is driven by the complexities of modern data-intensive computer
+    systems, and the need for more efficient and flexible approaches to manage such
+    complexities. We aim for innovation in systems technologies that range from
+    large-scale distributed systems to cross-layer software-hardware co-design.
+  focus_intro: "Our current efforts are focused on:"
+  focus:
+    - title: Storage Systems for AI
+      text: rethinking storage system designs to sustain the exponential AI data explosion.
+    - title: Serverless AI
+      text: enabling fundamentally accessible and affordable GPU resources for both training and inference.
+    - title: Serverless and FaaS
+      text: >-
+        improving serverless computing using an end-to-end approach that cuts across the
+        entire ecosystem stack, spanning applications, middleware, platforms, and
+        low-level operating systems.
+  join: >-
+    **We are committed to training the next generation of data systems researchers and
+    developers.** We are seeking Ph.D. students who are passionate about solving practical,
+    challenging problems in modern datacenter applications and systems. We are also open
+    to working with Master's and undergraduate students.
+
+# Shown at the top of the Research page.
+mission:
+  - >-
+    The main research approach that we have taken is to gain deep understanding of domain
+    applications' needs and to rethink systems' core abstractions based on that
+    understanding; we iterate between these two activities. We have been motivated by real
+    problems experienced by domain users, developers, and operators in practice. With these
+    first-hand experiences, we perform comprehensive measurements to pinpoint system
+    bottlenecks, characterize application behaviors and their needs, and understand
+    practitioners' pain points.
+  - >-
+    A systems solution often requires designing a new abstraction or adapting an existing
+    abstraction in a novel way (e.g., in a new scenario, under new settings or assumptions).
+    We take different routes when designing new systems solutions. On the one hand is *the
+    freedom of doing blue sky research*, where we openly question the fundamentals underlying
+    distributed systems in face of rapidly-emerging needs and challenges. For example, we
+    rethink the design of modern cloud storage systems and build [the first tensor-centric AI
+    storage system that exploits tensor-level relationships to reduce storage cost and achieve
+    sustainability](https://arxiv.org/abs/2604.17104). On the other hand, *we seek practical
+    and easily-deployable solutions for otherwise sophisticated systems problems*. Distributed
+    systems often involve complex cross-component interactions in order to support
+    cross-cutting tasks such as scheduling. This leads us to gravitate towards simple and
+    general solutions that solve not a specific problem, but which satisfy a general set of
+    applications. For instance, we design [a new function orchestrator](/pdfs/asplos25-cidre.pdf)
+    which reduces production FaaS cold start cost and is deployed in production cloud platforms.
+
+# Homepage preview sizes
+home:
+  news_months: 6
+  projects: 8

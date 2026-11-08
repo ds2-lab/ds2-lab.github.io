@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import MemberCard from '@components/MemberCard.astro';
+import { getTeam, teamGroups } from '@lib/data';
+
+const team = getTeam();
+const d = team.director;
+const sections = teamGroups
+  .map(g => ({ ...g, members: team.members.filter(m => m.group === g.key) }))
+  .filter(s => s.members.length > 0);
+
+const linkLabels: Record<string, string> = { homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub' };
+---
+
+<BaseLayout title="Team" description="Members and alumni of the DS2 Lab at the University of Virginia.">
+  <h1 class="page-title">Team</h1>
+  <p class="page-lede">The people of AXIS, current and past.</p>
+
+  <section class="mt-10">
+    <h2 class="text-2xl font-bold pb-2 mb-6 border-b border-[var(--line)]">Lab director</h2>
+    <div class="flex flex-col sm:flex-row gap-6 items-start">
+      <img src={d.image} alt={d.name} class="avatar w-32 h-32 rounded-lg" style={d.image_position ? `object-position: ${d.image_position}` : undefined} />
+      <div class="max-w-[65ch]">
+        <p class="font-[family-name:var(--font-display)] text-2xl font-bold">{d.name}</p>
+        <p class="text-[var(--muted)]">{d.title}</p>
+        <p class="mt-3 leading-relaxed">{d.bio}</p>
+        <p class="mt-3 flex flex-wrap gap-x-5 gap-y-1">
+          {Object.entries(d.links).map(([k, url]) => (
+            <a href={url} target="_blank" rel="noopener noreferrer" class="font-medium">{linkLabels[k] ?? k}</a>
+          ))}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {sections.map(s => (
+    <section id={s.key} class="mt-12">
+      <h2 class="text-2xl font-bold pb-2 mb-6 border-b border-[var(--line)]">
+        {s.label} <span class="text-base font-medium text-[var(--muted)] tnum">({s.members.length})</span>
+      </h2>
+      <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-7">
+        {s.members.map(m => <li><MemberCard member={m} detailed /></li>)}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>

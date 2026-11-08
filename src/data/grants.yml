@@ -1,0 +1,124 @@
+# Funded research projects, newest first.
+# `start` (year) controls ordering. `featured: true` grants appear on the homepage.
+# `amount` is displayed as written.
+
+sponsors:
+  - { name: National Science Foundation, url: "https://www.nsf.gov", logo: /images/Logo_NSF.png }
+  - { name: Samsung, url: "https://www.sait.samsung.co.kr/saithome/about/collabo_overview.do", logo: /images/Logo_Samsung.png }
+  - { name: Meta Research, url: "https://research.facebook.com/", logo: /images/Logo_Meta.png }
+  - { name: Adobe Research, url: "https://research.adobe.com/", logo: /images/Logo_Adobe.png }
+  - { name: Commonwealth Cyber Initiative, url: "https://cyberinitiative.org/", logo: /images/Logo_CCI.png }
+  - { name: 4-VA, url: "https://4-va.org/", logo: /images/Logo_4VA.png }
+  - { name: Amazon Web Services, url: "https://aws.amazon.com/" }
+  - { name: CloudBank, url: "https://www.cloudbank.org/" }
+  - { name: Google Cloud, url: "https://cloud.google.com/" }
+  - { name: IBM Cloud, url: "https://www.ibm.com/cloud" }
+
+grants:
+  - title: "FORTAI: AI-Enabled Zero-Trust Security Framework for Agentic AI Serving Infrastructures"
+    sponsor: Commonwealth Cyber Initiative
+    award: CCI Critical Infrastructure Cybersecurity Program
+    award_url: https://cyberinitiative.org/proposals/2025-calls/critical-infrastructure-cybersecurity.html
+    pis: Yue Cheng, Songqing Chen (GMU)
+    amount: "$100,000"
+    start: 2025
+    featured: true
+
+  - title: "Elements: A Sustainable, Resource-Efficient Cyberinfrastructure for Notebook Interactive ML Training Workloads"
+    sponsor: National Science Foundation
+    award: NSF OAC-2411009
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2411009&HistoricalAwards=false
+    pis: Yue Cheng, Geoffrey Fox
+    amount: "$600,000"
+    start: 2024
+    featured: true
+
+  - title: "REU Site: The Data Justice Academy"
+    sponsor: National Science Foundation
+    award: NSF SMA-2349503
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2349503&HistoricalAwards=false
+    pis: Claudia Scholz, Yue Cheng
+    amount: "$481,232"
+    start: 2024
+
+  - title: "Collaborative Research: OAC Core: Distributed Graph Learning Cyberinfrastructure for Large-scale Spatiotemporal Prediction"
+    sponsor: National Science Foundation
+    award: NSF OAC-2403313
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403313&HistoricalAwards=false
+    pis: Yue Cheng
+    amount: "$299,973"
+    start: 2024
+    featured: true
+
+  - title: "Highly Efficient Pre-Trained LLM Storage with Near-Storage Compression and CXL Memory Integration"
+    sponsor: Samsung
+    award: Samsung GRO 2023 Award
+    award_url: https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do
+    pis: Yue Cheng, Ali Anwar (UMN)
+    amount: "$250,000"
+    start: 2023
+    featured: true
+
+  - title: "Serverless and Scalable GNN Training with Disaggregated Compute and Storage"
+    sponsor: Meta Research
+    award: Meta Research Award (AI System Hardware/Software Codesign)
+    award_url: https://research.facebook.com/research-awards/2022-request-for-research-proposals-for-ai-system-hardware-software-codesign/
+    pis: Yue Cheng, Liang Zhao (Emory)
+    amount: "$50,000"
+    start: 2022
+    featured: true
+
+  - title: "ML Workload Acceleration"
+    sponsor: 4-VA
+    award: 4-VA Collaborative Grant
+    pis: Huaicheng Li (VT), Yue Cheng
+    amount: "$5,000"
+    start: 2022
+
+  - title: "FMSG: Cyber: Federated Deep Learning for Future Ubiquitous Distributed Additive Manufacturing"
+    sponsor: National Science Foundation
+    award: NSF CMMI-2134689
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134689&HistoricalAwards=false
+    pis: Jia Liu (Auburn), Nima Shamsaei (Auburn), Yue Cheng
+    amount: "$498,762"
+    start: 2021
+
+  - title: "CAREER: Harnessing Serverless Functions to Build Highly Elastic Cloud Storage Infrastructure"
+    sponsor: National Science Foundation
+    award: NSF CNS-2322860
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2322860&HistoricalAwards=false
+    pis: Yue Cheng
+    amount: "$572,897 + $16,000 REU"
+    start: 2021
+    featured: true
+
+  - title: "Serverless Storage Management for Large-scale Analytics Workloads"
+    sponsor: Adobe Research
+    award: Adobe Research Gift
+    pis: Yue Cheng
+    amount: "$95,000"
+    start: 2021
+
+  - title: "MRI: Acquisition of an Adaptive Computing Infrastructure to Support Compute- and Data-Intensive Multidisciplinary Research"
+    sponsor: National Science Foundation
+    award: NSF MRI-2018631
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2018631&HistoricalAwards=false
+    pis: Elise Miller-Hooks (GMU), Shobita Satyapal (GMU), Maria Emelianenko (GMU), Yue Cheng, Jayshree Sarma (GMU)
+    amount: "$750,000"
+    start: 2020
+
+  - title: "OAC Core: SMALL: DeepJIMU: Model-Parallelism Infrastructure for Large-scale Deep Learning by Gradient-Free Optimization"
+    sponsor: National Science Foundation
+    award: NSF OAC-2007976
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007976&HistoricalAwards=false
+    pis: Liang Zhao (Emory), Yue Cheng
+    amount: "$498,609"
+    start: 2020
+
+  - title: "SPX: Collaborative Research: Cross-stack Memory Optimizations for Boosting I/O Performance of Deep Learning HPC Applications"
+    sponsor: National Science Foundation
+    award: NSF CCF-2318628
+    award_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2318628&HistoricalAwards=false
+    pis: Yue Cheng
+    amount: "$320,603"
+    start: 2019

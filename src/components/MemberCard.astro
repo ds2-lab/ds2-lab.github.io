@@ -1,0 +1,23 @@
+---
+import type { Member } from '@lib/data';
+interface Props { member: Member; detailed?: boolean }
+const { member: m, detailed = false } = Astro.props;
+const initials = m.name.split(/\s+/).filter(w => /^[A-Z]/.test(w)).slice(0, 2).map(w => w[0]).join('');
+---
+
+<div class="flex gap-3.5 items-start min-w-0">
+  {m.image ? (
+    <img src={m.image} alt="" loading="lazy" class:list={['avatar rounded-full shrink-0', detailed ? 'w-20 h-20' : 'w-14 h-14']} />
+  ) : (
+    <div class:list={['avatar rounded-full shrink-0 grid place-items-center font-semibold text-[var(--muted)]', detailed ? 'w-20 h-20 text-xl' : 'w-14 h-14']} aria-hidden="true">{initials}</div>
+  )}
+  <div class="min-w-0">
+    <p class="font-semibold leading-snug">
+      {m.url ? <a href={m.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)] hover:text-[var(--accent)]">{m.name}</a> : m.name}
+    </p>
+    {m.role && <p class="text-sm text-[var(--muted)] leading-snug mt-0.5">{m.role}{m.years ? `, ${m.years}` : ''}</p>}
+    {detailed && m.interests && <p class="text-sm mt-1.5"><span class="text-[var(--muted)]">Research: </span>{m.interests}</p>}
+    {detailed && m.project && <p class="text-sm mt-1.5"><span class="text-[var(--muted)]">Project: </span>{m.project}</p>}
+    {m.placement && <p class="text-sm mt-1.5"><span class="text-[var(--muted)]">{m.group === 'alumni' ? 'First position: ' : 'Next: '}</span>{m.placement}</p>}
+  </div>
+</div>

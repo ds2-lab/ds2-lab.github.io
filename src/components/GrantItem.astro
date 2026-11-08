@@ -1,0 +1,23 @@
+---
+import type { Grant, Sponsor } from '@lib/data';
+interface Props { grant: Grant; sponsor?: Sponsor }
+const { grant: g, sponsor } = Astro.props;
+---
+
+<article class="grid grid-cols-[3rem_1fr] sm:grid-cols-[3.5rem_1fr_auto] gap-x-4 gap-y-1 py-4 border-b border-[var(--line)] last:border-b-0">
+  <div class="row-span-2 sm:row-span-1">
+    {sponsor?.logo ? (
+      <img src={sponsor.logo} alt={sponsor.name} loading="lazy" class="w-12 h-12 sm:w-14 sm:h-14 object-contain rounded-md bg-white p-1 ring-1 ring-[var(--line)]" />
+    ) : (
+      <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-md grid place-items-center text-xs font-semibold text-[var(--muted)] ring-1 ring-[var(--line)]">{g.sponsor.split(' ').map(w => w[0]).join('')}</div>
+    )}
+  </div>
+  <div class="min-w-0">
+    <h3 class="font-[family-name:var(--font-body)] font-semibold leading-snug">{g.title}</h3>
+    <p class="text-sm text-[var(--muted)] mt-1">
+      {g.award_url ? <a href={g.award_url} target="_blank" rel="noopener noreferrer">{g.award}</a> : g.award}
+    </p>
+    <p class="text-sm text-[var(--muted)] mt-0.5">PIs: {g.pis}</p>
+  </div>
+  <p class="col-start-2 sm:col-start-3 tnum text-sm font-semibold sm:text-right whitespace-nowrap">{g.amount}</p>
+</article>

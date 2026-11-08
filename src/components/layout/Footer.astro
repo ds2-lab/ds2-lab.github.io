@@ -1,0 +1,22 @@
+---
+import { getSite } from '@lib/data';
+const site = getSite();
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-[var(--line)]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between text-sm text-[var(--muted)]">
+    <div class="flex items-center gap-3">
+      <img src="/images/ds2lab_logo_blue_bg_white_fg_v2.png" alt="" width="28" height="28" class="w-7 h-7 rounded-md ring-1 ring-white/10" />
+      <div>
+        <p class="text-[var(--ink)] font-medium">{site.full_name}</p>
+        <p>University of Virginia, Charlottesville, VA</p>
+      </div>
+    </div>
+    <div class="flex flex-wrap gap-x-5 gap-y-1">
+      <a href={site.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href={site.director_homepage} target="_blank" rel="noopener noreferrer">Yue Cheng</a>
+      <span>&copy; {year} AXIS Lab</span>
+    </div>
+  </div>
+</footer>

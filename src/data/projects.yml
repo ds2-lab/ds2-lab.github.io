@@ -1,0 +1,159 @@
+# Open-source projects (one box per project).
+# featured: true  -> shown on the homepage (first 8, in the order listed here)
+# github_stars is a snapshot; update it by hand or leave it out to hide the badge.
+# The full /projects page sorts by stars, like the original Lumina template.
+
+projects:
+  - title: LooseLeaf
+    category: Serverless AI
+    description: A highly efficient Jupyter notebook platform offering free serverless GPUs to everyone at UVA.
+    url: https://looseleafcloud.org
+    tags: [Notebooks, GPUs]
+    featured: true
+    date: 2026-11-01
+
+  - title: TensorDex
+    category: Storage for AI
+    description: A compact, tensor-centric storage system that exploits fine-grained tensor-level relationships across model hubs for lossless model storage reduction.
+    github: https://github.com/ds2-lab/TensorDex
+    github_stars: 2
+    tags: [SOSP'26, Artifact Award]
+    featured: true
+    date: 2026-10-01
+
+  - title: ZipLLM / BitX
+    category: Storage for AI
+    description: A model-aware, lossless data reduction pipeline for large-scale LLM storage, with BitX, a 10+ GB/s compressor for safetensors files.
+    github: https://github.com/ds2-lab/ZipLLM
+    github_stars: 9
+    url: https://ds2-lab.github.io/ZipLLM/
+    tags: [NSDI'26]
+    featured: true
+    date: 2026-02-01
+
+  - title: NotebookOS
+    category: Serverless AI
+    description: A GPU-efficient Jupyter Notebooks-as-a-Service platform that allocates GPUs on demand for interactive deep learning training workloads.
+    github: https://github.com/ds2-lab/NotebookOS
+    github_stars: 8
+    tags: [ASPLOS'26]
+    featured: true
+    date: 2026-02-01
+
+  - title: ZenFlow
+    category: Serverless AI
+    description: A stall-free offloading engine for LLM training that decouples GPU and CPU parameter updates. Integrated into DeepSpeed.
+    github: https://github.com/deepspeedai/DeepSpeed/tree/master/deepspeed/runtime/zenflow
+    tags: [SIGMOD'27, DeepSpeed]
+    featured: true
+    date: 2025-08-01
+
+  - title: SHADE
+    category: Storage for AI
+    description: Enables fundamental cacheability for distributed deep learning training by caching the most important training samples without losing accuracy.
+    github: https://github.com/rkhan055/SHADE
+    github_stars: 36
+    tags: [FAST'23]
+    featured: true
+    date: 2023-02-01
+
+  - title: InfiniCache
+    category: Serverless Storage
+    description: A cost-effective in-memory object cache built entirely atop ephemeral serverless functions, using erasure coding to keep data available.
+    github: https://github.com/ds2-lab/infinicache
+    github_stars: 253
+    url: https://ds2-lab.github.io/infinicache/
+    tags: [FAST'20]
+    featured: true
+    date: 2020-02-01
+
+  - title: Wukong
+    category: Serverless Analytics
+    description: A scalable, locality-enhanced serverless parallel framework that decentralizes DAG scheduling across AWS Lambda executors.
+    github: https://github.com/ds2-lab/Wukong
+    github_stars: 78
+    url: https://ds2-lab.github.io/Wukong/
+    tags: [SoCC'20]
+    featured: true
+    date: 2020-10-01
+
+  - title: MorphServe
+    category: Serverless AI
+    description: A workload-aware LLM serving framework that scales GPU memory with runtime layer swapping and KV cache resizing for bursty traffic.
+    github: https://github.com/ds2-lab/MorphServe
+    github_stars: 1
+    tags: [MLSys'26]
+    date: 2026-04-01
+
+  - title: FaaSNet
+    category: FaaS Platforms
+    description: Scalable and fast provisioning of custom serverless container runtimes, deployed at Alibaba Cloud Function Compute.
+    github: https://github.com/ds2-lab/FaaSNet
+    github_stars: 58
+    url: https://www.usenix.org/conference/atc21/presentation/wang-ao
+    tags: [ATC'21]
+    date: 2021-07-01
+
+  - title: CIDRE
+    category: FaaS Platforms
+    description: A new function orchestrator that reduces cold-start cost in production FaaS platforms.
+    github: https://github.com/nzc5ve/cidre_asplos25
+    github_stars: 1
+    tags: [ASPLOS'25]
+    date: 2025-03-01
+
+  - title: InfiniStore
+    category: Serverless Storage
+    description: An elastic serverless cloud storage system that combines serverless functions and object storage for cost-effective, scalable storage.
+    github: https://github.com/ds2-lab/infinistore
+    github_stars: 24
+    tags: [VLDB'23]
+    date: 2023-08-01
+
+  - title: λFS
+    category: Serverless Storage
+    description: An elastic, high-performance metadata service for large-scale distributed file systems, built on serverless functions.
+    github: https://github.com/ds2-lab/LambdaFS
+    github_stars: 15
+    tags: [ASPLOS'23]
+    date: 2023-03-01
+
+  - title: ALPS
+    category: Serverless OS Scheduling
+    description: An adaptive-learning, priority OS scheduler that learns workload intelligence in user space to schedule serverless functions in the kernel.
+    github: https://github.com/ds2-lab/ALPS
+    github_stars: 15
+    tags: [ATC'24]
+    date: 2024-07-01
+
+  - title: SFS
+    category: Serverless OS Scheduling
+    description: A smart OS scheduler for short-job-dominant serverless function workloads that reduces turnaround time under contention.
+    github: https://github.com/ds2-lab/SFS
+    github_stars: 14
+    tags: [SC'22, Best Student Paper Finalist]
+    date: 2022-11-01
+
+  - title: ELF
+    category: Storage for AI
+    description: A study of the storage compressibility of pre-trained ML models, with a near-lossless compressor for effective model storage reduction.
+    github: https://github.com/ds2-lab/ELF
+    github_stars: 6
+    tags: [VLDB'24]
+    date: 2024-08-01
+
+  - title: Learned Index Attacks
+    category: ML for Systems
+    description: Algorithmic complexity attacks that expose performance vulnerabilities in dynamic learned indexes.
+    github: https://github.com/ds2-lab/aca-dlis
+    github_stars: 7
+    tags: [VLDB'24]
+    date: 2024-08-01
+
+  - title: FedCaSe
+    category: Storage for AI
+    description: I/O caching and scheduling for federated learning that prioritizes the most important client samples to speed up training.
+    github: https://github.com/rkhan055/FedCaSe
+    github_stars: 6
+    tags: [SoCC'24]
+    date: 2024-11-01

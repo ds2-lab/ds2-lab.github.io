@@ -1,0 +1,132 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import NewsList from '@components/NewsList.astro';
+import PubItem from '@components/PubItem.astro';
+import ProjectCard from '@components/ProjectCard.astro';
+import GrantItem from '@components/GrantItem.astro';
+import TeamPreview from '@components/TeamPreview.astro';
+import { getSite, getNews, getPublications, getProjects, getGrants, md, formatStars } from '@lib/data';
+
+const site = getSite();
+const w = site.welcome;
+
+const news = getNews();
+const recentNews = news.slice(0, site.home.news_months);
+
+const pubs = getPublications();
+const selectedPubs = pubs.filter(p => p.selected);
+
+const projects = getProjects();
+const featuredProjects = projects.filter(p => p.featured).slice(0, site.home.projects);
+const totalStars = projects.reduce((sum, p) => sum + (p.github_stars ?? 0), 0);
+
+const { sponsors, grants } = getGrants();
+const featuredGrants = grants.filter(g => g.featured);
+const sponsorByName = new Map(sponsors.map(s => [s.name, s]));
+
+const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
+---
+
+<BaseLayout>
+  <!-- Welcome -->
+  <section class="pt-2">
+    <h1 class="hero-title" set:html={heading} />
+    <div class="rich mt-5 space-y-4 text-[1.05rem] leading-relaxed">
+      <p set:html={md(w.intro)} />
+      <p set:html={md(w.body)} />
+      <p>
+        {w.focus_intro}{' '}
+        {w.focus.map((f, i) => (
+          <>({i + 1}) <strong>{f.title}:</strong> {f.text}{i < w.focus.length - 1 ? ' ' : ''}</>
+        ))}
+      </p>
+      <p set:html={md(w.join)} />
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="section">
+    <div class="section-head">
+      <div>
+        <h2>Lab news</h2>
+        <p>Papers, awards, grants, and people.</p>
+      </div>
+      <a class="more-link" href="/news">All news</a>
+    </div>
+    <NewsList months={recentNews} />
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section">
+    <div class="section-head">
+      <h2>Team</h2>
+      <a class="more-link" href="/team">Full team</a>
+    </div>
+    <TeamPreview />
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="section-head">
+      <div>
+        <h2>Selected publications</h2>
+      </div>
+      <a class="more-link" href="/publications">All publications ({pubs.length})</a>
+    </div>
+    <div>
+      {selectedPubs.map(p => <PubItem pub={p} />)}
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <div>
+        <h2>Open-source projects</h2>
+        <p>Systems and software artifacts from our research, available at <a href={site.github} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">github.com/ds2-lab</a>.</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2 text-xs text-[var(--muted)]">
+        <span class="rounded-full border border-[var(--line)] px-3 py-1 tnum">{projects.length} projects</span>
+        <span class="rounded-full border border-[var(--line)] px-3 py-1 tnum">{formatStars(totalStars)} stars</span>
+        <a class="more-link text-sm" href="/projects">All projects</a>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      {featuredProjects.map(p => <ProjectCard project={p} />)}
+    </div>
+  </section>
+
+  <!-- Research (funded) -->
+  <section id="research" class="section">
+    <div class="section-head">
+      <div>
+        <h2>Funded research</h2>
+        <p>Most of our funded projects are interdisciplinary. We are grateful for the support of our sponsors.</p>
+      </div>
+      <a class="more-link" href="/research">All funded projects ({grants.length})</a>
+    </div>
+    <ul class="flex flex-wrap items-center gap-x-6 gap-y-2 mb-3 text-sm" aria-label="Sponsors">
+      {sponsors.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></li>)}
+    </ul>
+    <div>
+      {featuredGrants.map(g => <GrantItem grant={g} sponsor={sponsorByName.get(g.sponsor)} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero-title {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 4.4vw, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .hero-title :global(sup) {
+    font-size: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.8em;
+    margin-left: 0.03em;
+  }
+</style>

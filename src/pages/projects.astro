@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import ProjectCard from '@components/ProjectCard.astro';
+import { getProjects, getSite } from '@lib/data';
+
+const site = getSite();
+const projects = [...getProjects()].sort((a, b) =>
+  (b.github_stars ?? 0) - (a.github_stars ?? 0) ||
+  new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
+const categories = ['All', ...new Set(projects.map(p => p.category).filter(Boolean) as string[])];
+---
+
+<BaseLayout title="Projects" description="Open-source systems and research software from the DS2 Lab.">
+  <h1 class="page-title">Projects</h1>
+  <p class="page-lede">
+    {projects.length} open-source systems and research software artifacts. Code is available at
+    <a href={site.github} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">github.com/ds2-lab</a>.
+  </p>
+
+  <div class="mt-6 mb-6 flex flex-wrap gap-2" role="group" aria-label="Filter by area">
+    {categories.map((c, i) => (
+      <button type="button" class="chip" data-category={c} aria-pressed={i === 0 ? 'true' : 'false'}>{c}</button>
+    ))}
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+    {projects.map(p => (
+      <div data-project data-category={p.category}>
+        <ProjectCard project={p} clamp={false} />
+      </div>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .chip {
+    padding: 0.35rem 0.8rem; border-radius: 999px; font-size: 0.85rem; font-weight: 500;
+    color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); cursor: pointer;
+  }
+  .chip:hover { color: var(--ink); }
+  .chip[aria-pressed='true'] { background: var(--accent); color: #fff; box-shadow: none; }
+</style>
+
+<script>
+  const chips = document.querySelectorAll<HTMLButtonElement>('.chip');
+  const cards = document.querySelectorAll<HTMLElement>('[data-project]');
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+    const cat = chip.dataset.category;
+    cards.forEach(card => { card.hidden = !(cat === 'All' || card.dataset.category === cat); });
+  }));
+</script>

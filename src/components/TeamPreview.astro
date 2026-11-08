@@ -1,0 +1,52 @@
+---
+// Homepage team preview, following the luomai.github.io "Group" showcase:
+// one panel per group, compact member chips with a small photo.
+import { getTeam } from '@lib/data';
+
+const team = getTeam();
+const by = (...groups: string[]) => team.members.filter(m => groups.includes(m.group));
+
+const sections = [
+  { title: 'Ph.D. Students', members: by('phd') },
+  { title: "Master's, Undergraduate & High School Students", members: by('masters', 'undergrad', 'highschool') },
+  { title: 'Alumni', members: by('alumni').map(m => ({ ...m, role: m.placement ?? m.role })) },
+].filter(s => s.members.length > 0);
+
+const initials = (name: string) => name.split(/\s+/).filter(w => /^[A-Z]/.test(w)).slice(0, 2).map(w => w[0]).join('');
+---
+
+<div class="space-y-3">
+  {sections.map(section => (
+    <article class="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-3.5">
+      <div class="mb-2.5 flex items-center justify-between gap-3">
+        <h3 class="text-sm font-semibold text-[var(--muted)] font-[family-name:var(--font-body)]">{section.title}</h3>
+        <span class="shrink-0 rounded-full border border-[var(--line)] px-2.5 py-0.5 text-xs text-[var(--muted)] tnum">{section.members.length}</span>
+      </div>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2.5">
+        {section.members.map((m: any) => (
+          <li class="flex items-start gap-2.5 rounded-xl border border-[var(--line)] bg-[var(--bg)] px-3 py-2.5 min-w-0" title={`${m.name}, ${m.role ?? ''}`}>
+            <div class="avatar-chip w-9 h-9 shrink-0 rounded-full bg-[var(--line)] overflow-hidden grid place-items-center text-xs font-semibold text-[var(--muted)]">
+              {m.image ? <img src={m.image} alt="" loading="lazy" class="w-full h-full" /> : initials(m.name)}
+            </div>
+            <div class="min-w-0">
+              <p class="text-sm font-medium leading-tight truncate">
+                {m.url ? <a href={m.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)] hover:text-[var(--accent)]">{m.name}</a> : m.name}
+              </p>
+              <p class="chip-meta mt-1 text-[11px] leading-snug text-[var(--muted)]">{m.role}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </article>
+  ))}
+</div>
+
+<style>
+  .chip-meta {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+</style>

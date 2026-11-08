@@ -1,0 +1,93 @@
+---
+import ThemeToggle from '../ui/ThemeToggle.astro';
+
+// Each tab scrolls to its preview on the homepage; the preview links to the full page.
+const navItems = [
+  { href: '/#news', label: 'News', page: '/news' },
+  { href: '/#team', label: 'Team', page: '/team' },
+  { href: '/#publications', label: 'Publications', page: '/publications' },
+  { href: '/#projects', label: 'Projects', page: '/projects' },
+  { href: '/#research', label: 'Research', page: '/research' },
+];
+
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (page: string) => path === page;
+---
+
+<header class="sticky top-0 z-50 border-b border-[var(--line)] bg-[var(--bg)]/90 backdrop-blur-md">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-[var(--nav-h)] flex items-center justify-between gap-4" aria-label="Main">
+    <a href="/" class="flex items-center gap-2.5 shrink-0 text-[var(--ink)] hover:no-underline" aria-label="AXIS Lab home">
+      <img src="/images/ds2lab_logo_blue_bg_white_fg_v2.png" alt="" width="34" height="34" class="w-[34px] h-[34px] rounded-md ring-1 ring-white/10" />
+      <span class="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight">AXIS Lab</span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-1">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          data-section={item.href.slice(2)}
+          aria-current={isActive(item.page) ? 'page' : undefined}
+          class:list={[
+            'nav-link px-3 py-2 rounded-md text-[0.95rem] font-medium hover:no-underline transition-colors',
+            isActive(item.page) ? 'text-[var(--accent)]' : 'text-[var(--muted)] hover:text-[var(--ink)]',
+          ]}
+        >{item.label}</a>
+      ))}
+      <span class="w-px h-6 bg-[var(--line)] mx-2" aria-hidden="true"></span>
+      <ThemeToggle />
+    </div>
+
+    <div class="flex items-center gap-1 md:hidden">
+      <ThemeToggle />
+      <button id="menu-btn" class="p-2 rounded-md text-[var(--muted)] hover:text-[var(--ink)]" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path id="menu-icon" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="hidden md:hidden border-t border-[var(--line)] px-4 pb-3 pt-2">
+    {navItems.map(item => (
+      <a href={item.href} class="block px-2 py-2.5 rounded-md font-medium text-[var(--ink)] hover:no-underline hover:bg-[var(--accent-soft)]">{item.label}</a>
+    ))}
+  </div>
+</header>
+
+<style>
+  .nav-link[aria-current='page'],
+  .nav-link.is-current { color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); border-radius: 0; }
+</style>
+
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const icon = document.getElementById('menu-icon');
+  btn?.addEventListener('click', () => {
+    const open = menu!.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    icon?.setAttribute('d', open ? 'M6 6l12 12M18 6L6 18' : 'M4 7h16M4 12h16M4 17h16');
+  });
+  menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    menu.classList.add('hidden');
+    btn?.setAttribute('aria-expanded', 'false');
+    icon?.setAttribute('d', 'M4 7h16M4 12h16M4 17h16');
+  }));
+
+  // On the homepage, underline the tab whose section is in view.
+  const links = document.querySelectorAll<HTMLAnchorElement>('.nav-link[data-section]');
+  const sections = [...links].map(l => document.getElementById(l.dataset.section!)).filter(Boolean) as HTMLElement[];
+  if (sections.length) {
+    // The current section is the last one whose top has scrolled past one third of the viewport.
+    const update = () => {
+      const line = window.innerHeight / 3;
+      let current = '';
+      for (const s of sections) if (s.getBoundingClientRect().top <= line) current = s.id;
+      links.forEach(l => l.classList.toggle('is-current', l.dataset.section === current));
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  }
+</script>

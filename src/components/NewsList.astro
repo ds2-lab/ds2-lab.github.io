@@ -1,0 +1,18 @@
+---
+import { formatMonth, md, type NewsMonth } from '@lib/data';
+interface Props { months: NewsMonth[] }
+const { months } = Astro.props;
+---
+
+<ol class="news-list">
+  {months.map(m => (
+    <li class="grid grid-cols-[5.5rem_1fr] sm:grid-cols-[7.5rem_1fr] gap-x-4 py-3.5 border-b border-[var(--line)] last:border-b-0">
+      <time class="tnum text-sm font-semibold text-[var(--accent)] pt-0.5" datetime={m.date.toISOString().slice(0, 7)}>
+        {formatMonth(m.date)}
+      </time>
+      <ul class="space-y-2">
+        {m.items.map(item => <li class="rich leading-relaxed" set:html={md(item)} />)}
+      </ul>
+    </li>
+  ))}
+</ol>

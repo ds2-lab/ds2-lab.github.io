@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import NewsList from '@components/NewsList.astro';
+import { getNews } from '@lib/data';
+
+const news = getNews();
+const years = [...new Set(news.map(m => m.date.getUTCFullYear()))];
+---
+
+<BaseLayout title="News" description="News from the DS2 Lab at the University of Virginia.">
+  <h1 class="page-title">News</h1>
+  <p class="page-lede">Papers, awards, grants, and people, from {years[years.length - 1]} to today.</p>
+
+  <nav class="mt-6 flex flex-wrap gap-2" aria-label="Jump to year">
+    {years.map(y => <a href={`#y${y}`} class="venue-tag tnum hover:no-underline">{y}</a>)}
+  </nav>
+
+  {years.map(y => (
+    <section id={`y${y}`} class="mt-10">
+      <h2 class="text-2xl font-bold tnum pb-2 border-b border-[var(--line)]">{y}</h2>
+      <NewsList months={news.filter(m => m.date.getUTCFullYear() === y)} />
+    </section>
+  ))}
+</BaseLayout>

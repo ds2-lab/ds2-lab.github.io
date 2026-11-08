@@ -1,0 +1,75 @@
+---
+import { getSite } from '@lib/data';
+import Navbar from './Navbar.astro';
+import Footer from './Footer.astro';
+import '@styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Pages that render their own full-bleed top band skip the default top padding. */
+  flush?: boolean;
+}
+
+const site = getSite();
+const { title, description, flush = false } = Astro.props;
+const pageTitle = title ? `${title} | ${site.title}` : `${site.title} | ${site.full_name}`;
+const pageDescription = description || site.description;
+const canonicalUrl = new URL(Astro.url.pathname, site.url).href;
+const ogImage = new URL('/images/ds2lab_logo_blue_bg_white_fg_v2.png', site.url).href;
+const gaId = site.google_analytics?.trim();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription} />
+  <link rel="canonical" href={canonicalUrl} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={pageDescription} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:site_name" content={site.title} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="icon" type="image/png" href="/images/ds2lab_favicon_dark_bg.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Apply saved or system color scheme before paint -->
+  <script is:inline>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (e) {}
+      var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.classList.toggle('dark', dark);
+    })();
+  </script>
+
+  {gaId && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+      <script is:inline define:vars={{ gaId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      </script>
+    </>
+  )}
+</head>
+<body class="min-h-screen flex flex-col">
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-md focus:bg-[var(--navy)] focus:text-white">Skip to content</a>
+  <Navbar />
+  <main id="main" class:list={['flex-1 w-full', !flush && 'max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6']}>
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

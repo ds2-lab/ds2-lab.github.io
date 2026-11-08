@@ -1,0 +1,173 @@
+# Lab news, newest first. Each entry is one month; `items` are Markdown.
+# The homepage shows the most recent entries; /news shows all of them.
+
+- date: 2026-11
+  items:
+    - "🚀 We’ve launched [LooseLeaf](https://looseleafcloud.org), a highly efficient Jupyter notebook platform offering free serverless GPUs to everyone at UVA. Learn more about the LooseLeaf design in our paper preprint on [arXiv](https://arxiv.org/abs/2610.33275)."
+
+- date: 2026-10
+  items:
+    - "🏆 [TensorDex](https://github.com/ds2-lab/TensorDex) received the [SOSP 2026](https://sigops.org/s/conferences/sosp/2026/) **Distinguished Artifact Award**!"
+
+- date: 2026-09
+  items:
+    - "🎉 Congrats to Yuqi and Ruizhe on Allpass accepted to ACM SoCC 2026!"
+    - "Our survey paper on resource-efficient LLMs is published at [ACM Computing Surveys](https://dl.acm.org/doi/10.1145/3845797)!"
+
+- date: 2026-08
+  items:
+    - "📢 **New Course Alert:** I'll be teaching [CS6501 AI Systems](https://tddg.github.io/cs6501-ai-sys-fall26/) in Fall 26!"
+
+- date: 2026-07
+  items:
+    - "🎉 Congrats to Zirui and Zhaoyuan on [LatentStore](https://arxiv.org/abs/2605.19385v2) and [Zero-Prefill](https://arxiv.org/abs/2605.02960) accepted to [NSDI 2027](https://www.usenix.org/conference/nsdi27)! Stay tuned for more updates on the projects!"
+    - "🎉 Congrats to Tingfeng, Zirui, Yunjia, and Zhaoyuan on [TensorDex](https://arxiv.org/abs/2604.17104) accepted to [SOSP 2026](https://sigops.org/s/conferences/sosp/2026/)! TensorDex explores fine-grained tensor-level relationships across massive AI model hubs to achieve significant lossless reduction in large-scale model storage. Stay tuned for more updates on the project!"
+
+- date: 2026-07
+  items:
+    - "🎉 One paper accepted to SC'26. Congratulations to Patrick and the team!"
+
+- date: 2026-06
+  items:
+    - "🎉 Congrats to Tingfeng and Yusen on **[ZenFlow](https://arxiv.org/abs/2505.12242)** accepted to [SIGMOD 2027](https://2027.sigmod.org/index.shtml)! ZenFlow enables stall-free offloaded LLM training and is integrated in DeepSpeed."
+
+- date: 2026-04
+  items:
+    - "🎉 Congratulations to Tingfeng on receiving the **EuroSys’26 Distinguished AEC Award**!"
+    - "🎓 Three Ph.D. students from [DS2](http://ds2-lab.github.io/) are graduating this semester. [Yuqi Fu](https://fishercht1995.github.io/) will be starting a faculty position in academia. [Zhaoyuan Su](https://alexsssu.github.io/) will be joining Snowflake AI Research. [Rui Yang](https://ruiyang00.github.io/) will be joining the ByteDance AI infra team. Congratulations to all three!"
+
+- date: 2026-02
+  items:
+    - "We have released BitX, a high-performance, lossless compressor for safetensors model files ([paper](https://arxiv.org/abs/2505.06252), [Rust crate](https://crates.io/crates/bitx-codec)). BitX achieves 10+ GB/s compression throughput, making it practical for large-scale model storage and transfer. We've also open-sourced [ZipLLM](https://github.com/ds2-lab/ZipLLM), our model-aware data reduction pipeline. Access the [project website](https://ds2-lab.github.io/ZipLLM/) to learn more about the project. Check them out and share your feedback!"
+
+- date: 2026-01
+  items:
+    - "🎉 Two papers accepted to [MLSys'26](https://mlsys.org/Conferences/2026). Congrats to Zhaoyuan and Rui!"
+
+- date: 2025-12
+  items:
+    - "Thrilled to receive a [CCI award](https://cyberinitiative.org/proposals/2025-calls/critical-infrastructure-cybersecurity.html) (with Songqing Chen from GMU). Thanks, CCI!"
+
+- date: 2025-08
+  items:
+    - "🚀 ZenFlow has now been officially adopted into [DeepSpeed](https://github.com/deepspeedai/DeepSpeed) and is also featured on the [PyTorch blog](https://pytorch.org/blog/zenflow-stall-free-offloading-engine-for-llm-training/)!"
+    - "🎉 Congrats to Ruizhe and Yuqi on their paper accepted to [IMC 2025](https://conferences.sigcomm.org/imc/2025/)!"
+
+- date: 2025-07
+  items:
+    - "🎓 [Ben Carver](https://scusemua.github.io/) successfully defended his Ph.D. dissertation. Congratulations, Dr. Carver!! Ben will be joining the AI Networking Infrastructure team @ Meta as a Research Scientist, where he'll work on cutting-edge infrastructure to support next-gen AI."
+    - "🎉 Congrats to Zirui, Tingfeng, and Zhaoyuan on **ZipLLM** accepted to [NSDI 2026](https://www.usenix.org/conference/nsdi26)! We analyzed all publicly available LLM repos on Hugging Face and built effective, efficient data reduction algorithms tailored for massive-scale LLM storage. Stay tuned for more updates!"
+
+- date: 2025-06
+  items:
+    - "🎉 Congrats to Ben and Jingyuan on **NotebookOS** accepted to [ASPLOS 2026](https://www.asplos-conference.org/asplos2026/)! In this work, we built a GPU-efficient distributed Notebook platform that enables on-demand GPU allocation for interactive training workloads such as LLM fine-tuning. Stay tuned for more updates on the project! Stay tuned for more info about the code release."
+
+- date: 2025-01
+  items:
+    - "🎉 Congrats to Qichang on **CIDRE** accepted to [ASPLOS 2025](https://www.asplos-conference.org/asplos2025/)!"
+    - "🎉 Congrats to Ruizhe on the IPFS data management work accepted to [WWW 2025](https://www2025.thewebconf.org/)!"
+
+- date: 2024-09
+  items:
+    - "Congrats to Redwan on FedCaSe on federated learning I/O caching and scheduling accepted to [SoCC 2024](https://acmsocc.org/2024/)!"
+    - "👋 A warm welcome to our newest members [Zirui Wang](https://jerryw35.github.io/) and [Tingfeng Lan](https://antlera.github.io/)! We're excited to have you both on board."
+    - "Thrilled to receive an [NSF CSSI Elements grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2411009&HistoricalAwards=false) on developing a sustainable and GPU-efficient cyberinfrastructure for Notebooks (w/ Co-PI Geoffrey Fox). Thanks, NSF!"
+
+- date: 2024-07
+  items:
+    - "Excited to receive an [NSF REU Site grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2349503&HistoricalAwards=false) (lead PI: Claudia Scholz). Thanks, NSF!"
+
+- date: 2024-06
+  items:
+    - "Congrats to Yuqi and Ruizhe on [ALPS](https://www.usenix.org/conference/atc24/presentation/fu) accepted to [USENIX ATC 2024](https://www.usenix.org/conference/atc24)! ALPS learns workload intelligence from the user space to inform serverless function scheduling in the kernel space."
+
+- date: 2024-05
+  items:
+    - "This summer [Yuqi](https://fishercht1995.github.io/) will be doing a student researcher internship at Google and [Zhaoyuan](https://alexsssu.github.io/) will be doing a research internship at Samsung. Congrats!"
+
+- date: 2024-04
+  items:
+    - "Excited to receive an [NSF OAC Core grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403313&HistoricalAwards=false) on building a distributed graph learning cyberinfrastructure for large spatiotemporal prediction (w/ Liang Zhao from Emory). Thanks, NSF!"
+
+- date: 2024-03
+  items:
+    - "Congrats to Ruizhe on the IPFS analysis work accepted to [SIGMETRICS 2024](https://www.sigmetrics.org/sigmetrics2024/index.html)! We answered questions about accessibility, content, and performance of IPFS in this research."
+    - "Congrats to Zhaoyuan, Ammar, and Zirui on [their work](https://arxiv.org/abs/2402.13429) accepted to [VLDB 2024](https://vldb.org/2024/)! In this work, Zhaoyuan analyzed a large dataset of real-world pre-trained ML models collected from Hugging Face. Based on the analysis study, he designed a new storage compression method for reducing the storage requirement of pre-trained models at scale."
+
+- date: 2024-02
+  items:
+    - "Congrats to Rui on [his work](https://www.vldb.org/pvldb/vol17/p780-yang.pdf) accepted to [VLDB 2024](https://vldb.org/2024/)! In this work, Rui systematically studied the algorithmic complexity vulnerabilities of dynamic learned indexes."
+
+- date: 2024-01
+  items:
+    - "Check our [latest survey on resource-efficient LLMs](https://arxiv.org/abs/2401.00625)!"
+
+- date: 2023-10
+  items:
+    - "🏆 Excited to receive a [Samsung GRO 2023 Award](https://www.sait.samsung.co.kr/saithome/about/collabo_recipients.do) on **New Storage for Large ML Training** (w/ Ali Anwar from UMN). Thanks, Samsung Advanced Institute of Technology and [Samsung Memory Solutions Lab](https://samsungmsl.com/), for the generous support on our research!"
+    - "Serving as the general co-chair of [ACM HotStorage'24](https://www.hotstorage.org/2024/). Consider submitting your exciting early ideas!"
+
+- date: 2023-06
+  items:
+    - "🎓 My first Ph.D. student [Jingyuan Zhang](https://www.zhang.jingyuan.name/) successfully defended his Ph.D. dissertation. Congratulations, Dr. Zhang! Jingyuan will be joining the cloud-native infrastructure team @ ByteDance (San Jose, CA)."
+
+- date: 2023-04
+  items:
+    - "Congrats to Ben, Runzhou, and Jingyuan on the acceptance of [λFS](https://ds2-lab.github.io/pdfs/asplos23-lambdafs-ae.pdf) to [ASPLOS'23](https://www.asplos-conference.org/asplos2023/)! The acceptance of λFS at ASPLOS'23 marks yet another significant milestone of our serverless storage project series. Don't forget to check out our projects: **Episode I** - [InfiniCache](https://ds2-lab.github.io/pdfs/fast20-infinicache.pdf), **Episode II** - [InfiniStore](https://ds2-lab.github.io/pdfs/vldb23-infinistore.pdf), and our latest work, **Episode III** - [λFS](https://arxiv.org/abs/2306.11877)."
+
+- date: 2023-02
+  items:
+    - "Congrats to Jingyuan, Ben, and the team on the acceptance of InfiniStore to [VLDB 2023](https://vldb.org/2023/)!"
+
+- date: 2022-12
+  items:
+    - "Congrats to Redwan, Ahmad, and Yuqi on their paper on deep learning I/O caching accepted to [FAST 2023](https://www.usenix.org/conference/fast23)!"
+
+- date: 2022-09
+  items:
+    - "Yue is selected for [the 2022 IEEE CS TCHPC Early Career Researchers Award for Excellence in High Performance Computing](https://tc.computer.org/tchpc/2022/10/06/2022-ieee-cs-tchpc-award-winners/)!"
+    - "Congrats to Zhaoyuan on his paper accepted to [DRBSD-8](https://drbsd.github.io/) co-located with [SC 2022](https://sc22.supercomputing.org/)!"
+    - "🏆 We are excited to receive a [Meta Research Award](https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-2022-ai-system-hardwaresoftware-codesign-request-for-proposals/) for [AI System Hardware/Software Codesign](https://research.facebook.com/research-awards/2022-request-for-research-proposals-for-ai-system-hardware-software-codesign/). Thanks, Meta Research!"
+
+- date: 2022-08
+  items:
+    - "Our group moved to the University of Virginia in Fall'22."
+
+- date: 2022-07
+  items:
+    - "🏅 SFS is nominated as a Best Student Paper Award Finalist at [SC'22](https://sc22.supercomputing.org/)!! Congrats to [Yuqi](https://mason.gmu.edu/~yfu5/)!"
+
+- date: 2022-06
+  items:
+    - "Congrats to Yuqi on his paper on serverless function scheduling accepted to [SC'22](https://sc22.supercomputing.org/)!"
+
+- date: 2022-05
+  items:
+    - "This summer my students will intern at MSR ([Ben Carver](https://scusemua.github.io/)), ByteDance ([Yuqi Fu](https://mason.gmu.edu/~yfu5/), [Jingyuan Zhang](https://zhangjyr.github.io/)), and Argonne National Lab (Zhaoyuan Su)! Congrats!"
+    - "Yue received an Outstanding Teacher Award from CS @ Mason!"
+    - "[Rui](https://mason.gmu.edu/~ryang22/) received an Outstanding GTA Award from CS @ Mason! Congratulations!"
+
+- date: 2021-08
+  items:
+    - "Congrats to Li and Haoliang on rKube accepted to [SoCC'21](https://acmsocc.org/2021/index.html)!"
+    - "A [collaborative FMSG grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2134689&HistoricalAwards=false) funded by NSF (with [Jia Liu @ Auburn](https://auaims.net/)). Thanks, NSF!"
+
+- date: 2021-08
+  items:
+    - "Congrats to Li and Haoliang on rKube accepted to [SoCC'21](https://acmsocc.org/2021/index.html)!"
+
+- date: 2021-06
+  items:
+    - "Congrats to Zheng on FedAT accepted to [SC'21](https://sc21.supercomputing.org/)!"
+
+- date: 2021-04
+  items:
+    - "Congrats to Ao on FaaSNet accepted to [ATC'21](https://www.usenix.org/conference/atc21)!"
+
+- date: 2021-03
+  items:
+    - "Yue received a gift from Adobe Research for our work on serverless computing! Thanks, Adobe!"
+
+- date: 2021-02
+  items:
+    - "Yue received an [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2045680&HistoricalAwards=false) for our work on building serverless cloud storage infrastructure. Thanks, NSF!"
