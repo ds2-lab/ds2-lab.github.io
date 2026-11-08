@@ -39,7 +39,7 @@ export interface Site {
     join: string;
   };
   mission: string[];
-  home: { news_months: number; projects: number; publications?: number };
+  home: { news_months: number; projects: number; publications?: number; grants?: number };
 }
 export const getSite = () => load<Site>('site.yml');
 

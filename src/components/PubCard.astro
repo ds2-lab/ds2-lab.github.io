@@ -8,8 +8,8 @@ const titleHref = pub.links.find(l => l.label === 'PDF')?.url ?? pub.links[0]?.u
 const ext = (u: string) => (isExternal(u) ? { target: '_blank', rel: 'noopener noreferrer' } : {});
 ---
 
-<article class="pub-card" data-type={pub.type}>
-  <div class="num tnum" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
+<article class="num-card pub-card" data-type={pub.type}>
+  <div class="num-card-index tnum" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
   <div class="min-w-0 flex-1">
     <h3 class="font-[family-name:var(--font-body)] font-semibold text-[0.97rem] leading-snug">
       {titleHref ? <a href={titleHref} class="text-[var(--ink)] hover:text-[var(--accent)]" {...ext(titleHref)}>{pub.title}</a> : pub.title}
@@ -26,20 +26,6 @@ const ext = (u: string) => (isExternal(u) ? { target: '_blank', rel: 'noopener n
 </article>
 
 <style>
-  .pub-card {
-    display: flex; gap: 0.7rem;
-    padding: 0.85rem 0.95rem;
-    border: 1px solid var(--line); border-radius: var(--radius);
-    background: var(--surface);
-    transition: border-color .15s;
-  }
-  .pub-card:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
-  .num {
-    flex-shrink: 0; width: 1.6rem; padding-top: 0.15rem;
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: 0.75rem; color: var(--muted);
-  }
-
   /* Venue pill colored by publication type; each color has a dark-mode variant. */
   .pub-card { --pill: #2563EB; }
   .pub-card[data-type='journal']  { --pill: #15803D; }

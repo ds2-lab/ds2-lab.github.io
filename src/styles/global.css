@@ -102,6 +102,21 @@ a:hover { color: var(--accent-hover); text-decoration: underline; text-underline
 .avatar-chip img { object-fit: cover; object-position: 50% 0%; }
 
 /* Logo mark rendered from the transparent PNG so it can take any color */
+/* Numbered preview card (homepage publications and funding) */
+.num-card {
+  display: flex; gap: 0.7rem;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface);
+  transition: border-color .15s;
+}
+.num-card:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.num-card-index {
+  flex-shrink: 0; width: 1.6rem; padding-top: 0.15rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem; color: var(--muted);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }

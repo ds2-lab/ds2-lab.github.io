@@ -3,7 +3,7 @@ import BaseLayout from '@components/layout/BaseLayout.astro';
 import NewsList from '@components/NewsList.astro';
 import PubCard from '@components/PubCard.astro';
 import ProjectCard from '@components/ProjectCard.astro';
-import GrantItem from '@components/GrantItem.astro';
+import FundCard from '@components/FundCard.astro';
 import TeamPreview from '@components/TeamPreview.astro';
 import { getSite, getNews, getPublications, getProjects, getGrants, md, formatStars } from '@lib/data';
 
@@ -21,8 +21,7 @@ const featuredProjects = projects.filter(p => p.featured).slice(0, site.home.pro
 const totalStars = projects.reduce((sum, p) => sum + (p.github_stars ?? 0), 0);
 
 const { sponsors, grants } = getGrants();
-const featuredGrants = grants.filter(g => g.featured);
-const sponsorByName = new Map(sponsors.map(s => [s.name, s]));
+const featuredGrants = grants.filter(g => g.featured).slice(0, site.home.grants ?? 6);
 
 const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
 ---
@@ -108,8 +107,8 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
     <ul class="flex flex-wrap items-center gap-x-6 gap-y-2 mb-3 text-sm" aria-label="Sponsors">
       {sponsors.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></li>)}
     </ul>
-    <div>
-      {featuredGrants.map(g => <GrantItem grant={g} sponsor={sponsorByName.get(g.sponsor)} />)}
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      {featuredGrants.map((g, i) => <FundCard grant={g} index={i} />)}
     </div>
   </section>
 </BaseLayout>

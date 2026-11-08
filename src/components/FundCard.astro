@@ -1,0 +1,31 @@
+---
+// Compact numbered card for the homepage funding preview (same layout as PubCard).
+import type { Grant } from '@lib/data';
+interface Props { grant: Grant; index: number }
+const { grant: g, index } = Astro.props;
+---
+
+<article class="num-card">
+  <div class="num-card-index tnum" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
+  <div class="min-w-0 flex-1">
+    <h3 class="font-[family-name:var(--font-body)] font-semibold text-[0.97rem] leading-snug">{g.title}</h3>
+    <p class="mt-1 text-[0.8rem] leading-snug text-[var(--muted)]">PIs: {g.pis}</p>
+    <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+      <span class="sponsor-pill"><span class="dot" aria-hidden="true"></span>{g.sponsor}</span>
+      {g.award_url
+        ? <a href={g.award_url} target="_blank" rel="noopener noreferrer" class="text-[0.78rem] text-[var(--muted)] hover:text-[var(--accent)]">{g.award}</a>
+        : <span class="text-[0.78rem] text-[var(--muted)]">{g.award}</span>}
+      <span class="ml-auto tnum text-[0.8rem] font-semibold">{g.amount}</span>
+    </div>
+  </div>
+</article>
+
+<style>
+  .sponsor-pill {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    padding: 0.1rem 0.5rem; border-radius: 999px;
+    font-size: 0.75rem; font-weight: 600; line-height: 1.4;
+    color: var(--accent); background: var(--accent-soft);
+  }
+  .sponsor-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+</style>
