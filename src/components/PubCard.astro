@@ -1,0 +1,64 @@
+---
+// Compact numbered card for the homepage publication preview (after the Lumina template).
+import { authorsHtml, isExternal, type Publication } from '@lib/data';
+interface Props { pub: Publication; index: number }
+const { pub, index } = Astro.props;
+const tag = pub.abbr || (pub.preprint ? 'Preprint' : String(pub.year ?? ''));
+const titleHref = pub.links.find(l => l.label === 'PDF')?.url ?? pub.links[0]?.url;
+const ext = (u: string) => (isExternal(u) ? { target: '_blank', rel: 'noopener noreferrer' } : {});
+---
+
+<article class="pub-card" data-type={pub.type}>
+  <div class="num tnum" aria-hidden="true">{String(index + 1).padStart(2, '0')}</div>
+  <div class="min-w-0 flex-1">
+    <h3 class="font-[family-name:var(--font-body)] font-semibold text-[0.97rem] leading-snug">
+      {titleHref ? <a href={titleHref} class="text-[var(--ink)] hover:text-[var(--accent)]" {...ext(titleHref)}>{pub.title}</a> : pub.title}
+    </h3>
+    <p class="mt-1 text-[0.8rem] leading-snug text-[var(--muted)] [&_strong]:text-[var(--ink)] [&_strong]:font-semibold" set:html={authorsHtml(pub.authors)} />
+    <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+      <span class="venue-pill"><span class="dot" aria-hidden="true"></span>{tag}</span>
+      {pub.award && <span class="award text-[0.75rem]">{pub.award}</span>}
+      {pub.links.map(l => (
+        <a href={l.url} class="text-[0.78rem] text-[var(--muted)] hover:text-[var(--accent)]" {...ext(l.url)}>{l.label}</a>
+      ))}
+    </div>
+  </div>
+</article>
+
+<style>
+  .pub-card {
+    display: flex; gap: 0.7rem;
+    padding: 0.85rem 0.95rem;
+    border: 1px solid var(--line); border-radius: var(--radius);
+    background: var(--surface);
+    transition: border-color .15s;
+  }
+  .pub-card:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+  .num {
+    flex-shrink: 0; width: 1.6rem; padding-top: 0.15rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.75rem; color: var(--muted);
+  }
+
+  /* Venue pill colored by publication type; each color has a dark-mode variant. */
+  .pub-card { --pill: #2563EB; }
+  .pub-card[data-type='journal']  { --pill: #15803D; }
+  .pub-card[data-type='workshop'] { --pill: #B45309; }
+  .pub-card[data-type='thesis']   { --pill: #7C3AED; }
+  .pub-card[data-type='preprint'],
+  .pub-card[data-type='other']    { --pill: #6B7280; }
+  :global(.dark) .pub-card { --pill: #60A5FA; }
+  :global(.dark) .pub-card[data-type='journal']  { --pill: #4ADE80; }
+  :global(.dark) .pub-card[data-type='workshop'] { --pill: #FBBF24; }
+  :global(.dark) .pub-card[data-type='thesis']   { --pill: #C084FC; }
+  :global(.dark) .pub-card[data-type='preprint'],
+  :global(.dark) .pub-card[data-type='other']    { --pill: #A0A4B0; }
+
+  .venue-pill {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    padding: 0.1rem 0.5rem; border-radius: 999px;
+    font-size: 0.75rem; font-weight: 600; line-height: 1.4;
+    color: var(--pill); background: color-mix(in srgb, var(--pill) 13%, transparent);
+  }
+  .venue-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--pill); }
+</style>

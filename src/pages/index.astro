@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '@components/layout/BaseLayout.astro';
 import NewsList from '@components/NewsList.astro';
-import PubItem from '@components/PubItem.astro';
+import PubCard from '@components/PubCard.astro';
 import ProjectCard from '@components/ProjectCard.astro';
 import GrantItem from '@components/GrantItem.astro';
 import TeamPreview from '@components/TeamPreview.astro';
@@ -14,7 +14,7 @@ const news = getNews();
 const recentNews = news.slice(0, site.home.news_months);
 
 const pubs = getPublications();
-const selectedPubs = pubs.filter(p => p.selected);
+const selectedPubs = pubs.filter(p => p.selected).slice(0, site.home.publications ?? 10);
 
 const projects = getProjects();
 const featuredProjects = projects.filter(p => p.featured).slice(0, site.home.projects);
@@ -73,8 +73,8 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
       </div>
       <a class="more-link" href="/publications">All publications ({pubs.length})</a>
     </div>
-    <div>
-      {selectedPubs.map(p => <PubItem pub={p} />)}
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      {selectedPubs.map((p, i) => <PubCard pub={p} index={i} />)}
     </div>
   </section>
 

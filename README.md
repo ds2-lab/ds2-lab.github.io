@@ -1,4 +1,4 @@
-# DS² Lab website
+# AXIS Lab website
 
 Source for <https://ds2-lab.github.io>, built with [Astro](https://astro.build).
 Adapted from the Astro/Lumina source of [luomai.github.io](https://github.com/luomai/luomai.github.io) (MIT).

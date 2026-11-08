@@ -71,3 +71,4 @@ mission:
 home:
   news_months: 6
   projects: 8
+  publications: 10   # first N entries with selected = {true} in papers.bib
