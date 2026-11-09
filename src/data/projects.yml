@@ -169,3 +169,21 @@ projects:
     github_stars: 6
     tags: [SoCC'24]
     date: 2024-11-01
+
+  - title: Docker Registry Trace Player
+    category: Cloud Storage
+    description: Replays anonymized production traces from the IBM Cloud container registry against a live registry, or simulates caching and prefetching designs. Traces are on SNIA IOTTA.
+    github: https://github.com/chalianwar/docker-performance
+    github_stars: 18
+    url: https://www.usenix.org/conference/fast18/presentation/anwar
+    tags: [FAST'18, Dataset]
+    date: 2018-02-01
+
+  - title: BespoKV
+    category: Cloud Storage
+    description: A framework for building application-tailored, scale-out key-value stores from single-server datalets, with pluggable topology and consistency.
+    github: https://github.com/tddg/bespokv
+    github_stars: 12
+    url: https://doi.org/10.1109/SC.2018.00005
+    tags: [SC'18]
+    date: 2018-11-01
