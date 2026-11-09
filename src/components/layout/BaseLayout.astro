@@ -72,5 +72,18 @@ const gaId = site.google_analytics?.trim();
     <slot />
   </main>
   <Footer />
+
+  {/* StatCounter (same project as the old MkDocs site). Only in the deployed build, so local `npm run dev` visits aren't counted. */}
+  {import.meta.env.PROD && (
+    <>
+      <script is:inline>
+        var sc_project = 12785767;
+        var sc_invisible = 1;
+        var sc_security = "73f25c7e";
+      </script>
+      <script is:inline src="https://www.statcounter.com/counter/counter.js" async></script>
+      <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12785767/0/73f25c7e/1/" alt="Web Analytics" referrerpolicy="no-referrer-when-downgrade" /></a></div></noscript>
+    </>
+  )}
 </body>
 </html>
