@@ -95,14 +95,14 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
     </div>
   </section>
 
-  <!-- Research (funded) -->
-  <section id="research" class="section">
+  <!-- Funding -->
+  <section id="funding" class="section">
     <div class="section-head">
       <div>
         <h2>Funded research</h2>
         <p>Most of our funded projects are interdisciplinary. We are grateful for the support of our sponsors.</p>
       </div>
-      <a class="more-link" href="/research">All funded projects ({grants.length})</a>
+      <a class="more-link" href="/funding">All funded projects ({grants.length})</a>
     </div>
     <ul class="flex flex-wrap items-center gap-x-6 gap-y-2 mb-3 text-sm" aria-label="Sponsors">
       {sponsors.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></li>)}
