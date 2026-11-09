@@ -27,7 +27,7 @@ const href = projectHref(p);
       </a>
     ) : null}
   </div>
-  <p class:list={['mt-2 text-sm text-[var(--muted)] leading-snug flex-1', clamp && 'line-clamp-3']}>{p.description}</p>
+  <p class:list={['mt-2 text-sm text-[var(--muted)] leading-snug flex-1', clamp && 'line-clamp-4']}>{p.description}</p>
   <div class="mt-3 flex flex-wrap items-center gap-1.5">
     {p.tags?.slice(0, 2).map(t => (
       <span class="px-2 py-0.5 rounded-full text-xs bg-[var(--accent-soft)] text-[var(--muted)]">{t}</span>

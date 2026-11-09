@@ -110,6 +110,8 @@ export interface Project {
   description: string;
   github?: string;
   github_stars?: number;
+  /** Code lives in another project's repo (e.g. DeepSpeed); excluded from the lab's star total. */
+  upstream?: boolean;
   url?: string;
   tags?: string[];
   featured?: boolean;
@@ -117,7 +119,11 @@ export interface Project {
 }
 export const getProjects = () => load<{ projects: Project[] }>('projects.yml').projects || [];
 export const projectHref = (p: Project) => p.url || p.github || '';
-export const starsUrl = (p: Project) => (p.github ? `${p.github.replace(/\/$/, '')}/stargazers` : '');
+// Stargazers page of the repository itself, even when `github` points into a subfolder.
+export const starsUrl = (p: Project) => {
+  const m = p.github?.match(/^https:\/\/github\.com\/[^/]+\/[^/#?]+/);
+  return m ? `${m[0]}/stargazers` : '';
+};
 export function formatStars(n?: number): string {
   if (!n) return '';
   return new Intl.NumberFormat('en', { notation: n >= 1000 ? 'compact' : 'standard', maximumFractionDigits: 1 }).format(n);

@@ -18,7 +18,7 @@ const selectedPubs = pubs.filter(p => p.selected).slice(0, site.home.publication
 
 const projects = getProjects();
 const featuredProjects = projects.filter(p => p.featured).slice(0, site.home.projects);
-const totalStars = projects.reduce((sum, p) => sum + (p.github_stars ?? 0), 0);
+const totalStars = projects.filter(p => !p.upstream).reduce((sum, p) => sum + (p.github_stars ?? 0), 0);
 
 const { sponsors, grants } = getGrants();
 const featuredGrants = grants.filter(g => g.featured).slice(0, site.home.grants ?? 6);
@@ -87,7 +87,7 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
       <div class="flex flex-wrap items-center gap-2 text-xs text-[var(--muted)]">
         <span class="rounded-full border border-[var(--line)] px-3 py-1 tnum">{projects.length} projects</span>
         <span class="rounded-full border border-[var(--line)] px-3 py-1 tnum">{formatStars(totalStars)} stars</span>
-        <a class="more-link text-sm" href="/projects">All projects</a>
+        <a class="more-link text-sm" href="/projects">All open-source projects</a>
       </div>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
