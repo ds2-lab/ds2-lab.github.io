@@ -50,6 +50,15 @@ projects:
     featured: true
     date: 2025-08-01
 
+  - title: Awesome Resource-Efficient LLM Papers
+    category: Surveys & Resources
+    description: A curated list of high-quality papers on resource-efficient LLMs, companion to our ACM Computing Surveys survey "Beyond Efficiency".
+    github: https://github.com/tiingweii-shii/Awesome-Resource-Efficient-LLM-Papers
+    github_stars: 167
+    url: https://arxiv.org/abs/2401.00625
+    tags: [ACM CSUR, Survey]
+    date: 2023-12-28
+
   - title: SHADE
     category: Storage for AI
     description: Enables fundamental cacheability for distributed deep learning training by caching the most important training samples without losing accuracy.
