@@ -16,21 +16,21 @@ director:
 members:
   - name: Zirui Wang
     group: phd
-    role: 2nd-year Ph.D. student in Computer Science
+    role: 3rd-year Ph.D. student in Computer Science
     interests: Storage systems, systems for AI
     image: /images/ZiruiWang.png
     url: https://jerryw35.github.io/
 
   - name: Tingfeng Lan
     group: phd
-    role: 2nd-year Ph.D. student in Computer Science
+    role: 3rd-year Ph.D. student in Computer Science
     interests: AI systems
     image: /images/TingfengLan.jpg
     url: https://antlera.github.io/
 
   - name: Yusen Wu
     group: phd
-    role: 1st-year Ph.D. student in Computer Science
+    role: 2nd-year Ph.D. student in Computer Science
     interests: AI systems
     image: /images/YusenWu.jpg
     url: https://joshwoo2003.github.io/
