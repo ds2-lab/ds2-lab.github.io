@@ -20,7 +20,7 @@
 
 - date: 2026-07
   items:
-    - "🎉 Congrats to Zirui and Zhaoyuan on [LatentStore](https://arxiv.org/abs/2605.19385v2) and [Zero-Prefill](https://arxiv.org/abs/2605.02960) accepted to [NSDI 2027](https://www.usenix.org/conference/nsdi27)! Stay tuned for more updates on the projects!"
+    - "🎉 Congrats to Zirui and Zhaoyuan on [LatentStore](https://arxiv.org/abs/2605.19385) and [Zero-Prefill](https://arxiv.org/abs/2605.02960) accepted to [NSDI 2027](https://www.usenix.org/conference/nsdi27)! Stay tuned for more updates on the projects!"
     - "🎉 Congrats to Tingfeng, Zirui, Yunjia, and Zhaoyuan on [TensorDex](https://arxiv.org/abs/2604.17104) accepted to [SOSP 2026](https://sigops.org/s/conferences/sosp/2026/)! TensorDex explores fine-grained tensor-level relationships across massive AI model hubs to achieve significant lossless reduction in large-scale model storage. Stay tuned for more updates on the project!"
 
 - date: 2026-07
