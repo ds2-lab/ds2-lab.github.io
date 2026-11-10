@@ -16,7 +16,7 @@ const recentNews = news.slice(0, site.home.news_months);
 const pubs = getPublications();
 const selectedPubs = pubs.filter(p => p.selected).slice(0, site.home.publications ?? 10);
 
-const projects = getProjects();
+const projects = await getProjects();
 const featuredProjects = projects.filter(p => p.featured).slice(0, site.home.projects);
 const totalStars = projects.filter(p => !p.upstream).reduce((sum, p) => sum + (p.github_stars ?? 0), 0);
 

@@ -4,7 +4,7 @@ import ProjectCard from '@components/ProjectCard.astro';
 import { getProjects, getSite } from '@lib/data';
 
 const site = getSite();
-const projects = [...getProjects()].sort((a, b) =>
+const projects = [...(await getProjects())].sort((a, b) =>
   (b.github_stars ?? 0) - (a.github_stars ?? 0) ||
   new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
 const categories = ['All', ...new Set(projects.map(p => p.category).filter(Boolean) as string[])];

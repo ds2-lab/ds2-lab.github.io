@@ -117,12 +117,51 @@ export interface Project {
   featured?: boolean;
   date?: string | Date;
 }
-export const getProjects = () => load<{ projects: Project[] }>('projects.yml').projects || [];
+const loadProjects = () => load<{ projects: Project[] }>('projects.yml').projects || [];
+
+/** owner/repo for a GitHub URL, even when it points into a subfolder (e.g. ZenFlow inside DeepSpeed). */
+const repoOf = (url?: string) => url?.match(/^https:\/\/github\.com\/([^/]+\/[^/#?]+)/)?.[1];
+
+async function fetchStars(repo: string): Promise<number | undefined> {
+  const headers: Record<string, string> = { Accept: 'application/vnd.github+json', 'User-Agent': 'lab-website-build' };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repo}`, { headers, signal: AbortSignal.timeout(10_000) });
+    if (!res.ok) return undefined;
+    const n = (await res.json()).stargazers_count;
+    return typeof n === 'number' ? n : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+let projectsPromise: Promise<Project[]> | undefined;
+
+/**
+ * Projects with star counts. In production builds the counts are fetched live from GitHub
+ * (once per build); `github_stars` in projects.yml is the fallback when a fetch fails.
+ * `npm run dev` uses the YAML numbers so local reloads don't call GitHub.
+ */
+export function getProjects(): Promise<Project[]> {
+  projectsPromise ??= (async () => {
+    const projects = loadProjects();
+    if (!import.meta.env.PROD) return projects;
+    const repos = [...new Set(projects.map(p => repoOf(p.github)).filter(Boolean) as string[])];
+    const live = new Map(await Promise.all(repos.map(async r => [r, await fetchStars(r)] as const)));
+    const ok = [...live.values()].filter(v => v !== undefined).length;
+    console.log(`[stars] fetched ${ok}/${repos.length} repos from GitHub`);
+    return projects.map(p => {
+      const n = live.get(repoOf(p.github) ?? '');
+      return n === undefined ? p : { ...p, github_stars: n };
+    });
+  })();
+  return projectsPromise;
+}
 export const projectHref = (p: Project) => p.url || p.github || '';
 // Stargazers page of the repository itself, even when `github` points into a subfolder.
 export const starsUrl = (p: Project) => {
-  const m = p.github?.match(/^https:\/\/github\.com\/[^/]+\/[^/#?]+/);
-  return m ? `${m[0]}/stargazers` : '';
+  const repo = repoOf(p.github);
+  return repo ? `https://github.com/${repo}/stargazers` : '';
 };
 export function formatStars(n?: number): string {
   if (!n) return '';
