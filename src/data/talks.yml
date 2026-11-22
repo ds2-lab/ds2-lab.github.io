@@ -1,0 +1,62 @@
+# Talks, newest first.
+# date: YYYY-MM
+# kind: Invited talk | Conference talk
+# youtube: video ID (the part after watch?v=). Talks with a video get an embedded player
+#          and are shown first in the homepage preview.
+# thumbnail: optional preview image, e.g. /images/talks/asplos25.jpg (default: YouTube's own thumbnail).
+
+talks:
+  - title: Rethinking AI Model Storage with Tensor-Centric Compression
+    kind: Invited talk
+    venue: Max Planck Institute Systems Seminar
+    date: 2026-10
+
+  - title: Rethinking Storage System Design for Modern AI Models
+    kind: Invited talk
+    venue: UVA AI/ML Seminar
+    date: 2026-02
+
+  - title: Rethinking Storage System Design for Modern AI Models
+    kind: Invited talk
+    venue: Virginia Tech ECE & CS Colloquium, Alexandria Campus
+    date: 2026-02
+    youtube: NpW5OR8O7OQ
+
+  - title: Concurrency-Informed Orchestration for Serverless Functions
+    kind: Conference talk
+    venue: ASPLOS 2025, Rotterdam, The Netherlands
+    date: 2025-04
+    youtube: _6WW7Yq83p4
+    thumbnail: /images/talks/asplos25-cidre.jpg
+
+  - title: "Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution"
+    kind: Conference talk
+    venue: EuroSys 2025, Rotterdam, The Netherlands
+    date: 2025-04
+    youtube: FXUg0Zi9Nk8
+
+  - title: Everything You Always Wanted to Know About Storage Compressibility of Pre-Trained ML Models but Were Afraid to Ask
+    kind: Conference talk
+    venue: VLDB 2024, Guangzhou, China
+    date: 2024-08
+
+  - title: Algorithmic Complexity Attacks on Dynamic Learned Indexes
+    kind: Conference talk
+    venue: VLDB 2024, Guangzhou, China
+    date: 2024-08
+
+  - title: "SHADE: Enable Fundamental Cacheability for Distributed Deep Learning Training"
+    kind: Invited talk
+    venue: GenAI and ML Systems Efficiency Workshop, Adobe Research (virtual)
+    date: 2023-10
+
+  - title: Stateful Computing in a Serverless Way
+    kind: Invited talk
+    venue: The University of Edinburgh, Scotland (virtual)
+    date: 2023-04
+
+  - title: An In-Memory Object Caching Framework with Adaptive Load Balancing
+    kind: Conference talk
+    venue: EuroSys 2015, Bordeaux, France
+    date: 2015-04
+    youtube: Ycw5334PCmI

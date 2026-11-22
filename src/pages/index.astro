@@ -5,7 +5,9 @@ import PubCard from '@components/PubCard.astro';
 import ProjectCard from '@components/ProjectCard.astro';
 import FundCard from '@components/FundCard.astro';
 import TeamPreview from '@components/TeamPreview.astro';
-import { getSite, getNews, getPublications, getProjects, getGrants, md, formatStars } from '@lib/data';
+import VideoCard from '@components/VideoCard.astro';
+import TalkItem from '@components/TalkItem.astro';
+import { getSite, getNews, getPublications, getProjects, getGrants, getTalks, md, formatStars } from '@lib/data';
 
 const site = getSite();
 const w = site.welcome;
@@ -22,6 +24,10 @@ const totalStars = projects.filter(p => !p.upstream).reduce((sum, p) => sum + (p
 
 const { sponsors, grants } = getGrants();
 const featuredGrants = grants.filter(g => g.featured).slice(0, site.home.grants ?? 6);
+
+const talks = getTalks();
+const videoTalks = talks.filter(t => t.youtube);
+const otherTalks = talks.filter(t => !t.youtube).slice(0, site.home.talks ?? 6);
 
 const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
 ---
@@ -110,6 +116,25 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
       {featuredGrants.map((g, i) => <FundCard grant={g} index={i} />)}
     </div>
+  </section>
+
+  <!-- Talks -->
+  <section id="talks" class="section">
+    <div class="section-head">
+      <div>
+        <h2>Talks</h2>
+        <p>Recent invited and conference talks.</p>
+      </div>
+      <a class="more-link" href="/talks">All talks ({talks.length})</a>
+    </div>
+    {videoTalks.length > 0 && (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {videoTalks.map(t => <VideoCard talk={t} />)}
+      </div>
+    )}
+    <ul class="mt-4">
+      {otherTalks.map(t => <TalkItem talk={t} />)}
+    </ul>
   </section>
 </BaseLayout>
 

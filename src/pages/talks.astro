@@ -1,0 +1,33 @@
+---
+import BaseLayout from '@components/layout/BaseLayout.astro';
+import VideoCard from '@components/VideoCard.astro';
+import TalkItem from '@components/TalkItem.astro';
+import { getTalks } from '@lib/data';
+
+const talks = getTalks();
+const videos = talks.filter(t => t.youtube);
+const years = [...new Set(talks.map(t => t.date.slice(0, 4)))];
+---
+
+<BaseLayout title="Talks" description="Invited and conference talks by the AXIS Lab at the University of Virginia.">
+  <h1 class="page-title">Talks</h1>
+  <p class="page-lede">Invited and conference talks, with recordings where available.</p>
+
+  {videos.length > 0 && (
+    <section class="mt-8">
+      <h2 class="text-2xl font-bold pb-2 border-b border-[var(--line)]">Videos</h2>
+      <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
+        {videos.map(t => <VideoCard talk={t} />)}
+      </div>
+    </section>
+  )}
+
+  {years.map(y => (
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold tnum pb-2 border-b border-[var(--line)]">{y}</h2>
+      <ul>
+        {talks.filter(t => t.date.startsWith(y)).map(t => <TalkItem talk={t} />)}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>

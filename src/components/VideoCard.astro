@@ -1,0 +1,44 @@
+---
+// A talk with a YouTube video. Shows the thumbnail first and loads YouTube's player only
+// when clicked, so the page stays fast (and YouTube sets no cookies until then).
+import { formatTalkDate, youtubeUrl, type Talk } from '@lib/data';
+interface Props { talk: Talk }
+const { talk: t } = Astro.props;
+const id = t.youtube!;
+---
+
+<article class="surface overflow-hidden flex flex-col">
+  <div class="video relative aspect-video bg-black">
+    <button type="button" class="yt-facade absolute inset-0 w-full h-full group" data-id={id} aria-label={`Play video: ${t.title}`}>
+      <img src={t.thumbnail ?? `https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <span class="absolute inset-0 grid place-items-center" aria-hidden="true">
+        <svg viewBox="0 0 68 48" class="w-16 h-12 drop-shadow-lg">
+          <path d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.2 0 34 0 34 0S12.8 0 7.5 1.7a8.5 8.5 0 0 0-6 6C0 13 0 24 0 24s0 11 1.5 16.3a8.5 8.5 0 0 0 6 6C12.8 48 34 48 34 48s21.2 0 26.5-1.7a8.5 8.5 0 0 0 6-6C68 35 68 24 68 24s0-11-1.5-16.3z" class="fill-[#212121] group-hover:fill-[#FF0000] transition-colors" fill-opacity="0.85" />
+          <path d="M27 34l18-10-18-10z" fill="#fff" />
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="p-4 flex flex-col gap-1.5 flex-1">
+    <h3 class="font-[family-name:var(--font-body)] font-semibold text-[0.97rem] leading-snug">{t.title}</h3>
+    <p class="text-[0.8rem] leading-snug text-[var(--muted)]">{t.kind}: {t.venue}</p>
+    <div class="mt-auto pt-1 flex items-center justify-between gap-3 text-[0.8rem]">
+      <span class="tnum text-[var(--muted)]">{formatTalkDate(t.date)}</span>
+      <a href={youtubeUrl(id)} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">Watch on YouTube ↗</a>
+    </div>
+  </div>
+</article>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.yt-facade').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube-nocookie.com/embed/${btn.dataset.id}?autoplay=1&rel=0`;
+      iframe.title = btn.getAttribute('aria-label')?.replace('Play video: ', '') ?? 'YouTube video';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.className = 'absolute inset-0 w-full h-full';
+      btn.replaceWith(iframe);
+    }, { once: true });
+  });
+</script>

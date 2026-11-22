@@ -1,0 +1,17 @@
+---
+// One row in a talk list: date, title, and kind/venue.
+import { formatTalkDate, youtubeUrl, type Talk } from '@lib/data';
+interface Props { talk: Talk }
+const { talk: t } = Astro.props;
+---
+
+<li class="flex gap-4 py-3 border-b border-[var(--line)] last:border-b-0">
+  <span class="w-[4.5rem] shrink-0 pt-0.5 text-[0.8rem] tnum text-[var(--muted)]">{formatTalkDate(t.date)}</span>
+  <div class="min-w-0">
+    <p class="font-semibold text-[0.97rem] leading-snug">{t.title}</p>
+    <p class="mt-0.5 text-[0.85rem] leading-snug text-[var(--muted)]">
+      {t.kind}: {t.venue}
+      {t.youtube && <> · <a href={youtubeUrl(t.youtube)} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">Video ↗</a></>}
+    </p>
+  </div>
+</li>

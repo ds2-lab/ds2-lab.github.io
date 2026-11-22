@@ -39,7 +39,7 @@ export interface Site {
     join: string;
   };
   mission: string[];
-  home: { news_months: number; projects: number; publications?: number; grants?: number };
+  home: { news_months: number; projects: number; publications?: number; grants?: number; talks?: number };
 }
 export const getSite = () => load<Site>('site.yml');
 
@@ -185,3 +185,22 @@ export function getGrants() {
   const grants = [...(data.grants || [])].sort((a, b) => b.start - a.start);
   return { sponsors: data.sponsors || [], grants };
 }
+
+// ── Talks ───────────────────────────────────────────────────────
+export interface Talk {
+  title: string;
+  kind: string;
+  venue: string;
+  date: string;       // YYYY-MM
+  youtube?: string;   // video ID
+  thumbnail?: string; // custom preview image (default: YouTube's thumbnail)
+}
+export function getTalks(): Talk[] {
+  const talks = load<{ talks: Talk[] }>('talks.yml').talks || [];
+  return talks.map(t => ({ ...t, date: String(t.date) })).sort((a, b) => b.date.localeCompare(a.date));
+}
+export function formatTalkDate(ym: string): string {
+  const [y, m] = ym.split('-').map(Number);
+  return m ? new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : String(y);
+}
+export const youtubeUrl = (id: string) => `https://www.youtube.com/watch?v=${id}`;
