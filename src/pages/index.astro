@@ -128,7 +128,7 @@ const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
       <a class="more-link" href="/talks">All talks ({talks.length})</a>
     </div>
     {videoTalks.length > 0 && (
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {videoTalks.map(t => <VideoCard talk={t} />)}
       </div>
     )}

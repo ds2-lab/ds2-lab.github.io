@@ -16,7 +16,7 @@ const years = [...new Set(talks.map(t => t.date.slice(0, 4)))];
   {videos.length > 0 && (
     <section class="mt-8">
       <h2 class="text-2xl font-bold pb-2 border-b border-[var(--line)]">Videos</h2>
-      <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {videos.map(t => <VideoCard talk={t} />)}
       </div>
     </section>
