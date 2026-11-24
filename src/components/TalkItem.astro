@@ -10,7 +10,7 @@ const { talk: t } = Astro.props;
   <div class="min-w-0">
     <p class="font-semibold text-[0.97rem] leading-snug">{t.title}</p>
     <p class="mt-0.5 text-[0.85rem] leading-snug text-[var(--muted)]">
-      {t.kind}: {t.venue}
+      {t.kind}{t.speaker && ` by ${t.speaker}`}: {t.venue}
       {t.youtube && <> · <a href={youtubeUrl(t.youtube)} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">Video ↗</a></>}
     </p>
   </div>

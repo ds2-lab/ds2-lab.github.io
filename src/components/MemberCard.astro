@@ -14,6 +14,7 @@ const initials = m.name.split(/\s+/).filter(w => /^[A-Z]/.test(w)).slice(0, 2).m
   <div class="min-w-0">
     <p class="font-semibold leading-snug">
       {m.url ? <a href={m.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)] hover:text-[var(--accent)]">{m.name}</a> : m.name}
+      {m.portfolio && <a href={m.portfolio} target="_blank" rel="noopener noreferrer" class="ml-1.5 text-[0.8rem] font-normal whitespace-nowrap">Portfolio ↗</a>}
     </p>
     {m.role && <p class="text-sm text-[var(--muted)] leading-snug mt-0.5">{m.role}{m.years ? `, ${m.years}` : ''}</p>}
     {detailed && m.interests && <p class="text-sm mt-1.5"><span class="text-[var(--muted)]">Research: </span>{m.interests}</p>}

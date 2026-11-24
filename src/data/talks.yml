@@ -3,6 +3,7 @@
 # kind: Invited talk | Conference talk
 # youtube: video ID (the part after watch?v=). Talks with a video get an embedded player
 #          and are shown first in the homepage preview.
+# speaker: optional, for talks given by a student or collaborator (shown as "Conference talk by ...").
 # thumbnail: optional preview image, e.g. /images/talks/asplos25.jpg (default: YouTube's own thumbnail).
 
 talks:
@@ -44,6 +45,13 @@ talks:
     kind: Conference talk
     venue: VLDB 2024, Guangzhou, China
     date: 2024-08
+
+  - title: "λFS: A Scalable and Elastic Distributed File System Metadata Service using Serverless Functions"
+    kind: Conference talk
+    speaker: Benjamin Carver
+    venue: ASPLOS 2024, San Diego, CA
+    date: 2024-04
+    youtube: Joaz3GdkBVA   # full Session 4B recording; λFS is the first paper
 
   - title: "SHADE: Enable Fundamental Cacheability for Distributed Deep Learning Training"
     kind: Invited talk

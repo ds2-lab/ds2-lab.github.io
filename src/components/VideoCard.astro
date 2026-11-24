@@ -21,7 +21,7 @@ const id = t.youtube!;
   </div>
   <div class="p-4 flex flex-col gap-1.5 flex-1">
     <h3 class="font-[family-name:var(--font-body)] font-semibold text-[0.97rem] leading-snug">{t.title}</h3>
-    <p class="text-[0.8rem] leading-snug text-[var(--muted)]">{t.kind}: {t.venue}</p>
+    <p class="text-[0.8rem] leading-snug text-[var(--muted)]">{t.kind}{t.speaker && ` by ${t.speaker}`}: {t.venue}</p>
     <div class="mt-auto pt-1 flex items-center justify-between gap-3 text-[0.8rem]">
       <span class="tnum text-[var(--muted)]">{formatTalkDate(t.date)}</span>
       <a href={youtubeUrl(id)} target="_blank" rel="noopener noreferrer" class="whitespace-nowrap">Watch on YouTube ↗</a>

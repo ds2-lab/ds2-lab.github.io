@@ -36,6 +36,7 @@ projects:
     description: A GPU-efficient Jupyter Notebooks-as-a-Service platform that allocates GPUs on demand for interactive deep learning training workloads.
     github: https://github.com/ds2-lab/NotebookOS
     github_stars: 8
+    url: https://scusemua.github.io/projects/notebookos
     tags: [ASPLOS'26]
     featured: true
     date: 2026-02-01

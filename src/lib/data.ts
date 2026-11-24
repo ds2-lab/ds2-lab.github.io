@@ -73,6 +73,7 @@ export interface Member {
   placement?: string;
   image?: string;
   url?: string;
+  portfolio?: string;  // optional second link, shown next to the name
 }
 export interface Team {
   director: {
@@ -193,6 +194,7 @@ export interface Talk {
   venue: string;
   date: string;       // YYYY-MM
   youtube?: string;   // video ID
+  speaker?: string;   // set when someone other than Yue gave the talk
   thumbnail?: string; // custom preview image (default: YouTube's thumbnail)
 }
 export function getTalks(): Talk[] {
