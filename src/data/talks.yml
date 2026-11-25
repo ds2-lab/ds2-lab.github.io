@@ -2,7 +2,9 @@
 # date: YYYY-MM
 # kind: Invited talk | Conference talk
 # youtube: video ID (the part after watch?v=). Talks with a video get an embedded player
-#          and are shown first in the homepage preview.
+#          on the /talks page.
+# featured: true -> show this talk's video card on the homepage (needs youtube).
+#          Other talks appear in the homepage's text list instead.
 # speaker: optional, for talks given by a student or collaborator (shown as "Conference talk by ...").
 # thumbnail: optional preview image, e.g. /images/talks/asplos25.jpg (default: YouTube's own thumbnail).
 
@@ -22,12 +24,14 @@ talks:
     venue: Virginia Tech ECE & CS Colloquium, Alexandria Campus
     date: 2026-02
     youtube: NpW5OR8O7OQ
+    featured: true
 
   - title: Concurrency-Informed Orchestration for Serverless Functions
     kind: Conference talk
     venue: ASPLOS 2025, Rotterdam, The Netherlands
     date: 2025-04
     youtube: _6WW7Yq83p4
+    featured: true
     thumbnail: /images/talks/asplos25-cidre.jpg
 
   - title: "Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution"
@@ -35,6 +39,7 @@ talks:
     venue: EuroSys 2025, Rotterdam, The Netherlands
     date: 2025-04
     youtube: FXUg0Zi9Nk8
+    featured: true
 
   - title: Everything You Always Wanted to Know About Storage Compressibility of Pre-Trained ML Models but Were Afraid to Ask
     kind: Conference talk
@@ -52,6 +57,7 @@ talks:
     venue: ASPLOS 2024, San Diego, CA
     date: 2024-04
     youtube: Joaz3GdkBVA   # full Session 4B recording; λFS is the first paper
+    featured: true
 
   - title: "SHADE: Enable Fundamental Cacheability for Distributed Deep Learning Training"
     kind: Invited talk
@@ -68,3 +74,4 @@ talks:
     venue: EuroSys 2015, Bordeaux, France
     date: 2015-04
     youtube: Ycw5334PCmI
+    featured: false

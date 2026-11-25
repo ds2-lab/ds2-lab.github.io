@@ -75,4 +75,4 @@ home:
   projects: 8
   publications: 10   # first N entries with selected = {true} in papers.bib
   grants: 6         # first N grants with featured: true in grants.yml (newest first)
-  talks: 6          # most recent talks listed under the videos
+  talks: 6          # most recent non-featured talks listed under the video cards

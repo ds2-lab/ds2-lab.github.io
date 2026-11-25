@@ -26,8 +26,8 @@ const { sponsors, grants } = getGrants();
 const featuredGrants = grants.filter(g => g.featured).slice(0, site.home.grants ?? 6);
 
 const talks = getTalks();
-const videoTalks = talks.filter(t => t.youtube);
-const otherTalks = talks.filter(t => !t.youtube).slice(0, site.home.talks ?? 6);
+const videoTalks = talks.filter(t => t.youtube && t.featured);
+const otherTalks = talks.filter(t => !videoTalks.includes(t)).slice(0, site.home.talks ?? 6);
 
 const heading = w.heading.replace('DS²', 'DS<sup>2</sup>');
 ---

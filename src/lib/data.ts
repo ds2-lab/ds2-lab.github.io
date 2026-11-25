@@ -194,6 +194,7 @@ export interface Talk {
   venue: string;
   date: string;       // YYYY-MM
   youtube?: string;   // video ID
+  featured?: boolean; // video card on the homepage
   speaker?: string;   // set when someone other than Yue gave the talk
   thumbnail?: string; // custom preview image (default: YouTube's thumbnail)
 }
