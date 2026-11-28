@@ -89,6 +89,15 @@ projects:
     featured: true
     date: 2020-10-01
 
+  - title: FaaScale
+    category: Serverless AI
+    description: A serverless LLM inference system that scales models fast by multicasting them over RDMA between GPU nodes and serving requests while the model is still loading.
+    github: https://github.com/lambda-scale/lambda-scale
+    github_stars: 0
+    url: https://arxiv.org/abs/2502.09922
+    tags: [MLSys'26]
+    date: 2026-04-01
+
   - title: MorphServe
     category: Serverless AI
     description: A workload-aware LLM serving framework that scales GPU memory with runtime layer swapping and KV cache resizing for bursty traffic.
